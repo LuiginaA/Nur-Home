@@ -9,8 +9,8 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0; 
-    /* box-sizing: border-box; */
+    border: 0;  
+    box-sizing: border-box; 
 }
 
 html {
@@ -83,11 +83,13 @@ h3 {
 }
 
 #title {
-    float: left;
-    font-size: 36px;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 20px;
     text-decoration-line: none; 
     color: #fefefe;
     margin-bottom: 0px;
+    text-transform: uppercase;
 }
 
 #text2 {
@@ -148,6 +150,7 @@ h3 {
 #bg-color {
     background: #363535; 
     background: #5c5b5b; 
+ 
     height: 800px;
     width: 100%;
 } 
@@ -168,7 +171,8 @@ h3 {
     height:800px;
     width: 100%;
     overflow: hidden;
-    position: relative;  
+    position: relative;
+
 }   
 
 /* Creates the level of zoom for hero image */
@@ -225,6 +229,8 @@ h3 {
     position: absolute;    
 }
 
+/* ----- Media Section for Nav and Hero ----- */
+
 @media screen and (max-width:943px){
     #menu{
         clear: left;
@@ -251,3 +257,242 @@ hr {
 }
 } 
 
+/* ----- Intro Section ----- */
+
+.container-intro {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    min-height: 100vh;
+    background: #5c5b5b;
+    background: #222;
+    background: #efc4f7;
+}
+
+.con-intro {
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: minmax(400px, auto);
+    margin: 40px;
+    grid-gap: 0px;
+    grid-auto-flow: dense;
+}
+
+.container-intro .intro-box {
+  background-color:  #333;
+padding: 20px;
+display: grid;
+font-size: 20px;
+place-items: center;
+text-align: center;
+color:#fff;
+color: aqua;
+transition: 0.5s;
+}
+
+
+#intro-heading h2 {
+    color: #efc4f7;
+    font-family: 'Courgette', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+    margin-right: 650px;
+}
+
+#intro-heading h5 {
+    color: #efc4f7;
+    color: #fff; 
+    color: #000;
+    font-family: 'Courgette', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center; 
+    letter-spacing: 4px;
+    margin-right: 650px;
+}
+
+
+.container-intro .intro-box img {
+    position: relative;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.container-intro .intro-box .content h6{
+    position: relative;
+    max-width: 600px;
+    margin-bottom: 10px;
+    color: cadetblue;
+    color: #fff;
+    
+    font-family: 'Courgette', cursive;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+
+.container-intro .intro-box .content p{
+    position: relative; 
+    max-width: 600px;
+    margin-bottom: 10px;
+    color: yellow;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 100%;
+}
+
+.container-intro .intro-box:nth-child(1){
+    grid-column: span 3;
+    grid-row: span 1;
+    background: brown;
+  } 
+
+
+.container-intro .intro-box:nth-child(2){
+  grid-column: span 2;
+  grid-row: span 1;
+  background: green;
+} 
+
+ .container-intro .intro-box:nth-child(3){
+    grid-column: span 2;
+    grid-row: span 1;
+   
+  } 
+  
+  .container-intro .intro-box:nth-child(4){
+    grid-column: span 2;
+    grid-row: span 1;
+    background: beige;
+  } 
+
+  .container-intro .intro-box:nth-child(5){
+    grid-column: span 1;
+    grid-row: span 1;
+    background: blue;
+  } 
+  
+  .container-intro .intro-box:nth-child(6){
+    grid-column: span 1;
+    grid-row: span 1;
+    background: red;
+  } 
+  
+  .container-intro .intro-box:nth-child(7){
+    grid-column: span 2;
+    grid-row: span 1;
+    background: yellowgreen;
+  } 
+  
+
+
+
+
+  
+  @media (max-width: 991px){
+
+    .con-intro {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-template-rows: minmax(auto, auto, auto); 
+    }
+    
+    .container-intro .intro-box {
+        grid-column: unset !important;
+        grid-row: unset !important;
+    }
+
+    #intro-heading h2,
+    #intro-heading h5 {
+        grid-column: unset !important;
+        grid-row: unset !important;
+    }
+
+    
+    .container-intro .intro-box img {
+        grid-column: unset !important;
+        grid-row: unset !important;
+    }
+
+    .container-intro .intro-box .content h6,
+    .container-intro .intro-box .content p {
+        grid-column: unset !important;
+        grid-row: unset !important;
+    }
+
+  }
+
+
+
+
+
+
+
+/* #bg-color-meet{
+    background-color: rgba(255, 174, 239, 0.7);
+} 
+
+.meet-cont {
+    padding-top: 40px;
+    margin-top: 10px;
+ 
+   
+}  */
+
+
+
+.content h6{
+    color: #fff;
+    
+    font-family: 'Courgette', cursive;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+.content p {
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fff;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+
+ }  
+
+ 
+
+
+
+
+
+/* h4{
+    color: aqua;
+        color: #fff;
+        color: #c04fb1;
+        font-family: 'Courgette', cursive;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 2.5px;
+        text-align: center;
+        justify-content: flex-start;
+        display: flex;
+        padding: 25px;
+        margin: 0 15px;
+        transition: 0.6s;
+        width: 100%;
+    
+    } */
