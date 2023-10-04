@@ -402,7 +402,6 @@ img {
 #content-1 h6,
 #content-7 h6 {
     color: #fff;
-    color: coral;
     font-size: 26px;
     font-weight: 500;
     font-family: 'Courgette', cursive; 
@@ -415,7 +414,6 @@ img {
 #content-1 p,
 #content-7 p  {
     color: #fff;
-    color: coral;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     align-items: center; 
@@ -431,7 +429,6 @@ img {
 
 #content-2 h6 {
     color: #fff;
-    color: yellow;
     font-size: 26px;
     font-weight: 500;
     font-family: 'Courgette', cursive; 
@@ -442,9 +439,7 @@ img {
 }
 
 #content-2 p {
-    
     color: #fff;
-    color: yellow;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     align-items: center; 
