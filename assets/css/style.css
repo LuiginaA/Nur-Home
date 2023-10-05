@@ -453,6 +453,66 @@ img {
 /* ----- Media Queries Intro About Section ----- */
 
 
+@media screen and (max-width: 480px) {
+    .about-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        justify-self: center;
+        min-height: 100vh;
+        width: 80%; 
+    }
+
+    
+    .item-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        justify-self: center;
+        width: 100%; 
+    }
+
+   #intro-heading h2 {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 1px; 
+    }
+
+    #intro-heading h5 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    #img-about-cont img,
+    #image-about-cont img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        justify-self: center;
+        width: 100%; 
+    }
+  
+    #content-1,
+    #content-2 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+        width: 100%; 
+    }
+
+    #content-1 h6,
+    #content-2 h6 {
+        margin-top: 20px;
+    }
+
 /* @media (max-width: 961px){
     [class*="col-12"] {
         width: 100%;
@@ -469,15 +529,7 @@ img {
       } */
 
 
-    /* about-cont {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-self: center;
-        min-height: 100vh;
-        width: 100%; 
-     
-    }
+  
     tem img {
         width: 100%;
         align-items: center;
