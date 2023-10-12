@@ -21,53 +21,85 @@
 </head>
 
 <body>
-    <header>
-        <nav class="container-fluid navbar-expand-lg me-auto mb-2 mb-lg-0">
-            <div class="navbar-cont fixed-top">
-                <div class="navbar bg-color">
+        <!-- ----- Fixed Navbar Section -----  -->
 
-                    <a id="navbar-brand" href="index.html">
-                        <h1 id="title">Nur</h1>
-                        <h2 id="text2">Home Interiors</h2>
-                        <h3 id="text3">Istanbul</h3>
-                    </a>
+    <header class="vh-100 overflow-hidden">
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+        <nav class="navbar navbar-expand-lg bg-color fixed-top">
+            <div class="container">
 
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+     <!-- ----- Logo Section -----  -->
 
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
+                <a id="navbar-brand" class="text-decoration-none" href="index.html">
+                    <h1 id="title">Nur</h1>
+                    <h2 id="text2">Home Interiors</h2>
+                    <h3 id="text3">Istanbul</h3>
+                </a>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about-page">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#services-page">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#portfolio-page">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#team-page">Team</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#gallery">Gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+    <!-- ----- Toggle Btn Section -----  -->
+          
+              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+    <!-- ----- SideBar Section -----  -->
+
+              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+    <!-- ----- SideBar Header Section -----  --> 
+
+                <div class="offcanvas-header text-white border-bottom">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    <h4>N U R</h4>    
+                    <h5>Home Interiors</h5>
+                    <h5>Istanb</h5>
+
+                  <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
+
+    <!-- ----- SideBar Body Section -----  --> 
+
+                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                  <ul class="navbar-nav justify-content-start align-items-center flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#about-page">About</a>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#services-page">Services</a>
+                      </li>
+
+
+                      <li class="nav-item mx-2">
+                        <a class="nav-link" href="#portfolio-page">Portfolio</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#team-page">Team</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" aria-current="page" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+
+    <!-- ----- Login / Sign-up Section -----  --> 
+
+          <!-- <div class="d-flex flex-column flx-lg-row justify-content-center align-items-center gap-3">
+
+            <a href="#login" class="text-white">Login</a>
+            <a href="#signup" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: aliceblue;">Sign Up</a>
+          </div> -->
+                
+                </div>
+              </div>
             </div>
-        </nav>
+          </nav>
+
     </header>
 
     <main>
