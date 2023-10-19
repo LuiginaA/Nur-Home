@@ -876,3 +876,185 @@ top: 50%;
 }
 
 
+/* ----- Portfolio Section ----- */
+
+
+
+/* ----- Contact Section ----- */
+
+.contact
+{
+    background: #5c5b5b;
+}
+
+.contact h3,
+.contact p
+{
+    color: #fff;
+}
+
+.contactForm
+{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contactForm form
+{
+    width: 100%;
+
+}
+
+.contactForm .row100
+{
+    display: flex;
+    width: 100%;
+}
+
+.contactForm .row100 .inputBx50
+{
+    width: 50%;
+    margin: 0 20px;
+}
+
+.contactForm .row100 .inputBx100
+{
+    width: 100%;
+    margin: 0 20px;
+}
+
+.contactForm .row100 input,
+.contactForm .row100 textarea
+{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+    resize: none;
+}
+
+.contactForm .row100 textarea
+{
+ height: 100px;
+
+}
+
+.contactForm .row100 input::placeholder,
+.contactForm .row100 textarea::placeholder
+{
+    color: rgba(255,255,255,0.5);
+}
+
+.contactForm .row100 input[type="submit"]
+{
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    max-width: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* ----- Footer Section ----- */
+
+
+footer{
+    background-color: #5c5b5b;
+    min-height: 120px;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list-inline .social-links ul
+{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+
+} 
+
+.social-links li a 
+{
+    text-decoratio1n: none;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px; 
+    color: #c04fb1;
+    color: #fff;
+    font-size: 38px;
+    width: 58px;
+    height: 58px;
+    padding: 10px 0;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+  
+}
+
+.social-links li a:hover 
+{    
+    opacity: 0.5; 
+
+}   
+
+#footer-details
+{
+    text-align: center;
+}
+
+.contact #details
+{
+align-content: center;
+justify-content: center;
+   
+}
+
+
+
+
+.contact 
+{
+    color: #c04fb1;
+    color: #fff; 
+    
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.contact h6
+{
+    color: #777777;
+    color: #fff;
+  
+}
+
+.contact p
+{
+    padding-top: 18px;
+    color: #c04fb1;
+    color: #fff; 
+ 
+} 
