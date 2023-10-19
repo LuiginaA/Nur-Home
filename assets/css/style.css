@@ -869,5 +869,10 @@ top: 50%;
     transform: translateZ(6rem);
 }
 
+.flip-box-img {
+    margin-top: 25px;
+    width: 35px;
+    height: 35px;
+}
 
 
