@@ -282,14 +282,16 @@ button.navbar-toggler-icon {
 
 #about-page {
     background: #5c5b5b;
+    width: 100%;
     margin: 0;
     padding: 0;
+
 }
 
 .about-container {
     display: flex;
-    justify-content: center;
-    align-self: center;
+    /* justify-content: center;
+    align-self: center; */
     min-height: 100vh;
     width: 100%;
     transition: 0.5s;
@@ -312,33 +314,34 @@ button.navbar-toggler-icon {
     padding-top: 30px;
 }
 
-#intro-heading h2 {
+#intro-heading h3 {
+   font-family: myFont1;
     color: #efc4f7;
     color: #fff;
-    font-family: 'Courgette', cursive;
-    font-size: 30px;
-    font-weight: 400;
-    width: 85%;
+  
+    font-size: 40px;
+    font-weight: 500;
     text-align: left;
-    text-align: center;
-    letter-spacing: 4px;
-    padding-bottom: 10px;
-    padding-left: 5px;
+    padding-top: 10px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+    /* font-family: 'Courgette', cursive; */
 }
 
-#intro-heading h5 {
+#intro-heading h4 {
+    font-family: myFont2;
     color: #efc4f7;
     color: #fff;
-    font-family: 'Courgette', cursive;
-    font-family: myFont2;
     font-size: 30px;
-    font-weight: 500;
-    width: 85%;
-    text-align: left;
-    text-align: center;
+    font-weight: 200;
     letter-spacing: 4px;
-    padding-top: 10px;
-    padding-left: 5px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 150px;
+    width: 100%;
+      /* font-family: 'Courgette', cursive; */
 }
 
 #img-about-cont {
@@ -587,6 +590,13 @@ img {
 
 /* ----- Services Section ----- */
 
+.services {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #services-page {
     background: #5c5b5b;
    
@@ -600,16 +610,17 @@ img {
 
 .services-title {
     max-width: 800px;
-}
+} 
 
 .services-title h3 {
     font-family: myFont1;
     font-size: 40px;
     font-weight: 500;
+    letter-spacing: 2px;
     color: #fff;
     /* font-family: 'Courgette', cursive; */
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 #services-title h4 {
@@ -619,7 +630,7 @@ img {
     font-weight: 200;
     letter-spacing: 4px;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 15px;
     margin-left: 150px;
         /* font-family: 'Courgette', cursive; */
@@ -801,43 +812,36 @@ media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) 
     width: 100%;
 }
 
-.complete-cont-title {
+#before-aft-page {
     background: #5c5b5b;
-    /* text-align: center; */
     width: 100%;
-    padding-bottom: 15px;
-    margin-top: 0px;
-}
-
-#b-a-title {
-    max-width: 800px;
+    height: 100%;
 }
 
 .b-a-title h3 {
     font-family: myFont1;
     font-size: 40px;
     font-weight: 500;
+    letter-spacing: 2px;
     color: #fff;
     text-align: left;
-    padding-top: 50px;
-    margin-left: 150px;
+    padding-top: 10px;
+    margin-left: 120px;
 
 }
 
-.b-a-subtitle h4{
+.b-a-subtitle {
     font-family: myFont2;
     color: #fff;
     font-size: 30px;
     font-weight: 200;
     letter-spacing: 4px;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 15px;
     margin-left: 150px;
     width: 100%;
-
 }
-
 
 .color-white {
     color: #fff;
@@ -905,15 +909,15 @@ media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) 
 }
 
 .flip-box .inner {
-position: absolute;
-left: 0;
-width: 100%;
-padding: 60px;
-outline: 1px solid transparent;
-perspective: inherit;
-z-index: 2;
-transform: translateY(-50%)translateZ(60px) scale(.94);
-top: 50%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 60px;
+    outline: 1px solid transparent;
+    perspective: inherit;
+    z-index: 2;
+    transform: translateY(-50%)translateZ(60px) scale(.94);
+    top: 50%;
 }
 
 .flip-box-header {
