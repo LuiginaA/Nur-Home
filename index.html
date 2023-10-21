@@ -11,9 +11,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-
 
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -21,84 +19,89 @@
 </head>
 
 <body>
-        <!-- ----- Fixed Navbar Section -----  -->
+    <!-- ----- Fixed Navbar Section -----  -->
+ 
+    <!-- <header class="overflow-hidden vh-80">  -->
 
-    <!-- <header class="vh-100 overflow-hidden"> -->
-<header class="overflow-hidden">
-        <nav class="navbar navbar-expand-lg bg-color fixed-top">
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-color">
             <div class="container">
 
      <!-- ----- Logo Section -----  -->
 
-                <a id="navbar-brand" class="text-decoration-none" href="index.html">
+                <a class="navbar-brand" href="index.html">  
                     <h1 id="title">Nur</h1>
                     <h2 id="text2">home interiors</h2>
                     <h3 id="text3">Istanbul</h3>
+                    <h4 id="text4">Vicenza &#8275;  Padova &#8275; Venice</h4> 
                 </a>
 
     <!-- ----- Toggle Btn Section -----  -->
           
-              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                <button class="navbar-toggler shadow-none border-0" type="button" 
+                data-bs-toggle="offcanvas" 
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" >
+                
+                <!-- aria-label="Toggle navigation"> -->
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
     <!-- ----- SideBar Section -----  -->
 
-              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="sidebar offcanvas offcanvas-start" 
+                tabindex="-1" 
+                id="offcanvasNavbar" 
+                aria-labelledby="offcanvasNavbarLabel">
 
     <!-- ----- SideBar Header Section -----  --> 
 
-                <div class="offcanvas-header flex-column text-white border-bottom">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                    <h4 id="title2">N U R</h4>   
-                    <h5 id="text-2">home interiors</h5>
-                    <h5 id="text-3">Istanbul</h5> 
-
-                  <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-
+                    <div class="offcanvas-header flex-column text-white     border-bottom">   
+                        <h1 class="offcanvas-title" 
+                        id="offcanvasNavbarLabel" id="title">N U R</h1>   
+                        <h2 id="text2">home interiors</h2>
+                        <h3 id="text3">Istanbul</h3> 
+                        <h4 id="text4">Vicenza &#8275;  Padova &#8275; Venice</h4>  
+                        <button type="button" 
+                            class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" 
+                            aria-label="Close">
+                        </button>
+                    </div>
+            
     <!-- ----- SideBar Body Section -----  --> 
 
-                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
-                  <ul class="navbar-nav justify-content-start align-items-center flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                      <a class="nav-link" href="#about-page">About</a>
-                    </li>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row  p-4 p-lg-0"> 
 
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#services-page">Services</a>
-                      </li>
-
-                      <li class="nav-item mx-2">
-                        <a class="nav-link" href="#portfolio-page">Portfolio</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#team-page">Team</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" aria-current="page" href="#gallery">Gallery</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" aria-current="page" href="#contact">Contact</a>
-                    </li>
-                  </ul>
-
-    <!-- ----- Login / Sign-up Section -----  --> 
-
-         <!-- <div class="d-flex flex-column flx-lg-row justify-content-center align-items-center gap-3">
-
-            <a href="#login" class="text-white">Login</a>
-            <a href="#signup" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: aliceblue;">Sign Up</a>
-          </div>  -->
-       
+                        <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">                         
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="#about-page">About</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="#services-page">Services</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="#before-aft-page">Before & After</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="#portfolio-page">Portfolio</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="#team-page">Team</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" aria-current="page" href="#gallery">Gallery</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                            </li>
+                        </ul>   
+                    </div>   
                 </div>
-              </div>
-            </div>
-          </nav>
-
+            </div> 
+        </nav>
     </header>
 
     <main>
@@ -169,7 +172,7 @@
                         <img src="assets/images/ideas.jpg">
                     </div>
                     <div class="col-md-6 item-7" id="content-1">
-                        <h6>Up recycle</h6>
+                        <h6>Upcycle</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laudantium recusandae
                             aliquid, et architecto libero omnis dolorum id quos eaque quasi, quibusdam possimus
                             molestiae veniam temporibus nemo odio similique in?</p>
@@ -252,9 +255,20 @@
             </div>
         </section>
 
-    <!-- ----- before after Section -----  -->
+    <!-- ----- Before & After Section -----  -->
 
-        <section id="bg-color">
+    <section class="b-a-projects" id="before-aft-page" >
+        <div class="complete-cont-title">
+            <div class="b-a-title" id="b-a-title">
+                <h3>Get Inspired!</h3> 
+            <div class="b-a-subtitle">
+                <h4>Take a look at some of our Beautiful Creations!</h4>
+            </div>
+        </div>
+    </div>
+  
+
+        <div id="bg-color"> 
             <div class="container flip-card-cont" >
                 <div class="row">
 
@@ -314,10 +328,12 @@
                             </div>
                         </div>
                     </div>
-                
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
+    <!-- Portfolio -->      
    <!-- Contact -->
 
    <section class="sec contact" id="contact">
@@ -393,10 +409,7 @@
         <h6 class="copyright"> - All Rights Reserved &copy; 2023 - Designed & Developed By Luigina
             Argentin</h6>
     </div>
-</footer>
-
-
-            
+</footer>       
 
     <!-- JavaScript Bundle with Popper -->
 
@@ -408,6 +421,8 @@
         crossorigin="anonymous"></script>
 
     <!-- Bootstrap CDN Bundle  -->
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
