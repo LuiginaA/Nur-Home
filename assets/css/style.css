@@ -79,7 +79,7 @@ html {
 }
 
 ul.navbar-nav {
- width: 100%;
+ width: 90%;
 }
 
 .nav-item a {
@@ -102,12 +102,13 @@ ul.navbar-nav {
     align-items: center;
     justify-content: center;
 }
+
 button.navbar-toggler {
     color: #fefefe;
     padding-right: 65px;
     align-items: self-start;
     justify-content: left;
-}
+} 
 
 /* ----- Media Queries Section for Navbar ----- */
 
