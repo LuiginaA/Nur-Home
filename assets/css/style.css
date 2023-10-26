@@ -103,7 +103,7 @@ ul.navbar-nav {
     justify-content: center;
 }
 
-button.navbar-toggler {
+.navbar-toggler {
     color: #fefefe;
     padding-right: 65px;
     align-items: self-start;
