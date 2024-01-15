@@ -103,12 +103,21 @@ ul.navbar-nav {
     justify-content: center;
 }
 
-.navbar-toggler {
+
+
+/* .navbar-toggler {
     color: #fefefe;
     padding-right: 65px;
     align-items: self-start;
     justify-content: left;
+}  */
+
+.navbar-toggler-icon {
+        width: 50px;
+        justify-self: center;
+        align-self: center;
 } 
+
 
 /* ----- Media Queries Section for Navbar ----- */
 
@@ -1036,8 +1045,168 @@ img {
 
 }
 
+/* ----- Testimonial Section ----- */
+
+
+
+.testimonial-section {
+    background-color: #5c5b5b;
+    padding: 80px 0;
+    min-height: 100vh;
+  
+}
+
+
+.testImage-img .testmon-img-box {
+    max-width: 360px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+
+.testImage-img .testCircle {
+    height: 360px;
+    width: 360px;
+    background-color: #fb9c9a; 
+    background-color: #AA0A90;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+
+.testImage-img .testmonImg-box-inner {
+    position: relative;
+    border-radius: 0 0 180px 180px;
+    overflow: hidden;
+}
+
+.testImage-img .testmonImg-box-inner img {
+    max-width: 310px;
+
+}
+
+.testimonial-section .carousel-inner {
+    margin-bottom: 20px;
+}
+
+.testimonial-section .carousel-control-prev {
+    margin-right: 10px;
+}
+
+.testimonial-section .carousel-control-next, 
+.testimonial-section .carousel-control-prev{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: #fb9c9a;
+    background-color: #c04fb1;
+    display: inline-flex;
+    border-radius: 50%;
+}
+
+.testimonial-section .carousel-control-prev i, 
+.testimonial-section .carousel-control-next i {
+    width: 15px;
+}
+
+.testi-item h4{
+    font-size: 24px;
+    color: #efc4f7;
+    line-height: 1.5rem;
+    padding-top: 0px;
+}
+
+
+.testi-item h5{
+    font-size: 22px;
+    color: #efc4f7;
+    line-height: 1.5rem;
+    padding-top: 0px;
+}
+
+.testi-item .co-name {
+    font-size: 18px;
+    color: #efc4f7;
+    color: #fb9c9a;
+    color: aqua;
+}
+
+
+.testi-item p{
+    font-size: 18px;
+    color: #efc4f7;
+}
+
+.testi-item .subhead {
+    font-size: 18px;
+    color: #efc4f7;
+    color: #fb9c9a;
+    margin-top: 200px;
+  
+}
+
+.testi-item i {
+    font-size: 18px;
+    color: #f9d71c;
+    justify-content: space-between;
+    line-height: 3rem;
+}
+
+/* ----- Media Queries Testimonial Section ----- */
+
+
+@media(max-width:991px) {
+    .testImage-img .testmon-img-box {
+        max-width: 300px;
+    }
+
+
+    .testImage-img .testCircle {
+        height: 300px;
+        width: 300px;
+    }
+
+    .testImage-img .testmonImg-box-inner {
+        border-radius: 0 0 150px 150px;
+
+    }
+
+    .testImage-img .testmonImg-box-inner img {
+        max-width: 230px;
+
+    }
+
+}
+
+@media(max-width:767px) {
+    .testImage-img {
+        margin-bottom: 25px;
+    }
+
+}
+
+
+/* ----- Gallery Page Section ----- */
+
+
+/* .image-gallery img {
+    height: 540px;
+    width: 540px;
+    border-radius: 0;
+} */
+
+.image-gallery img {
+    width: 80%;
+    margin: 100px;
+}
+
+
 
 /* ----- Contact Section ----- */
+
 
 .contact
 {

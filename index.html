@@ -101,6 +101,11 @@
                             <li class="nav-item mx-auto">
                                 <a class="nav-link" aria-current="page" href="#gallery">Gallery</a>
                             </li>
+
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="#testimonial-page">Testimonials</a>
+                            </li>
+
                             <li class="nav-item mx-auto">
                                 <a class="nav-link" aria-current="page" href="#contact">Contact</a>
                             </li>
@@ -443,9 +448,67 @@
     </section> 
 
 
-   <!-- Upcycle Project  Section --> 
+    <!-- Upcycle Project  Section --> 
 
+    <!-- Testimonial  Section --> 
 
+    <section class="testimonial-section d-flex align-items-center" id="testimonial-page">
+        <div class="container-testmon">
+            <div class="row align-items-center">
+                <div class="col-md-6 testImage-img">
+                    <div class="testmon-img-box">
+                        <div class="testCircle"></div>
+                        <div class="testmonImg-box-inner">
+                            <img src="assets/images/" alt="testImage img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div id="myCarousel" class="carousel slide" data-bs-interval="2000" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item starRating testi-item active" data-color="
+                            #C04FB1" data-img="assets/images/nurTest.png">
+
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>  <!--half star-->
+                            <i class="fa fa-star-o" aria-hidden="true"></i>  <!--empty star-->
+
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Et saepe maxime provident consequatur voluptate labore eos accusantium quasi,<br> quod id architecto at doloribus ipsum adipisci, distinctio voluptatibus excepturi deleniti a.</p>
+                            <h4>Jane Doe</h4> 
+                            <h5><span class="co-name">Hotel Ritz</span></h5>
+                            <h6><span class="subhead">Interior Manager</span></h6>
+                            </div>
+
+                            <div class="carousel-item testi-item" data-color="#AA0A90" data-img="assets/images/testimNur.png">
+                           
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et saepe maxime provident <br>consequatur voluptate labore eos accusantium quasi,<br> quod id architecto at doloribus ipsum adipisci, distinctio voluptatibus excepturi deleniti a.</p>
+                            <h5>Jane Doe 2 - <span>Home Executive</span></h5>
+                        
+                            </div>
+                            <div class="carousel-item testi-item" data-color="#fefefe" data-img="assets/images/nurTmon.png">
+                       
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et saepe maxime provident <br>consequatur voluptate labore eos accusantium quasi, quod id architecto at doloribus ipsum adipisci, <br>distinctio voluptatibus excepturi deleniti a.</p>
+                            <h5>Jane Doe 3 - <span>Hotel Ritz</span></h5>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -523,6 +586,7 @@
 
     <div class="contact">
         <h4>NUR Home Interiors - Istanbul</h4>
+        <h4 id="text4">Vicenza &#8275;  Padova &#8275; Venice</h4> 
         <p>+39 555 555 5555</p>
         <h6 class="copyright"> - All Rights Reserved &copy; 2023 - Designed & Developed By Luigina
             Argentin</h6>
@@ -579,6 +643,15 @@
       },
     });
   </script>
+
+<script>
+    const myCarousel = document.getElementById('myCarousel')
+    myCarousel.addEventListener('slide.bs.carousel', function () {
+        const activeItem = this.querySelector(".active");
+        document.querySelector(".testImage-img img").src = activeItem.getAttribute("data-img");
+        document.querySelector(".testImage-img .testCircle").style.backgroundColor = activeItem.getAttribute("data-color");
+})
+</script>
 
 </body>
 
