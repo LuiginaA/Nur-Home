@@ -99,7 +99,7 @@
                                 <a class="nav-link" href="#team-page">Team</a>
                             </li>
                             <li class="nav-item mx-auto">
-                                <a class="nav-link" aria-current="page" href="#gallery">Gallery</a>
+                                <a class="nav-link" aria-current="page" href="gallery.html">Gallery</a>
                             </li>
 
                             <li class="nav-item mx-auto">
@@ -632,14 +632,16 @@
       centeredSlides: true,
       slidesPerView: "auto",
       coverflowEffect: {
-        rotate: 50,
+        rotate: 20,
         stretch: 0,
-        depth: 100,
+        depth: 300,
         modifier: 1,
         slideShadows: true,
       },
-      pagination: {
-        el: ".swiper-pagination",
+      loop: true,
+      autoplay: {
+        delay: 900,
+        disableOnInteraction: false,
       },
     });
   </script>
@@ -651,6 +653,27 @@
         document.querySelector(".testImage-img img").src = activeItem.getAttribute("data-img");
         document.querySelector(".testImage-img .testCircle").style.backgroundColor = activeItem.getAttribute("data-color");
 })
+</script>
+
+
+
+
+ <!-- ----- Gallery Section -----  -->
+
+ <script>
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+
 </script>
 
 </body>

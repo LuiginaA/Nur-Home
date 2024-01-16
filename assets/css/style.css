@@ -950,12 +950,17 @@ img {
     background: #5c5b5b;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
 
 .swiper {
     width: 100%;
     padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
+   padding-bottom: 200px;
+
 }
 
 .swiper-slide {
@@ -965,6 +970,7 @@ img {
     height: 500px;
     border-radius: 25%;
     background: #5c5b5b; 
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006) ;
 }
 
 .portfolio-card {
@@ -1191,17 +1197,70 @@ img {
 
 /* ----- Gallery Page Section ----- */
 
+.galleryImage {
+    background: #AA0A90;
+    background: #ecf4fb;
+    /* width: 100%;    */
+    /* margin-top: 50px; */
+   
 
-/* .image-gallery img {
-    height: 540px;
-    width: 540px;
-    border-radius: 0;
-} */
-
-.image-gallery img {
-    width: 80%;
-    margin: 100px;
 }
+.imageGallery {
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    
+}
+
+.imageGallery img {
+    width: 100%;
+    cursor: pointer;
+    
+} 
+
+.imageGallery img:hover {
+ 
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
+} 
+
+
+.fullImage  {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: -100; 
+
+}
+
+.fullImage .galImg {
+    width: 90%;
+    max-width: 500px;
+ 
+}
+
+.fullImage span {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    
+  
+}
+
+
+
 
 
 

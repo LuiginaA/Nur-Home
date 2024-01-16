@@ -26,114 +26,32 @@
 </head>
 
 <body>
-    <!-- ----- Fixed Navbar Section -----  -->
- 
-    <!-- <header class="overflow-hidden vh-80">  -->
-
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg bg-color">
-            <div class="container">
-
-     <!-- ----- Logo Section -----  -->
-
-                <a class="navbar-brand" href="index.html">  
-                    <h1 id="title">Nur</h1>
-                    <h2 id="text2">home interiors</h2>
-                    <h3 id="text3">Istanbul</h3>
-                    <h4 id="text4">Vicenza &#8275;  Padova &#8275; Venice</h4> 
-                </a>
-
-    <!-- ----- Toggle Btn Section -----  -->
-          
-                <button class="navbar-toggler shadow-none border-0" type="button"
-                data-bs-toggle="offcanvas" 
-                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" >
-                
-                <!-- aria-label="Toggle navigation"> -->
-
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-    <!-- ----- SideBar Section -----  -->
-
-                <div class="sidebar offcanvas offcanvas-start" 
-                tabindex="-1" 
-                id="offcanvasNavbar" 
-                aria-labelledby="offcanvasNavbarLabel">
-
-    <!-- ----- SideBar Header Section -----  --> 
-
-                    <div class="offcanvas-header flex-column text-white     border-bottom">   
-                        <h1 class="offcanvas-title" 
-                        id="offcanvasNavbarLabel" id="title">N U R</h1>   
-                        <h2 id="text2">home interiors</h2>
-                        <h3 id="text3">Istanbul</h3> 
-                        <h4 id="text4">Vicenza &#8275;  Padova &#8275; Venice</h4>  
-                        <button type="button" 
-                            class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" 
-                            aria-label="Close">
-                        </button>
-                    </div>
-            
-    <!-- ----- SideBar Body Section -----  --> 
-
-                    <div class="offcanvas-body d-flex flex-column flex-lg-row  p-4 p-lg-0"> 
-
-                        <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">                         
-                            <li class="nav-item mx-auto">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item mx-auto">
-                                <a class="nav-link" href="#about-page">About</a>
-                            </li>
-                            <li class="nav-item mx-auto">
-                                <a class="nav-link" href="#services-page">Services</a>
-                            </li>
-                            <li class="nav-item mx-auto">
-                                <a class="nav-link" href="#before-aft-page">Before & After</a>
-                            </li>
-                            <li class="nav-item mx-auto">
-                                <a class="nav-link" href="#portFolio-page">Portfolio</a>
-                            </li>
-                            <li class="nav-item mx-auto">
-                                <a class="nav-link" href="#team-page">Team</a>
-                            </li>
-                            <li class="nav-item mx-auto">
-                                <a class="nav-link" aria-current="page" href="#gallery">Gallery</a>
-                            </li>
-
-                            <li class="nav-item mx-auto">
-                                <a class="nav-link" href="#testimonial-page">Testimonials</a>
-                            </li>
-
-                            <li class="nav-item mx-auto">
-                                <a class="nav-link" aria-current="page" href="#contact">Contact</a>
-                            </li>
-                        </ul>   
-                    </div>   
-                </div>
-            </div> 
-        </nav>
-    </header>
-
     <main>
-<section>
-    <div class="image-gallery">
-        <img src="assets/images/gal-img1.jpg">
-        <img src="assets/images/gal-img1.jpg">
-        <img src="assets/images/gal-img1.jpg">
-        <img src="assets/images/gal-img1.jpg">
-        <img src="assets/images/gal-img1.jpg">
-        <img src="assets/images/gal-img1.jpg">
-        <img src="assets/images/gal-img1.jpg">
-        <img src="assets/images/gal-img1.jpg">
-        <img src="assets/images/gal-img1.jpg">
-    </div>
-</section>
-        <!-- ----- Gallery Section -----  -->
+     <!-- ----- Gallery Section -----  -->
+    <section class="galleryImage">
 
-    </main>   
-    <footer></footer>      
+        <!-- <div class="gallery"> -->
+
+            <div class="fullImage"  id="fullImgBox">
+                <img class="galImg" src="assets/images/gal-img1.jpg" id="fullImg">
+                <span onclick="closeFullImg()">X</span>
+            </div>
+
+            <div class="imageGallery">
+                <img class="galImg"  src="assets/images/gal-img1.jpg" onclick="openFullImg(this.src)">
+                <img class="galImg" src="assets/images/gal-img2.jpg" onclick="openFullImg(this.src)">
+                <img class="galImg" src="assets/images/gal-img3.jpg" onclick="openFullImg(this.src)">
+                <img src="assets/images/gal-img4.jpg" onclick="openFullImg(this.src)">
+                <img src="assets/images/gal-img5.jpg" onclick="openFullImg(this.src)">
+                <img src="assets/images/gal-img6.jpg" onclick="openFullImg(this.src)">
+                <img src="assets/images/gal-img7.jpg" onclick="openFullImg(this.src)">
+                <img src="assets/images/gal-img8.jpg" onclick="openFullImg(this.src)">
+            </div>
+        </div>
+    </section>
+       
+
+    </main>    
 
     <!-- JavaScript Bundle with Popper -->
 
@@ -166,25 +84,30 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
- <!-- Initialize Swiper -->
+ <!-- Initialize Swiper Portfolio Section-->
+
  <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-  </script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 20,
+      stretch: 0,
+      depth: 300,
+      modifier: 1,
+      slideShadows: true,
+    },
+    loop: true,
+    autoplay: {
+      delay: 900,
+      disableOnInteraction: false,
+    },
+  });
+</script>
+
+ <!-- Initialize Carousel Testimonial Section-->
 
 <script>
     const myCarousel = document.getElementById('myCarousel')
@@ -193,6 +116,25 @@
         document.querySelector(".testImage-img img").src = activeItem.getAttribute("data-img");
         document.querySelector(".testImage-img .testCircle").style.backgroundColor = activeItem.getAttribute("data-color");
 })
+</script>
+
+
+ <!-- ----- Gallery Section -----  -->
+
+<script>
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+
 </script>
 
 </body>
