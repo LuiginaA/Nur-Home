@@ -20,7 +20,14 @@
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   />
 
+  <!-- Lightbox2  by "Lokesh Dhakar"file  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script> 
+
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="stylesheet" href="assets/css/lightbox.css">
 
     <title>Nur Home</title>
 </head>
@@ -660,7 +667,7 @@
 
 <script>
     const myCarousel = document.getElementById('myCarousel')
-    myCarousel.addEventListener('slide.bs.carousel', function () {
+    myCarousel.addEventListener('slide.bs.carousel', function() {
         const activeItem = this.querySelector(".active");
         document.querySelector(".testImage-img img").src = activeItem.getAttribute("data-img");
         document.querySelector(".testImage-img .testCircle").style.backgroundColor = activeItem.getAttribute("data-color");
@@ -684,6 +691,10 @@
     }
 
 </script>
+
+<!-- ----- Gallery Section -----  -->
+
+<script src="assets/lightbox-plus-jquery.js"></script>
 
 </body>
 
