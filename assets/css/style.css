@@ -360,7 +360,147 @@ galleryQuote {
     padding-bottom: 5px;    
  }
 
-/* ----- Intro About Section ----- */
+
+ /* ----- Nur's Story Section ----- */
+
+
+.nurStory-container {
+    display: flex;
+    justify-content: center;
+    align-self: center; 
+    width: 100%;
+    padding: 20px;
+}
+
+#aboutNur-page {
+    background: #5c5b5b;   
+}
+
+
+.storyContain {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#storyTitle h3 {
+    font-family: myFont1;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    /* font-family: 'Courgette', cursive; */
+    padding-top: 10px;
+    text-align: left;
+    margin-left: 120px;
+}
+
+
+ #storyTitle h4 {
+     font-family: myFont2;
+     color: #efc4f7;
+     color: #fff;
+     font-size: 30px;
+     font-weight: 200;
+     letter-spacing: 4px;
+     text-align: left;
+     margin-top: 10px;
+     margin-bottom: 15px;
+     margin-left: 150px;
+     /* font-family: 'Courgette', cursive; */
+ }
+
+
+ .storyInfo h3 {
+    font-family: myFont2;
+    color: #efc4f7;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 180px;
+    /* font-family: 'Courgette', cursive; */
+}
+ 
+
+.storyInfo p {
+    /* font-family: myFont2; */
+    /* color: #efc4f7;
+    color: #fff;
+    font-size: 30px; */
+    /* font-weight: 200; */
+    /* letter-spacing: 4px; */
+    /* text-align: left; */
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 180px;
+
+
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 75%;
+
+
+    /* font-family: 'Courgette', cursive; */
+}
+
+ .story-img {
+     display: flex;
+     flex-direction: row;
+     align-items: flex-end;
+     justify-content: flex-end;
+ }
+ .story-img {
+    /* align-items: center;
+    justify-content: center; */
+    height: 550px;  
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 2px;
+    margin-left: 100px;
+    align-items: right;
+}
+
+.story-img img {
+    height: 100%;  
+    width: 100%;
+}
+
+
+ color: #fff;
+ .who h4 {
+ font-size: 18px;
+ font-family: 'Roboto', sans-serif;
+ align-items: center;
+ justify-content: center;
+ text-align: left;
+ width: 90%;
+}
+
+
+    margin-top: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+/* ----- About Section ----- */
 
 .about-container {
     display: flex;
