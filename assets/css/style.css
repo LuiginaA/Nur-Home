@@ -458,6 +458,23 @@ padding-bottom: 5px;
     margin-bottom: 15px;
 }
 
+/* ----- Media Queries Nur's Story Section ----- */
+ 
+@media (max-width: 480px) {
+   
+.storyInfo-contain {
+    width: 80%;
+    margin: 30px 25px 25px 30px;
+}
+
+.storyInfo-contain .floating-image {
+    align-content: center;
+    justify-content: center;
+    
+}
+
+}
+
 /* ----- About Section ----- */
 
 .about-container {
@@ -862,6 +879,17 @@ img {
     letter-spacing: 1px;
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.services .phase-content li {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: left;
 }
 
 /* ----- Media Queries Services Section ----- */
