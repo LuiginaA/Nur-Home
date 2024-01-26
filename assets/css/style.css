@@ -554,7 +554,7 @@ img {
     align-items: center;
     justify-content: center;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 60px;
     width: 90%;
 }
 
@@ -567,6 +567,7 @@ img {
     justify-content: center;
     text-align: left;
     width: 90%;
+    margin-top: 10px;
 }
 
 .content-about{
@@ -582,7 +583,7 @@ img {
     text-align: left;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 100px;
     width: 80%;
 }
@@ -594,6 +595,7 @@ img {
     align-items: center;
     justify-content: center;
     text-align: left;
+    margin-top: 10px;
     margin-left: 100px;
     width: 80%;
 }
