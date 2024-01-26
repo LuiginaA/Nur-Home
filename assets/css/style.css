@@ -405,8 +405,8 @@ padding-bottom: 5px;
 }
 
 .storyInfo-contain {
-    width: 80%;
-    margin: 40px auto 20px; 
+    width: 90%;
+    margin: 40px 20px 20px 20px; 
 }
 
 .storyInfo-contain .floating-image {
@@ -442,6 +442,8 @@ padding-bottom: 5px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     /* font-family: 'Courgette', cursive; */
 }
 
@@ -456,6 +458,9 @@ padding-bottom: 5px;
     text-align: justify; 
     margin-top: 20px;
     margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
 }
 
 /* ----- Media Queries Nur's Story Section ----- */
@@ -463,14 +468,16 @@ padding-bottom: 5px;
 @media (max-width: 480px) {
    
 .storyInfo-contain {
-    width: 80%;
-    margin: 30px 25px 25px 30px;
+        margin: auto;
+        width: 90%;
+        /* margin: 10px 10px 10px 10px;  */
+    }
 }
 
 .storyInfo-contain .floating-image {
     align-content: center;
     justify-content: center;
-    
+    width: 100%;
 }
 
 }
