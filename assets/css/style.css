@@ -346,19 +346,19 @@ galleryQuote {
     padding-top: 10px;
     text-align: center;
     margin-left: 120px;
- }
+}
  
- .galleryQuote h4 {
-     font-family: myFont2;
-     color: #fff;
-     font-size: 36px;
-     font-weight: 200;
-     letter-spacing: 4px;
-     text-align: center;
-     margin-top: 10px;
-     margin-bottom: 25px;
-    padding-bottom: 5px;    
- }
+.galleryQuote h4 {
+    font-family: myFont2;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+padding-bottom: 5px;    
+}
 
 
  /* ----- Nur's Story Section ----- */
@@ -366,6 +366,8 @@ galleryQuote {
 
 .nurStory-container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-self: center; 
     width: 100%;
@@ -374,16 +376,6 @@ galleryQuote {
 
 #aboutNur-page {
     background: #5c5b5b;   
-}
-
-
-.storyContain {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 #storyTitle h3 {
@@ -398,8 +390,7 @@ galleryQuote {
     margin-left: 120px;
 }
 
-
- #storyTitle h4 {
+#storyTitle h4 {
      font-family: myFont2;
      color: #efc4f7;
      color: #fff;
@@ -411,94 +402,61 @@ galleryQuote {
      margin-bottom: 15px;
      margin-left: 150px;
      /* font-family: 'Courgette', cursive; */
- }
+}
 
+.storyInfo-contain {
+    width: 80%;
+    margin: 40px auto 20px; 
+}
 
- .storyInfo h3 {
+.storyInfo-contain .floating-image {
+    max-width: 350px;
+}
+
+.storyInfo-contain .floating-image.right{
+    float: right;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+.storyInfo-contain .floating-image.left{
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
+
+.storyContain-title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.storyInfo-contain h3 {
     font-family: myFont2;
     color: #efc4f7;
     color: #fff;
     font-size: 40px;
     font-weight: 200;
     letter-spacing: 4px;
-    text-align: left;
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 15px;
-    margin-left: 180px;
     /* font-family: 'Courgette', cursive; */
 }
- 
 
-.storyInfo p {
+.storyInfo-contain p {
     /* font-family: myFont2; */
-    /* color: #efc4f7;
-    color: #fff;
-    font-size: 30px; */
-    /* font-weight: 200; */
-    /* letter-spacing: 4px; */
-    /* text-align: left; */
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 180px;
-
-
+    color: #efc4f7;
     color: #fff;
     font-size: 18px;
     letter-spacing: 1px;
+    line-height: 1.5em;
     font-family: 'Roboto', sans-serif;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    width: 75%;
-
-
-    /* font-family: 'Courgette', cursive; */
+    text-align: justify; 
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
-
- .story-img {
-     display: flex;
-     flex-direction: row;
-     align-items: flex-end;
-     justify-content: flex-end;
- }
- .story-img {
-    /* align-items: center;
-    justify-content: center; */
-    height: 550px;  
-    width: 500px;
-    margin-top: 30px;
-    margin-right: 2px;
-    margin-left: 100px;
-    align-items: right;
-}
-
-.story-img img {
-    height: 100%;  
-    width: 100%;
-}
-
-
- color: #fff;
- .who h4 {
- font-size: 18px;
- font-family: 'Roboto', sans-serif;
- align-items: center;
- justify-content: center;
- text-align: left;
- width: 90%;
-}
-
-
-    margin-top: 50px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 200px;
-    padding-right: 50px;
-    padding-left: 50px;
-}
-
 
 /* ----- About Section ----- */
 
