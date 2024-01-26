@@ -480,8 +480,6 @@ padding-bottom: 5px;
     width: 100%;
 }
 
-}
-
 /* ----- About Section ----- */
 
 .about-container {
@@ -736,9 +734,9 @@ img {
         #content-1 p, 
         #content-3 p {
         text-align: left;
-            margin-left: 20px;
-            padding-right: 20px;
-            width: 100%;
+            margin-left: 25px;
+            padding-right: 25px;
+            width: 90%;
         }
 
         .item-2 img,
@@ -771,7 +769,7 @@ img {
             text-align: left;
             margin-left: 20px;
             padding-right: 20px;
-            width: 100%;
+            width: 90%;
         }
 
     }
