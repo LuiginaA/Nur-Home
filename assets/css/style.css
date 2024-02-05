@@ -406,7 +406,7 @@ padding-bottom: 5px;
 
 .storyInfo-contain {
     width: 90%;
-    margin: 40px 20px 20px 20px; 
+    margin: 40px 15px 20px 15px; 
 }
 
 .storyInfo-contain .floating-image {
@@ -467,26 +467,31 @@ padding-bottom: 5px;
  
 @media (max-width: 480px) {
    
-.storyInfo-contain {
-        margin: auto;
-        width: 90%;
-        /* margin: 10px 10px 10px 10px;  */
+    .storyInfo-contain {
+            margin: auto;
+            width: 90%;
+            /* margin: 10px 10px 10px 10px;  */
+        }
+
+
+    .storyInfo-contain .floating-image {
+        align-content: center;
+        justify-content: center;
+        width: 100%;
     }
+
+    .storyInfo-contain p {
+        letter-spacing: normal;
+        font-size: 16px;
+        text-align: left;
+        margin-left: 10px;
+        padding: 0px;
+        width: 90%;
+        
+        
+    } 
+
 }
-
-.storyInfo-contain .floating-image {
-    align-content: center;
-    justify-content: center;
-    width: 100%;
-}
-
-.storyInfo-contain p {
-    margin-top: 10px;
-    letter-spacing: normal;
-    word-spacing: normal;
-    
-} 
-
 
 /* ----- About Section ----- */
 
@@ -741,7 +746,7 @@ img {
 
         #content-1 p, 
         #content-3 p {
-        text-align: left;
+            text-align: left;
             margin-left: 25px;
             padding-right: 25px;
             width: 90%;
