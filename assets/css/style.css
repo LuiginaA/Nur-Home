@@ -31,6 +31,100 @@ html {
     scroll-behavior: smooth;
 }
 
+/* ----- Main Containers ----- */
+
+.divContainer {
+    background: #5c5b5b;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.divContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.divContain-title {
+    text-align: center;
+    width: 100%;
+}
+
+.divContainer-title h3 {
+    font-family: myFont1;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    color: #AA0A90;
+    text-shadow: 1px 1px #fff;
+    /* font-family: 'Courgette', cursive; */
+    padding-top: 10px;
+    text-align: left;
+    margin-left: 120px; 
+}
+
+.divContainer-subtitle h4 {
+    font-family: myFont2;
+    color: #efc4f7;
+    color: #fff;
+    text-shadow: 4px 4px #AA0A90;
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    /* text-align: left; */
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 150px;
+    margin-right: 40%;
+     /* font-family: 'Courgette', cursive; */
+}
+
+
+/* ----- Media Queries for Main Containers ----- */
+
+@media (max-width: 480px) {
+
+     .divContainer {
+        display: flex;
+        width:100%;
+    }
+
+    .divContainer-title {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+    .divContainer-title h3 {
+        font-size: 30px;
+        width: 100%;
+        color: aqua;
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 0px;
+    } 
+
+    .divContainer-subtitle h4 {
+        width: 100%;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
+        margin-left: 0px; 
+        padding: 0;
+        width: 100%;
+        font-size: 18px;
+        font-family: 'Courgette', cursive;
+    } 
+
+} 
+
 /* ----- Fixed Navbar Section ----- */
 
 .bg-color {
@@ -80,6 +174,7 @@ html {
 
 ul.navbar-nav {
     width: 90%;
+    min-height: auto;
 }
 
 .nav-item a {
@@ -107,8 +202,8 @@ ul.navbar-nav {
         width: 50px;
         justify-self: center;
         align-self: center;
+        margin-right: 40px;
 } 
-
 
 /* ----- Media Queries Section for Navbar ----- */
 
@@ -209,7 +304,6 @@ ul.navbar-nav {
     text-align: center;
     letter-spacing: 2px;
     line-height: 10px;
-
 
     width: 300px;
     height: 200px;
@@ -342,40 +436,8 @@ ul.navbar-nav {
 
  /* ----- Nur's Story Section ----- */
 
-.nurStory-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-self: center; 
-    width: 100%;
-    padding: 20px;
-}
-
-#storyTitle h3 {
-    font-family: myFont1;
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #fff;
-    /* font-family: 'Courgette', cursive; */
-    padding-top: 10px;
-    text-align: left;
-    margin-left: 120px;
-}
-
-#storyTitle h4 {
-    font-family: myFont2;
-    color: #efc4f7;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 200;
-    letter-spacing: 4px;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 150px;
-     /* font-family: 'Courgette', cursive; */
+#about-page {
+    background: #5c5b5b;  
 }
 
 .storyInfo-contain {
@@ -393,7 +455,7 @@ ul.navbar-nav {
     margin-bottom: 10px;
 }
 
-.storyInfo-contain .floating-image.left{
+.storyInfo-contain .floating-image.left {
     float: left;
     margin-right: 35px;
     margin-bottom: 10px;
@@ -434,13 +496,13 @@ ul.navbar-nav {
     margin-bottom: 15px;
     margin-left: 30px;
     margin-right: 30px;
-    padding: 30px;
+    padding: 10px;
 }
 
 /* ----- Media Queries Nur's Story Section ----- */
  
 @media screen and (max-width: 992px) {
-    .container-story {
+    container-story {
         padding: 20px;
         align-items: center;
         justify-content: center;
@@ -471,13 +533,6 @@ ul.navbar-nav {
         text-align: left;
         margin-top: 60px;
         width: 90%;
-
-
-
-
-        /* text-align: center;
-        margin-left: 10px; 
-        width: 100%;   */
     }
 
     .storyInfo-contain p {
@@ -486,13 +541,11 @@ ul.navbar-nav {
         margin-left: 0px;
         padding: 0px;
         width: 100%;
-        text-align: left;
-        
+        text-align: left;  
     }  
 }
 
-
-(max-width: 480px) {
+@(max-width: 480px) {
    
     .storyInfo-contain {
             margin: auto;
@@ -513,13 +566,16 @@ ul.navbar-nav {
         margin-left: 5px;
         padding: 0px;
         width: 90%;
-        
-        
+  
     } 
 
 }
 
 /* ----- About Section ----- */
+
+#about-page {
+    background: #5c5b5b;  
+}
 
 .about-container {
     display: flex;
@@ -530,9 +586,7 @@ ul.navbar-nav {
     padding: 20px;
 }
 
-#about-page {
-    background: #5c5b5b;  
-}
+
 
 .about-cont {
     display: grid;
@@ -548,27 +602,28 @@ ul.navbar-nav {
 }
 
 #intro-heading h3 {
-   font-family: myFont1;
-   font-size: 40px;
-   font-weight: 500;
-   letter-spacing: 2px;
-   color: #fff;
-   /* font-family: 'Courgette', cursive; */
-   padding-top: 10px;
-   text-align: left;
-   margin-left: 120px;
+    font-family: myFont1;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    /* font-family: 'Courgette', cursive; */
+    padding-top: 10px;
+    text-align: left;
+    margin-left: 120px;
 }
 
 #intro-heading h4 {
     font-family: myFont2;
     color: #efc4f7;
     color: #fff;
+    color: #f9d71c;
     font-size: 30px;
     font-weight: 200;
     letter-spacing: 4px;
     text-align: left;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     margin-left: 150px;
     /* font-family: 'Courgette', cursive; */
 }
@@ -586,6 +641,7 @@ ul.navbar-nav {
     margin-top: 10px;
     margin-bottom: 10px;
     align-content: center;
+    
 }
 
 .item-3 img {
@@ -662,56 +718,76 @@ img {
 }
 
 /* ----- Media Queries Intro About Section ----- */
-/* 
+ 
 @media (max-width: 480px) {
-   
-    .about-cont {
+    about-cont {
         display: grid;
         grid-template-columns: auto;
         min-height: 100vh;
-        width: 90%;
+        width: 100%;
         transition: 0.5s;
     }
 
-    #about-page {
+    about-page {
         background: red;
       }
 
-    .item-1{
+    .item-2{
         width: 100%;
+   
     }
 
-    #content-1 {
+    #content-1 h6{
         display: flex;
         flex-direction: column;
         align-self: center;
         justify-self: center;
         width: 100%;
+        color: red;
         
     }
 
-    .content-about {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;     
+    content-about {
+       display: flex;
+       flex-direction: row;
+   flex-wrap: wrap;
+       width: 100%;
+       align-items: left;
+    justify-content: left;
+    float: left;
+    width: 100%;
+    background-color: green;
     }
 
     #content-2 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap; 
-        align-self: flex-start;
-        justify-self: flex-start;
-        width: 100%;
-        margin-left: -95px;    
+    
+        width: 100%; 
+       
     }
+
+    
+    #content-2 h6 {
+        color: aqua;
+    }
+
+    #content-2 p {
+        color: yellow;
+    }
+
+mg {
+  width: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-content: center;
+    
+}
   
-} */
+} 
 
 /* @media screen and (max-width: 600px) {
     
 } */
-    @media screen and (max-width: 992px) {
+    media screen and (max-width: 992px) {
         .about-container {
             padding: 50px;
             align-items: center;
@@ -815,182 +891,90 @@ img {
 
 /* ----- Services Section ----- */
 
-.services {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+.services-content .services-box {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+    margin-top: 40px;
 }
 
 #services-page {
     background: #5c5b5b;
 }
 
-.services-cont-title {
-    text-align: center;
-    width: 100%;
-}
-
-.services-title {
-    max-width: 800px;
-}
-
-.services-title h3 {
-    font-family: myFont1;
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #fff;
-    /* font-family: 'Courgette', cursive; */
-    text-align: center;
-    padding-top: 10px;
-}
-
-#services-title h4 {
-    font-family: myFont2;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 200;
-    letter-spacing: 4px;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 150px;
-        /* font-family: 'Courgette', cursive; */
-}
-
-.services-box {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-    max-width: 100%;
-    margin-top: 40px;
-    margin-right: 60px;
-    margin-left: 60px;
-    margin-bottom: 0;
-    padding-bottom: 40px;
-}
-
-.services-box .phase-box {
-    width: 300px;
-    margin: 0 auto;
+.services-content .services-box .phase-box {
+    width: 350px;
+    margin: 0 auto; 
     background: #fefefe;
     color: #c04fb1;
     padding: 20px;
     box-shadow: 0 15px 30px rgba(0,0,0,18);
+    line-height: 2rem;
 }
 
-.services .phase-box .iconBx {
+.services-content .phase-box .iconBx {
     margin-top: 25px;
 }
 
-.services .phase-box .iconBx i {
+.services-content .services-box .phase-box .iconBx i {
     display: flex;
     font-size: 60px;
     color: #000;
-    /* color: #666; */
     justify-content: center;
     max-width: 70px;
     margin-bottom: 15px;
-    padding-left: 130px;
+    padding-left: 120px; 
 }
 
-.services .phase-box h4{
+.services-content .phase-content h4 {
     color: #c04fb1;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
-    text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 1px;
+    text-shadow: 2px 2px #000;
 }
 
-.services .phase-content h5 {
+.services-content .phase-box h5 {
     color: #c04fb1;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 500;
     letter-spacing: 1px;
     line-height: 2rem;
 }
 
-.services .phase-content p {
+.services-content .phase-box p {
     position: relative;
     font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-style: bold;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 1px;
     padding-left: 8px;
     padding-right: 8px;
-}
-
-.services .phase-content li {
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    padding-left: 8px;
-    padding-right: 8px;
-    text-align: left;
+    text-align: center;
 }
 
 /* ----- Media Queries Services Section ----- */
 
 @media (max-width: 992px) {
-    .services {
-            padding: 100px 50px 50px 50px;
-            align-items: center;
-            justify-content: center;
-            width:100%;
-        }
 
-        .services-cont-title {
+    .services-content .services-box {
             width: 100%;
-            align-items: center;
-            justify-content: center;
         }
 
-        .services-title h3 {
-            font-family: myFont1;
-            font-size: 40px;
-            font-weight: 500;
-            letter-spacing: 2px;
-            color: #fff;
-            text-align: center;
-            padding-top: 10px;
-            margin-left: 10px;
-        }   
-
-    #services-title h4 {
-        font-size: 30px;
-        font-weight: 200;
-        letter-spacing: 4px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-        margin-bottom: 15px;
-        margin-left: 3px;
-    }
-
-.services-content .services-box {
-        width: 100%;
-    }
-
-    #services-page {
-            display: grid;
+        .services-content .services-box .phase-box {
             width: 100%;
-            grid-template-columns: auto;
-            grid-template-rows: auto;
-            justify-content: center;
-            align-items: center;
-
         }
-    .services-content {
-        width: 80%;
-    }
+
+        .services-content .services-box .phase-box .iconBx i {
+            padding-left: 150px; 
+        }
 
 }
 
@@ -1134,20 +1118,20 @@ img {
 
 /* ----- Media Queries Before & After Section ----- */
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
     .b-a-projects {
             /* padding: 100px 50px 50px 50px;  */
             align-items: center;
             justify-content: center;
             width:100%;
         }
-    .complete-cont-title{
+    /* .complete-cont-title{
            width: 100%;
            align-items: center;
            justify-content: center;
-        }
+        } */
 
-    .b-a-title h3 {
+    /* .b-a-title h3 {
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -1155,9 +1139,9 @@ img {
         justify-content: center;
         margin-left: 0;
         padding: 0;
-    }
+    } */
 
-    .b-a-subtitle {
+    /* .b-a-subtitle {
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -1166,9 +1150,9 @@ img {
         text-align: center;
         margin-left: 0;
 
-    }
+    } */
 
-}
+} */
 
 /* ----- Portfolio Section ----- */
 
@@ -1323,6 +1307,61 @@ img {
 }
 
 /* ----- Testimonial Section ----- */
+
+
+#testimonial-page {
+    background: #5c5b5b;
+}
+
+testimonialContainer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center; 
+    width: 100%;
+    padding: 20px;
+}
+
+testiCont {
+    display: flex;
+
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+testimonialTitle h3 {
+    font-family: myFont1;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    /* font-family: 'Courgette', cursive; */
+    padding-top: 10px;
+    text-align: left;
+    margin-left: 120px;
+}
+
+testimonialTitle h4 {
+    font-family: myFont2;
+    color: #efc4f7;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 150px;
+     /* font-family: 'Courgette', cursive; */
+}
+
+-contain {
+    width: 90%;
+    margin: 40px 15px 20px 15px; 
+}
 
 
 
