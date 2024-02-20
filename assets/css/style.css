@@ -105,7 +105,6 @@ html {
     .divContainer-title h3 {
         font-size: 30px;
         width: 100%;
-        color: aqua;
         text-align: center;
         margin-left: 0px;
         padding-left: 0px;
@@ -345,15 +344,10 @@ ul.navbar-nav {
 
 /* ----- Hero Section Two ----- */
 
-/* #bg-color {
-    height: 100%;
-    width: 100%;
-} */
-
 #hero-imageTwo {
     height: 800px;
     width: 100%;
-    background: url(../images/sea.png) no-repeat center center;
+    background: url(../images/sea.jpg) no-repeat center center;
 
 /* Aminates zoom effect on loading page  - hero Section   */
 
@@ -386,7 +380,7 @@ ul.navbar-nav {
     #hero-imageTwo {
         height: 800px;
         width: 100%;
-        background: url(../images/sea.png);
+        background: url(../images/sea.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -399,47 +393,11 @@ ul.navbar-nav {
     }
 }
 
-/* #bg-color {
-    height: 100%;
-    width: 100%;
-} */
-
-.galleryQuote {
-    padding-bottom: 20px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-} 
-
-.galleryQuote h3 {
-    font-family: myFont1;
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #fff;
-    padding-top: 10px;
-    text-align: center;
-    margin-left: 120px;
-}
-
-.galleryQuote h4 {
-    font-family: myFont2;
-    color: #fff;
-    font-size: 36px;
-    font-weight: 200;
-    letter-spacing: 4px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    padding-bottom: 5px;    
-}
-
  /* ----- Nur's Story Section ----- */
 
 #about-page {
     background: #5c5b5b;  
 }
-
 
 .storyInfo-contain {
     width: 90%;
@@ -666,12 +624,11 @@ img {
         font-family: 'Courgette', cursive;
         align-items: center;
         justify-content: center;
-        text-align: left;
-        /* margin-top: 40px; */
+        text-align: left; 
         width: 70%;
         margin-left: 150px;
         margin-bottom: -40px;
-        margin-top: 3px;
+        margin-top: 5px;
     }
     
     #content-2 p  {
@@ -682,8 +639,6 @@ img {
         justify-content: center;
         text-align: left;
         width: 75%;
-        /* margin-top: 40px; */
-        /* margin-left: 150px; */
         margin: 65px 10px -45px 150px;
         padding: -25px 10px -25px 10px;
     }
@@ -701,7 +656,7 @@ img {
         padding-right: 20px;
         padding-left: 20px;
     }
-    
+
     .content-1, 
     .content-2, 
     .content-3 {
@@ -736,7 +691,6 @@ img {
     #content-2 h6,
     #content-3 h6 {
         color: #fff;
-        color: aqua;
         font-size: 24px;
         font-weight: 500;
         font-family: 'Courgette', cursive;
@@ -766,6 +720,7 @@ img {
     grid-gap: 30px;
     max-width: 100%;
     margin-top: 40px;
+    padding: 20px;
 }
 
 #services-page {
@@ -965,16 +920,18 @@ img {
 
 .flip-box-header {
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
     transform: translateZ(9rem);
     order: 2;
     background-blend-mode: overlay;
 }
 
 .flip-box p {
-    color: #fff;
-    font-size: 20px;
-    opacity: .7;
+    color: #fff; 
+    font-size: 23px;
+    font-weight: 500;
+    text-shadow: 3px 3px #000;
+    opacity: .9; 
     transform: translateZ(6rem);
 }
 
@@ -984,82 +941,13 @@ img {
     height: 35px;
 }
 
-/* ----- Media Queries Before & After Section ----- */
-
-/* @media (max-width: 992px) {
-    .b-a-projects {
-            /* padding: 100px 50px 50px 50px;  */
-            align-items: center;
-            justify-content: center;
-            width:100%;
-        }
-    /* .complete-cont-title{
-           width: 100%;
-           align-items: center;
-           justify-content: center;
-        } */
-
-    /* .b-a-title h3 {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        margin-left: 0;
-        padding: 0;
-    } */
-
-    /* .b-a-subtitle {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        align-items: left;
-        justify-content: left;
-        text-align: center;
-        margin-left: 0;
-
-    } */
-
-} */
-
 /* ----- Portfolio Section ----- */
-
-.portFolio {
-    display: flex;
-    width: 100%;
-
-}
 
 #portFolio-page {
     background: #5c5b5b;
-    width: 100%;
-    height: 100%;
+
 }
 .port-cont-title {
-    width: 100%;
-}
-
-.port-title h3 {
-    font-family: myFont1;
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #fff;
-    text-align: left;
-    padding-top: 10px;
-    margin-left: 120px;
-}
-
-.port-subtitle {
-    font-family: myFont2;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 200;
-    letter-spacing: 4px;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 150px;
     width: 100%;
 }
 
@@ -1082,8 +970,7 @@ img {
     width: 100%;
     padding-top: 50px;
     /* padding-bottom: 50px; */
-   padding-bottom: 200px;
-
+    padding-bottom: 200px;
 }
 
 .swiper-slide {
@@ -1093,7 +980,7 @@ img {
     height: 500px;
     border-radius: 25%;
     background: #5c5b5b; 
-    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006) ;
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006) ; */
 }
 
 .portfolio-card {
@@ -1138,108 +1025,18 @@ img {
 
 /* ----- Media Queries Portfolio Section ----- */
 
-@media (max-width: 992px) {
-    .portFolio {
-            /* padding: 100px 50px 50px 50px;  */
-            align-items: center;
-            justify-content: center;
-            width:100%;
-        }
-    .port-cont-title {
-           width: 100%;
-           align-items: center;
-           justify-content: center;
-        }
-
-    .port-title h3 {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        margin-left: 0;
-        padding: 0;
-    }
-
-    .port-subtitle {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        align-items: left;
-        justify-content: left;
-        text-align: center;
-        margin-left: 0;
-
-    }
-
-}
 
 /* ----- Testimonial Section ----- */
-
 
 #testimonial-page {
     background: #5c5b5b;
 }
 
-testimonialContainer
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-self: center; 
-    width: 100%;
-    padding: 20px;
-}
-
-testiCont {
-    display: flex;
-
-    min-height: 100vh;
-    width: 100%;
-
-}
-
-testimonialTitle h3 {
-    font-family: myFont1;
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #fff;
-    /* font-family: 'Courgette', cursive; */
-    padding-top: 10px;
-    text-align: left;
-    margin-left: 120px;
-}
-
-testimonialTitle h4 {
-    font-family: myFont2;
-    color: #efc4f7;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 200;
-    letter-spacing: 4px;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 150px;
-     /* font-family: 'Courgette', cursive; */
-}
-
--contain {
-    width: 90%;
-    margin: 40px 15px 20px 15px; 
-}
-
-
-
 .testimonial-section {
     background-color: #5c5b5b;
     padding: 80px 0;
     min-height: 100vh;
-  
 }
-
 
 .testImage-img .testmon-img-box {
     max-width: 360px;
@@ -1247,7 +1044,6 @@ testimonialTitle h4 {
     text-align: center;
     position: relative;
 }
-
 
 .testImage-img .testCircle {
     height: 360px;
@@ -1269,7 +1065,6 @@ testimonialTitle h4 {
 
 .testImage-img .testmonImg-box-inner img {
     max-width: 310px;
-
 }
 
 .testimonial-section .carousel-inner {
@@ -1291,8 +1086,8 @@ testimonialTitle h4 {
     border-radius: 50%;
 }
 
-.testimonial-section .carousel-control-prev i, 
-.testimonial-section .carousel-control-next i {
+.testimonial-section .carousel-control-prev img, 
+.testimonial-section .carousel-control-next img {
     width: 15px;
 }
 
@@ -1302,7 +1097,6 @@ testimonialTitle h4 {
     line-height: 1.5rem;
     padding-top: 0px;
 }
-
 
 .testi-item h5{
     font-size: 22px;
@@ -1318,7 +1112,6 @@ testimonialTitle h4 {
     color: aqua;
 }
 
-
 .testi-item p{
     font-size: 18px;
     color: #efc4f7;
@@ -1329,7 +1122,6 @@ testimonialTitle h4 {
     color: #efc4f7;
     color: #fb9c9a;
     margin-top: 200px;
-  
 }
 
 .testi-item i {
@@ -1341,12 +1133,12 @@ testimonialTitle h4 {
 
 /* ----- Media Queries Testimonial Section ----- */
 
+media(max-width:992px) 
 
-@media(max-width:991px) {
+@media screen and (max-width: 992px) {
     .testImage-img .testmon-img-box {
         max-width: 300px;
     }
-
 
     .testImage-img .testCircle {
         height: 300px;
@@ -1372,10 +1164,67 @@ testimonialTitle h4 {
 
 }
 
+/* ----- Gallery Quote Section  ----- */
 
-/* ----- Gallery Page Section ----- */
+.galleryCont {
+    background: #5c5b5b;
+    width: 100%;
+}
 
-.galleryContainer {
+.galleryQuoteCont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.galleryQuote {
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: 10px;
+    padding: 0;
+} 
+
+.galleryQuote h3 {
+    font-family: myFont1;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.galleryQuote h4 {
+    font-family: myFont2;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;    
+}
+
+/*----- Media Queries Quote Section Two ----- */ 
+
+@media screen and (max-width: 480px) {
+    .galleryQuoteCont{
+        width: 100%;
+    }
+
+
+
+
+}   
+
+ 
+/* ----- Gallery Section ----- */
+
+.container-gallery {
     display: flex;
     align-items: center;
     text-align: center;
@@ -1383,11 +1232,7 @@ testimonialTitle h4 {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    padding: 50px 5%;
-}
-
-.galleryContainer {
-    background: #5c5b5b;  
+    padding: 50px 5%; 
 }
 
 .imageGallery {
@@ -1405,7 +1250,7 @@ testimonialTitle h4 {
 .imageGallery img:hover {
     transform: scale(0.8) rotate(-15deg);
     border-radius: 20px;
-    box-shadow: 0 32px 75px rgba(68,77,136, 0.2);      
+    /* box-shadow: 0 32px 75px rgba(68,77,136, 0.2);       */
 }  
 
 .lightbox  {
@@ -1440,6 +1285,12 @@ span.lb-caption{
 
 /* ---------------------------------Contact Us Section */
 
+.contactCont {
+    background: #5c5b5b;  
+    width: 100%;  
+  
+}
+
 .contact-container {
     display: flex;
     flex-wrap: nowrap;
@@ -1462,22 +1313,10 @@ span.lb-caption{
     align-items: center;
 }
 
-.contactUs .contitle  h2 {
-    color: #4A3729;
-    /* font-family: Merriweather, sans-serif; */
-    font-family: myFont1;
-    font-size: 40px; 
-    font-weight: 700;
-    font-style: italic;
-    letter-spacing: 2px;
-    margin-bottom: 34px;
-    padding-top: 30px;
-}
-
 .contact {
     padding: 40px;
     background: #fefefe;
-    box-shadow: 0 5px 35px rgba(0,0,0,0.15);
+    /* box-shadow: 0 5px 35px rgba(0,0,0,0.15); */
 }
 
 .contactBox {
@@ -1491,8 +1330,7 @@ span.lb-caption{
 
 .contact-form h3 {
     text-align: left;
-    color:#4A3729;
-    color: #f9d71c;
+    color: #fff;
     font-family: Merriweather, sans-serif;
     font-size: 28px;
     font-weight: 500;
@@ -1500,20 +1338,6 @@ span.lb-caption{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-left: 30px;
-}
-
-.contact-form p {
-    text-align: left;
-    color:#4A3729;
-    color: #f9d71c;
-    /* font-family: Merriweather, sans-serif; */
-    font-family: myFont3;
-    font-size: 28px;
-    font-weight: 500;
-    font-style: italic;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-    margin-left: 130px;
 }
 
 /* -------------- Form Box ------ */
@@ -1540,7 +1364,7 @@ span.lb-caption{
 }
 
 .contact-inputBox span {
-    color: #4A3729;
+    color: #fff;
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 5px; 
@@ -1551,7 +1375,7 @@ span.lb-caption{
     font-size: 1.1em; 
     font-weight: 500;
     outline: none;
-    border: 1px solid #333;
+    border: 1px solid #000;
 }
 
 .contact-inputBox textarea {
@@ -1565,8 +1389,8 @@ span.lb-caption{
 }
 
 .contact-inputBox input[type="submit"] {
-    background: #5c5b5b;
-    color: #FEFEFE;
+    background: #fff;
+    color: #5c5b5b;
     border: none;
     font-size: 1.1em;
     font-weight: 500;
@@ -1711,143 +1535,6 @@ span.lb-caption{
     margin-bottom: 5px;
     padding-top: 35px;
 }
-
-.greet-image {
-    grid-area: greet;
-} 
-
-.fun-image {
-    grid-area: fun;
-} 
-
-.bookings {   
-    padding: 40px;
-    background: #fefefe;
-    box-shadow: 0 5px 35px rgba(0,0,0,0.15);  
-}
-
-.bookings h3 {
-    text-align: center;
-    color:#4A3729;
-    font-family: Merriweather, sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    font-style: italic;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-    margin-top: 35px;
-}
-
-clinicoBox {
-    position: relative;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 5fr; 
-    grid-template-areas: 
-    "imageBox greet " 
-    "fun-image fun";
-    grid-gap: 20px;
-    margin-top: 20px;
-}
-
-
-
-/* -------------- Clinico Image Box Section ------ */
-
-.imageBox {
-    background: #000;
-    width: 100%;
-}
-
-.greet-image h3 {
-    text-align: center;
-    color:#fefefe;
-    font-family: Merriweather, sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    font-style: italic;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-    margin-top: 35px;
-}
-
-.imageGreet {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    flex-direction: column;
-}
-
-.greet {
-    background: url("assets/images/nur.jpg") no-repeat center center;
-    background-size: cover;
-    padding: 10px;
-    margin: 10px;
-} 
-
-.greet img {
-    border-style: solid;
-    border-width: 4px;
-    border-color: #fefefe;
-    height: 350px;
-    width: 300px; 
-    border-top-left-radius: 25%;
-    border-top-right-radius: 25%;
-}
-
-/* -------------- Image Box 2 Section ------ */
-
-.imageBox2 {
-    background: #fefefe;
-    width: 100%;
-    padding-bottom: 10px;
-}
-
-.fun-image h3 {
-    text-align: center;
-    color: #4A3729;
-    font-family: Merriweather, sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    font-style: italic;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-    margin-top: 35px;
-    padding-top: 10px;
-}
-
-.imageFun {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    flex-direction: column;
-}
-
-.fun {
-    background: url("assets/images/nur.jpg") no-repeat center center;
-    background-size: cover;
-    padding: 10px;
-    margin: 10px;
-} 
-
-.fun img {
-    border-style: solid;
-    border-width: 4px;
-    border-color: #000;
-    height: 350px;
-    width: 300px; 
-    border-top-left-radius: 25%;
-    border-top-right-radius: 25%;
-}
-
-
-
-
-
-
-
-
-oooooooooooo
 
 .contact
 {
