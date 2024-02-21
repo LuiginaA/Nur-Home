@@ -82,7 +82,6 @@ html {
      /* font-family: 'Courgette', cursive; */
 }
 
-
 /* ----- Media Queries for Main Containers ----- */
 
 @media (max-width: 480px) {
@@ -945,8 +944,8 @@ img {
 
 #portFolio-page {
     background: #5c5b5b;
-
 }
+
 .port-cont-title {
     width: 100%;
 }
@@ -954,7 +953,8 @@ img {
 .portfolio {
     position: relative;
     height: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .pFolio {
@@ -969,8 +969,7 @@ img {
 .swiper {
     width: 100%;
     padding-top: 50px;
-    /* padding-bottom: 50px; */
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 
 .swiper-slide {
@@ -994,7 +993,7 @@ img {
 
 .swiper-slide img {
     display: block;
-    width: 100%;
+    width: 100%;  
     background-size: cover;
     border-radius: 25%;
 }
@@ -1013,7 +1012,7 @@ img {
     align-items: center;
 }
 
-.portfolio-card .sliderText h4{
+.portfolio-card .sliderText h4 {
     color: #fff;
     font-size: 24px; 
     letter-spacing: 1.5px;
@@ -1024,13 +1023,12 @@ img {
     width: 400px;
 }
 
-/* ----- Media Queries Portfolio Section ----- */
-
-
 /* ----- Testimonial Section ----- */
 
 #testimonial-page {
     background: #5c5b5b;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .testimonial-section {
@@ -1113,7 +1111,7 @@ img {
     color: aqua;
 }
 
-.testi-item p{
+.testi-item p {
     font-size: 18px;
     color: #efc4f7;
 }
@@ -1148,12 +1146,10 @@ media(max-width:992px)
 
     .testImage-img .testmonImg-box-inner {
         border-radius: 0 0 150px 150px;
-
     }
 
     .testImage-img .testmonImg-box-inner img {
         max-width: 230px;
-
     }
 
 }
@@ -1216,12 +1212,8 @@ media(max-width:992px)
         width: 100%;
     }
 
-
-
-
 }   
 
- 
 /* ----- Gallery Section ----- */
 
 .container-gallery {
@@ -1245,13 +1237,9 @@ media(max-width:992px)
 .imageGallery img {
     width: 100%;
     cursor: pointer; 
-
     height: 100%;
-      
-      
-        background-size: cover;
-        background-repeat: no-repeat;
-
+    background-size: cover;
+    background-repeat: no-repeat;
 } 
 
 .imageGallery img:hover {
@@ -1266,7 +1254,6 @@ justify-content: center;
 align-items: center; 
 background-color: rgba(0, 0, 0, .8);
 display: none;
-
 }
 
 .lightbox img {
@@ -1286,16 +1273,13 @@ span.lb-caption{
     letter-spacing: 1.5px;  
 }
 
-
-
 /* ----- Contact Section ----- */
 
 /* ---------------------------------Contact Us Section */
 
 .contactCont {
     background: #5c5b5b;  
-    width: 100%;  
-  
+    width: 100%;   
 }
 
 .contact-container {
@@ -1371,7 +1355,7 @@ span.lb-caption{
 }
 
 .contact-inputBox span {
-    color: #fff;
+    color: #fefefe;
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 5px; 
@@ -1396,7 +1380,7 @@ span.lb-caption{
 }
 
 .contact-inputBox input[type="submit"] {
-    background: #fff;
+    background: #fefefe;
     color: #5c5b5b;
     border: none;
     font-size: 1.1em;
@@ -1415,32 +1399,31 @@ span.lb-caption{
 
 @media (max-width: 991px)
 {
-    .contact-container
-    {
-        background: #EDE6DE;
+    .contact-container {
+        background: #fefefe;
     }
-    .contactUs
-    {
+
+    .contactUs {
         padding: 20px;
     }
+
     .contactBox {
         grid-template-columns: 1fr;
         grid-template-rows: auto; 
     }
-    .contactformBox .row50
-    {
+
+    .contactformBox .row50 {
         display: flex;
         gap: 0;
         flex-direction: column;
     }
+
     .contact-inputBox {
         width: 100%;
     }
-    .contact
-    {
+    .contact {
         padding: 30px;
     } 
-
     
 }  
 
