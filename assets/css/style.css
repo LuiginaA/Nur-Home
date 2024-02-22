@@ -196,11 +196,21 @@ ul.navbar-nav {
     justify-content: center;
 }
 
+.navbar-toggler icon{
+    width: 50px;
+    justify-self: center;
+    align-self: center;
+    margin-right: 50px;
+    border-color: #000;
+    border-width: 2px;
+    color: #fff;  
+}
+
 .navbar-toggler {
         width: 50px;
         justify-self: center;
         align-self: center;
-        margin-right: 40px;
+        margin-right: 50px;
         border-color: #000;
         border-width: 2px;
         color: #fff;  
