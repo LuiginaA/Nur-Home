@@ -446,10 +446,10 @@ ul.navbar-nav {
 }
 
 .storyContain-title {
+    display: flex;
     padding-top: 50px;
     padding-bottom: 20px;
-    width: 100%;
-    display: flex;
+    width: 100%; 
 }
 
 .storyInfo-contain h3 {
@@ -519,7 +519,7 @@ ul.navbar-nav {
 /* ----- About Section ----- */
 
 #about-page {
-    background: #5c5b5b;  
+    background: #5c5b5b; 
 }
 
 .containerAbout,
@@ -734,6 +734,122 @@ img {
         width: 75%;
     }
     
+}
+
+/* ----- Concept Section ----- */
+
+.concept-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cont-concept {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.heading-concept {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.conceptCont  { 
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
+    padding-bottom: 50px;
+}
+
+.concept-title {
+    display: flex;
+    flex-direction: column;
+    width:100%; 
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center; 
+}
+
+.concept-title h3 {
+    font-family: myFont2;
+    color: #efc4f7;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.concept-title p {
+    color: #efc4f7;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify; 
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+} 
+
+.concept_image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 40%;
+}
+
+.concept_image img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-content: center; 
+    border-radius: 50px;
+    z-index: 1000;
+}
+
+/* -----  Media Queries Concept Section ----- */
+
+@media screen and (max-width: 992px) {
+ 
+    .heading-concept {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conceptCont  {
+        width: 100%;
+    }
+
+    .concept_image  {
+        margin-left: 10px;
+        align-content: center;   
+        justify-content: center;
+        width: 0%;
+    }
+
 }
 
 /* ----- Services Section ----- */
@@ -1304,9 +1420,9 @@ span.lb-caption{
 
 /* ---------------------------------Contact Us Section */
 
-.contactCont {
+/* .contactCont {
     background: #5c5b5b;  
-    width: 100%;   
+        width: 100%;   
 }
 
 .contact-container {
@@ -1329,14 +1445,14 @@ span.lb-caption{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+} */
+/* 
 .contact {
     padding: 40px;
     background: #fefefe;
     /* box-shadow: 0 5px 35px rgba(0,0,0,0.15); */
 }
-
+ 
 .contactBox {
     position: relative;
     display: grid;
@@ -1356,10 +1472,10 @@ span.lb-caption{
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-left: 30px;
-}
+} */
 
 /* -------------- Form Box ------ */
-
+/* 
 .contactFormBox {
     position: relative;
     width: 100%;
@@ -1386,8 +1502,8 @@ span.lb-caption{
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 5px; 
-}
-
+} */
+/* 
 .contact-inputBox input {
     padding: 10px;
     font-size: 1.1em; 
@@ -1420,11 +1536,11 @@ span.lb-caption{
 
 .contact-inputBox ::placeholder {
     color: #999999;
-} 
+}  */
 
 /* -------------- Media Queries----- */
 
-@media (max-width: 991px)
+/* @media (max-width: 991px)
 {
     .contact-container {
         background: #fefefe;
@@ -1452,77 +1568,74 @@ span.lb-caption{
         padding: 30px;
     } 
     
-}  
-
-
-
-
-
-
+}   */
 
 
 
 /* -------------- Contact Info Box ------ */
 
-.info {
+info {
     background: #000;
     background: #AA0A90;
+
 }
 
-.info h3 {
+info h3 {
     color: #fefefe;
+    color: crimson;
 }
 
-.info .infoBoxContact div {
+info infoBoxContact div {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.info .infoBoxContact div span{
+info infoBoxContact div span{
     display: flex;
     justify-content: center;
     align-items: center; 
     min-width: 40px;
     height: 40px;
     color: #fefefe;
+    color: gold;
     font-size: 1.5em;
     margin-right: 15px;
     border-radius: 50%;
 }
 
-.info .infoBoxContact div p {
+info infoBoxContact div p {
     color: #fefefe;
     font-size: 1.1em;
 }
 
-.info .infoBoxContact div a {
+info infoBoxContact div a {
     color: #fefefe;
     text-decoration: none;
     font-size: 1.1em; 
 }
 
-.mediaIcons {
+mediaIcons {
     margin-top: 40px;
     display: flex;
 }
 
-.mediaIcons li {
+mediaIcons li {
     list-style: none;
     margin-right: 15px;
 }
 
-.mediaIcons li a {
+mediaIcons li a {
     color: #fefefe;
     font-size: 2em;
     color: #ccc;   
 }
 
-.mediaIcons a:hover {
+mediaIcons a:hover {
     color: #EDE6DE;   
 }
 
-.imageBox div {
+imageBox div {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -1530,18 +1643,18 @@ span.lb-caption{
     margin-bottom: 10px;
 }
 
-.appointment {
+appointment {
     box-sizing: border-box; 
     font-family: 'Lato', sans-serif;
 }
 
-.appointment .title2 {
+appointment title2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.title2 h2 {
+title2 h2 {
     color:#fefefe;
     font-family: Merriweather, sans-serif;
     font-size: 40px; 
@@ -1558,18 +1671,90 @@ span.lb-caption{
     background: #5c5b5b;
 }
 
-.contact h3,
-.contact p
-{
+.mxw800p {
     color: #fff;
 }
 
 .contactForm
 {
     position: relative;
-    max-width: 800px;
-    margin: 0 auto; 
+    /* max-width: 600px; */
+    /* margin: 20px auto 20px auto; */
+    margin: 20px;
     display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.form_content {
+    position: relative;
+    /* max-width: 900px;  */
+   
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+padding: 20px;
+    margin: 20px 40px 20px 40px;
+
+}
+
+
+.form-contact {
+/* display: inline-block; */
+display: flex;
+margin-top: 20px;
+padding: 8px 20px;
+background: beige;
+width: 100%;
+}
+
+
+/* .footerimage {
+display: flex;
+    max-width: 100%;
+    margin: 20px 50px 20px auto;
+    display: flex;
+    padding-left: 130px;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+} */
+
+contact-image {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+
+contact-image img{
+width: 250px;
+height: 350px;
+ align-items: center;
+ justify-content: center;
+
+ margin-top: 15px;
+ padding-top: 40px; 
+    
+}
+
+
+shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+    padding-top: 40px;
+
+
+width: 400px;
+height: 500px;
+padding-top: 0px;
+
+    background-color: #AA0A90;
 
 }
 
@@ -1648,15 +1833,18 @@ footer{
     width: 100%;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .list-inline .social-links ul
 {
     width: 50%;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     padding-bottom: 25px;
+ 
 
 }
 
@@ -1693,6 +1881,7 @@ footer{
 #footer-details
 {
     text-align: center;
+  
 }
 
 .contact #details
@@ -1725,5 +1914,6 @@ justify-content: center;
     padding-top: 18px;
     color: #c04fb1;
     color: #fff;
+ 
 
 }
