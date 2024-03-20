@@ -844,14 +844,27 @@ img {
     }
 
     .concept_image  {
-        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
         align-content: center;   
-        justify-content: center;
-        width: 0%;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
 }
 
+@media screen and (max-width: 480px) {
+
+    .conceptCont  {
+        width: 100%;
+    }
+
+    .concept_image img {
+        width: 300px;
+        height: 300px;
+    }
+
+}
 /* ----- Services Section ----- */
 
 .services-content .services-box {
