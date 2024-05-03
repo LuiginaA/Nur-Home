@@ -1178,7 +1178,7 @@ img {
     width: 400px;
 }
 
-/* ----- Testimonial Section ----- */
+/* -------------- Testimonial Section ------------- */
 
 #testimonial-page {
     background: #5c5b5b;
@@ -1192,14 +1192,28 @@ img {
     min-height: 100vh;
 }
 
-.testImage-img .testmon-img-box {
+.container-testmon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+
+} 
+
+
+
+
+
+.testi-img .testmonImg-box {
     max-width: 360px;
     margin: auto;
     text-align: center;
     position: relative;
 }
 
-.testImage-img .testCircle {
+.testi-img .testCircle {
     height: 360px;
     width: 360px;
     background-color: #fb9c9a; 
@@ -1211,13 +1225,13 @@ img {
     transition: all 0.5s ease;
 }
 
-.testImage-img .testmonImg-box-inner {
+.testi-img .testmonImg-box-inner {
     position: relative;
     border-radius: 0 0 180px 180px;
     overflow: hidden;
 }
 
-.testImage-img .testmonImg-box-inner img {
+.testi-img .testmonImg-box-inner img {
     max-width: 310px;
 }
 
@@ -1230,7 +1244,7 @@ img {
 }
 
 .testimonial-section .carousel-control-next, 
-.testimonial-section .carousel-control-prev{
+.testimonial-section .carousel-control-prev {
     position: relative;
     height: 35px;
     width: 35px;
@@ -1245,16 +1259,18 @@ img {
     width: 15px;
 }
 
-.testi-item h4{
+.testi-item h5{
     font-size: 24px;
     color: #efc4f7;
     line-height: 1.5rem;
     padding-top: 0px;
 }
 
-.testi-item h5{
-    font-size: 22px;
+testi-item h5
+.testi-item h5 span{
+    font-size: 20px;
     color: #efc4f7;
+    color: #f9d71c;
     line-height: 1.5rem;
     padding-top: 0px;
 }
@@ -1288,30 +1304,29 @@ img {
 
 /* ----- Media Queries Testimonial Section ----- */
 
-media(max-width:992px) 
 
-@media screen and (max-width: 992px) {
-    .testImage-img .testmon-img-box {
+@media (max-width: 992px) {
+    .testi-img .testmon-img-box {
         max-width: 300px;
     }
 
-    .testImage-img .testCircle {
+    .testi-img .testCircle {
         height: 300px;
         width: 300px;
     }
 
-    .testImage-img .testmonImg-box-inner {
+    .testi-img .testmonImg-box-inner {
         border-radius: 0 0 150px 150px;
     }
 
-    .testImage-img .testmonImg-box-inner img {
+    .testi-img .testmonImg-box-inner img {
         max-width: 230px;
     }
 
 }
 
 @media(max-width:767px) {
-    .testImage-img {
+    .testi-img {
         margin-bottom: 25px;
     }
 
