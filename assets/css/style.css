@@ -673,7 +673,7 @@ img {
         justify-content: center;
         text-align: left;
         width: 75%;
-        margin: 65px 10px -45px 150px;
+        margin: 65px 10px -25px 150px;
         padding: -25px 10px -25px 10px;
     }
 
@@ -791,33 +791,43 @@ img {
     text-align: center; 
 }
 
-.concept-title h3 {
+h4.concept-title  {
     font-family: myFont2;
-    color: #efc4f7;
     color: #fff;
-    font-size: 40px;
+    text-shadow: 4px 4px #AA0A90;
+    font-size: 30px;
     font-weight: 200;
-    letter-spacing: 2px;
-    text-align: left;
+    letter-spacing: 4px;
+    text-align: left; 
     margin-top: 10px;
     margin-bottom: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 150px;
+    margin-right: 40%;
+}
+
+.concept-title h6 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Courgette', cursive;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 80%;
 }
 
 .concept-title p {
-    color: #efc4f7;
     color: #fff;
     font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 1.5em;
     font-family: 'Roboto', sans-serif;
-    text-align: justify; 
-    margin-top: 20px;
-    margin-bottom: 15px;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 60px;
 } 
 
 .concept_image {
@@ -840,15 +850,48 @@ img {
 
 /* -----  Media Queries Concept Section ----- */
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
  
+    h4.concept-title  {
+        width: 100%;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
+        margin-left: 0px; 
+        padding: 0;
+        width: 100%;
+        font-size: 18px;
+        font-family: 'Courgette', cursive;
+    } 
+
+
     .heading-concept {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
 
-    .conceptCont  {
+    .conceptCont {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .concept-title h6 {
+        display: flex;
+        margin-top: 10px;        
+        align-items: start;
+        justify-content: left;
+        width: 100% ;
+        margin-left: 0;
+    }
+
+    .concept-title p {
+        text-align: left;
+        margin-left: 2px;
+        padding-right: 2px;
         width: 100%;
     }
 
@@ -862,7 +905,7 @@ img {
 
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
 
     .conceptCont  {
         width: 100%;
