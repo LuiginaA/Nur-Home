@@ -12,13 +12,6 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
 
-    <!-- Swiper CDN file  -->
-
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
-
   <!-- Lightbox2  by "Lokesh Dhakar"file  -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
@@ -33,13 +26,13 @@
 </head>
 <body>
 
-    <!-- ----- Fixed Navbar Section -----  -->
+<!-- ----- Fixed Navbar Section -----  -->
 
     <header class="fixed-top overflow-hidden vh-65">
         <nav class="navbar navbar-expand-lg bg-color">
             <div class="container">
 
-     <!-- ----- Logo Section -----  -->
+<!-- ----- Logo Section -----  -->
 
                 <a class="navbar-brand" href="index.html">  
                     <h1 id="title">Nur</h1>
@@ -48,25 +41,22 @@
                     <h4 id="text4">Europe &#8275; U.S.A.</h4> 
                 </a>
 
-    <!-- ----- Toggle Btn Section -----  -->
+<!-- ----- Toggle Btn Section -----  -->
           
                 <button class="navbar-toggler shadow-none border-0" type="button"
                 data-bs-toggle="offcanvas" 
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" >
-                
-                <!-- aria-label="Toggle navigation"> -->
-
                     <span class="navbar-toggler navbar-toggle-icon">Menu</span>
                 </button>
 
-    <!-- ----- SideBar Section -----  -->
+<!-- ----- SideBar Section -----  -->
 
                 <div class="sidebar offcanvas offcanvas-start" 
                 tabindex="-1" 
                 id="offcanvasNavbar" 
                 aria-labelledby="offcanvasNavbarLabel">
 
-    <!-- ----- SideBar Header Section -----  --> 
+<!-- ----- SideBar Header Section -----  --> 
 
                     <div class="offcanvas-header flex-column text-white     border-bottom">   
                         <h1 class="offcanvas-title" 
@@ -81,7 +71,7 @@
                         </button>
                     </div>
             
-    <!-- ----- SideBar Body Section -----  --> 
+<!-- ----- SideBar Body Section -----  --> 
 
                     <div class="offcanvas-body d-flex flex-column flex-lg-row  p-4 p-lg-0"> 
 
@@ -108,7 +98,9 @@
                                 <a class="nav-link" aria-current="page" href="#contact-page">Contact</a>
                             </li>
                         </ul>   
-                    </div>   
+                    </div> 
+                    
+                    
                 </div>
             </div> 
         </nav>
@@ -116,7 +108,7 @@
 
     <main>
 
-        <!-- ----- Hero Section -----  -->
+<!-- ----- Hero Section -----  -->
 
         <section id="hero-outer">
             <div id="bg-color">
@@ -131,7 +123,7 @@
             </div>
         </section>
 
-        <!-- ----- Nur's Story Section -----  -->
+<!-- ----- Nur's Story Section -----  -->
 
         <section class="container-fluid" id="about-page">
             <div class="divContainer">
@@ -172,7 +164,7 @@
                 </div>         
             </div> 
         
-        <!-- ----- About Section -----  -->
+<!-- ----- About Section -----  -->
 
             <div class="container-fluid" id="about-page">
                 <div class="divContainer">
@@ -247,7 +239,7 @@
             </div>
         </section>
 
-   <!-- ----- Reasons for Upcycling Section -----  -->
+<!-- ----- Reasons for Upcycling Section -----  -->
 
         <section class="container-fluid" id="about-page">
             <div class="divContainer">
@@ -297,7 +289,7 @@
             </div>       
         </section>
 
-        <!-- Services Section -->
+<!-- Services Section -->
 
         <section class="container-fluid" id="services-page">
             <div class="divContainer">
@@ -418,7 +410,7 @@
             </div>
         </section>
 
-    <!-- ----- Before & After Section -----  -->
+<!-- ----- Before & After Section -----  -->
 
         <section class="container-fluid" id="before-aft-page">
             <div class="divContainer">
@@ -433,7 +425,7 @@
             </div>
         </section> 
 
-   <!-- ----- Flip Card Before & After Section -----  -->
+<!-- ----- Flip Card Before & After Section -----  -->
     
         <section>
             <div id="bg-color"> 
@@ -501,7 +493,7 @@
             </div>
         </section>
         
-    <!-- --------------- Testimonial  Section --> 
+<!-- --------------- Testimonial  Section --> 
 
         <section class="container-fluid" id="about-page">
             <div class="divContainer"  id="testimonial-page">
@@ -712,31 +704,26 @@
                     </div>    
                 </div>
             </div> 
-        
-            <div class="contact-content">
-                <div class="contactForm">
-                    <form>
-                        <div class="row100">
-                            <div class="inputBx50">
-                                <input type="text" name="" placeholder="Full Name">
-                            </div>
-                            <div class="inputBx50">
-                                <input type="text" name="" placeholder="Email Address">
-                            </div>
-                        </div>
-                        <div class="row100">
-                            <div class="inputBx100">
-                                <textarea placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <div class="row100">
-                            <div class="inputBx100">
-                                <input type="submit" name="" value="Send">
-                            </div>
-                        </div>
-                    </form>
-                </div>
+            
+            <div class="contactContainer">
+  
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <h4>Send E-mail</h4> 
+                    <input type="text" id="name" placeholder="First and Last Name" required>
+      
+                    <input type="email" id="email" placeholder="Your Email" required>
+      
+                    <input type="text" id="phone"  placeholder="Contact Number" required>
+      
+                    <textarea id="message" rows="4" placeholder="How can Nur help you?"></textarea>
+      
+                    <button type="submit" name="submit">Send Mail</button>
+      
+                </form>
+      
             </div>
+        </section>
+        
     </main>
 
 <!-- --------------- Footer Section--------------- --> 
@@ -745,9 +732,8 @@
         <div id="footer-details" class="row">
             <div class="col-sm">
                 <ul class="list-inline social-links">
-
                     <li class="list-inline-item">
-                        <a target="-blank" href="#">
+                        <a target="_blank" href="#">
                             <i class="fa fa-whatsapp" aria-hidden="true"></i>
                             <span class="sr-only">WhatsApp</span>
                         </a>
@@ -822,33 +808,6 @@
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-<!-- --------------- Swiper-bundle cdn file --------------- -->  
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
- <!-- --------------- Initialize Swiper Portfolio Section -->  
- 
- <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 20,
-        stretch: 0,
-        depth: 300,
-        modifier: 1,
-        slideShadows: true,
-      },
-      loop: true,
-      autoplay: {
-        delay: 900,
-        disableOnInteraction: false,
-      },
-    });
-  </script>
-
 <!-- --------------- Initialize Carousel Testimonial Section-->
 
     <script>
@@ -882,7 +841,30 @@
 
 <script src="assets/lightbox-plus-jquery.js"></script>
 
-</body>
 
+<!-- --------------- Contact Section --------------- --> 
+
+<script src=" https://smtpjs.com/v3/smtp.js"></script>
+
+<script>
+    function sendEmail(){
+        Email.send({
+            Host : "smtp.gmail.com",
+            Username : "luigina.argentin@gmail.com",
+            Password : "Lu1ginaNikita",
+            To : 'exercises@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "New Contact Form Enquiry",
+            Body : "Name: " + document.getElementById("name").value
+                + "<br> Email: " + document.getElementById("email").value
+                + "<br> Phone no: " + document.getElementById("phone").value
+                + "<br> Message: " + document.getElementById("message").value
+        }).then(
+        message => alert("Message Sent Successfully")
+        );
+    }
+</script>
+
+</body>
 </html>
 
