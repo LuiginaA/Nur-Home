@@ -29,6 +29,7 @@
 
 html {
     scroll-behavior: smooth;
+    background: #5c5b5b;
 }
 
 a {
@@ -50,8 +51,8 @@ ul {
 }
 
 .divContainer {
-    display: flex;
-    flex-direction: row;
+display: flex;
+flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -92,14 +93,14 @@ ul {
 @media (max-width: 480px) {
 
      .divContainer {
-        display: flex;
+    display: flex;
         width:100%;
     }
 
     .divContainer-title {
         display: flex;
         flex-direction: row;
-        width: 100%;
+    width: 100%;
         align-items: center;
         justify-content: center;
         margin-left: 10px;
@@ -201,7 +202,6 @@ ul.navbar-nav {
 }
 
 .navbar-toggler icon {
-    width: 50px;
     justify-self: center;
     align-self: center;
     margin-right: 50px;
@@ -211,7 +211,6 @@ ul.navbar-nav {
 }
 
 .navbar-toggler {
-        width: 50px;
         justify-self: center;
         align-self: center;
         margin-right: 50px;
@@ -264,6 +263,13 @@ ul.navbar-nav {
 }
 
 /* ----- Hero Section ----- */
+
+.bground {
+    background: #5c5b5b;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 
 #bg-color {
     background: #5c5b5b; 
@@ -448,7 +454,7 @@ z-index: 1000;
  /* ----- Nur's Story Section ----- */
 
 #about-page {
-    background: #5c5b5b;  
+    background: #5c5b5b; 
 }
 
 .storyInfo-contain {
@@ -863,7 +869,7 @@ h4.concept-title  {
 }
 
 .concept_image img {
-    width: 400px;
+    width: 350px;
     height: 400px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -930,11 +936,11 @@ h4.concept-title  {
 
 @media (max-width: 480px) {
 
-    .conceptCont  {
+    conceptCont  {
         width: 100%;
     }
 
-    .concept_image img {
+    concept_image img {
         width: 280px;
         height: 280px;
     }
@@ -1171,23 +1177,12 @@ h4.concept-title  {
 
 #testimonial-page {
     background: #5c5b5b;
-    padding-top: 0;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .testimonial-section {
-    background-color: #5c5b5b;
-    padding: 10px 0;
+    padding: 80px 0;
     min-height: 100vh;
 }
-
-.container-testmon {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-} 
 
 .testi-img .testmonImg-box {
     max-width: 360px;
@@ -1214,14 +1209,15 @@ h4.concept-title  {
 }
 
 .testi-img .testmonImg-box-inner img {
-    /* max-width: 310px; */
-    max-width: 360px;
+    max-width: 310px; 
+  
 }
 
 .testimonial-section .carousel-inner {
     margin-bottom: 20px;
-    margin-right: 50px;
-    padding-right: 100px;
+    margin: 20px;
+    padding-right: 40px;
+    padding-left: 15px;
 }
 
 .testimonial-section .carousel-control-prev {
@@ -1236,35 +1232,38 @@ h4.concept-title  {
     background-color: #c04fb1;
     display: inline-flex;
     border-radius: 50%;
+    margin-left: 35px;
 }
 
 .testimonial-section .carousel-control-prev img, 
 .testimonial-section .carousel-control-next img {
     width: 15px;
+    /* padding-left: 50px; */
+
+   
 }
 
-.testi-item h5{
-    font-size: 24px;
+.testi-item h5 {
+    font-size: 18px;
     color: #efc4f7;
     line-height: 1.75rem;
     padding-top: 0px;
 }
-
 .testi-item h5 span {
-    font-size: 20px;
+    font-size: 16px;
     color: #efc4f7;
     line-height: 1.75rem;
     padding-top: 0px;
 }
 
-.testi-item h6 {
+testi-item h5 {
     font-size: 24px;
     color: #efc4f7;
     line-height: 2rem;
     padding-top: 0px;
 }
 
-.testi-item h6 span {
+testi-item h6 span {
     font-size: 18px;
     color: #efc4f7;
     line-height: 1.5rem;
@@ -1275,6 +1274,7 @@ h4.concept-title  {
     font-size: 16px;
     color: #efc4f7;
     font-family: 'Roboto', sans-serif;
+    /* padding-right: 200px; */
 }
 
 .testi-item i {
@@ -1287,48 +1287,33 @@ h4.concept-title  {
 /* ----- Media Queries Testimonial Section ----- */
 
 @media (max-width: 480px) {
-    .container-testmon {
-        flex-direction: column;
-    } 
 
     .testi-img .testmonImg-box {
         max-width: 300px;
-        margin: auto;
-        text-align: center;
-        position: relative;
     }
 
     .testi-img .testCircle {
-        height: 280px;
-        width: 280px;
+        height: 260px;
+        width: 260px;
     }
 
     .testi-img .testmonImg-box-inner img {
-        /* max-width: 310px; */
-        max-width: 260px;
+        max-width: 280px;
     }
 
     .testimonial-section .carousel-inner {
-        margin-bottom: 20px;
-        margin: 20px;
-        padding-right: 30px;
+        margin-bottom: 0px;
+        padding-right: 30px; 
     }
 
     .testimonial-section .carousel-control-next, 
     .testimonial-section .carousel-control-prev {
-        position: relative;
-        height: 35px;
-        width: 35px;
-        background-color: #fb9c9a;
-        background-color: #c04fb1;
-        display: inline-flex;
-        border-radius: 50%;
-        margin-left: 20px;
+        margin-left: 35px;
     }
 
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .testi-img .testmon-img-box {
         max-width: 300px;
     }
