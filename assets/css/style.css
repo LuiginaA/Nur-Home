@@ -882,7 +882,7 @@ h4.concept-title  {
 }
 
 .concept_image img {
-    width: 350px;
+    max-width: 350px;
     height: 400px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -949,13 +949,13 @@ h4.concept-title  {
 
 @media (max-width: 480px) {
 
-    conceptCont  {
+    .conceptCont  {
         width: 100%;
     }
 
-    concept_image img {
+    .concept_image img {
         width: 280px;
-        height: 280px;
+        height: 300px;
     }
 }
 
