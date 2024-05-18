@@ -603,7 +603,7 @@ z-index: 1000;
     margin-bottom: 10px;
 }
 
-img {
+.about img {
     border-radius: 50px;
     z-index: 1000;
     max-width: 380px;
@@ -1223,14 +1223,13 @@ h4.concept-title  {
 
 .testi-img .testmonImg-box-inner img {
     max-width: 310px; 
-  
 }
 
 .testimonial-section .carousel-inner {
     margin-bottom: 20px;
-    margin: 20px;
+    /* margin: 20px;
     padding-right: 40px;
-    padding-left: 15px;
+    padding-left: 15px; */
 }
 
 .testimonial-section .carousel-control-prev {
@@ -1245,7 +1244,7 @@ h4.concept-title  {
     background-color: #c04fb1;
     display: inline-flex;
     border-radius: 50%;
-    margin-left: 35px;
+    /* margin-left: 35px; */
 }
 
 .testimonial-section .carousel-control-prev img, 
@@ -1293,19 +1292,24 @@ h4.concept-title  {
         width: 260px;
     }
 
+    .testi-img .img-box-inner {
+        border-radius: 0 0 150px 150px;
+    }
+
     .testi-img .testmonImg-box-inner img {
-        max-width: 280px;
+        max-width: 230px;
     }
 
     .testimonial-section .carousel-inner {
         margin-bottom: 0px;
-        padding-right: 30px; 
+        padding-right: 30px;
+        padding-left: 30px; 
     }
 
     .testimonial-section .carousel-control-next, 
     .testimonial-section .carousel-control-prev {
         margin-left: 35px;
-    }
+    } 
 
 }
 
@@ -1497,6 +1501,7 @@ span.lb-caption{
     justify-content: center;
     height: 400px; 
     margin: auto;
+    border-radius: 50px;
 }
 
 /* -------------- Contact Form Info Box ------ */
