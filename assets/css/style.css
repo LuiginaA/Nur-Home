@@ -981,7 +981,7 @@ h4.concept-title  {
     background: #fefefe;
     color: #c04fb1;
     padding: 20px;
-    box-shadow: 0 15px 30px rgba(0,0,0,18);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 1.8);
     line-height: 2rem;
 }
 
@@ -1826,11 +1826,9 @@ footer {
 
     .quick-items a {
         display: flex;
-        font-size: 12px;
-    padding-right: px;
+        font-size: 12px;           
         padding-left: 0px;
-        padding: 8px;
-        margin-right: px;
+        padding: 8px; 
     } 
 
 }    
