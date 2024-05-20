@@ -24,12 +24,26 @@
     - [Google Fonts:](#google-fonts)
   - [Images](#images)
   - [Features](#features)
+    - [User-Friendly Navigation](#user-friendly-navigation)
+    - [Customizable Fonts](#customizable-fonts)
   - [Future Feature: Educational Resources](#future-feature-educational-resources)
   - [Information Architecture](#information-architecture)
   - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks and Libraries](#frameworks-and-libraries)
+    - [Fonts](#fonts)
+    - [Development Tools](#development-tools)
+    - [Email Functionality](#email-functionality)
   - [Deployment](#deployment)
+    - [How to Fork it](#how-to-fork-it)
+    - [Making a Local Clone](#making-a-local-clone)
   - [_Testing and Project Barrier Solutions_](#testing-and-project-barrier-solutions)
-    - [Credits](#credits)
+  - [Credits](#credits)
+    - [Youtube Tutorials](#youtube-tutorials)
+    - [Further Acknowledgments](#further-acknowledgments)
+    - [Content](#content)
+    - [Media](#media)
+  - [Acknowledgments](#acknowledgments)
 
 
 ## Definition
@@ -116,6 +130,7 @@
 # Typography
 
     The owner of the website opted to use fonts previously used in her logo for her business card. These fonts were carefully selected to maintain brand consistency and enhance the overall visual identity of the website.
+    The website utilizes two Google Fonts for the text areas to enhance readability and aesthetics. These are listed below.
 
 ## Font Styles
 
@@ -157,32 +172,51 @@ For other text elements, the following Google Fonts were imported:
 
     - **Testimonial Images:** The images featured in the testimonial section of the website were provided by clients as part of their testimonials, highlighting the great workmanship and care provided by Nur.
 
-    - **Icons:** Icons used throughout the site were sourced from Font Awesome and chosen for their clear and obvious meanings, enhancing user understanding and navigation.
+    - **Icons:** Icons used throughout the site were sourced from Font Awesome  and Ion Icons and chosen for their clear and obvious meanings, enhancing user understanding and navigation.
 
 - Wireframes
-- Features
+
 ## Features
 
-- **Responsive Design**: Nur Home Interiors is optimized for seamless viewing and interaction across various devices, ensuring a consistent and user-friendly experience.
-- **User-Friendly Navigation**: Intuitive navigation elements make it easy for users to explore the website and find relevant information effortlessly.
-- **Environmental Awareness**: The website promotes sustainable interior design practices, offering tips and resources for upcycling and recycling furniture and decor.
-- **Inspiration Gallery**: Curated images showcase creative ideas and examples of upcycled and recycled home decor, inspiring users to transform their living spaces.
-- **Client Testimonials**: Real testimonials from satisfied clients highlight the quality of service and attention to detail provided by Nur Home Interiors.
+  **Responsive Design**
+   Nur Home Interiors is optimized for seamless viewing and interaction across various devices, ensuring a consistent and user-friendly experience.
 
-- **Contact Form**: A user-friendly contact form allows visitors to easily get in touch with Nur for inquiries, consultations, or collaborations.
+### User-Friendly Navigation
+    Navigate the site effortlessly with intuitive navigation menus and clear labeling. Whether you're exploring different sections of the website or seeking specific information, you'll find the navigation intuitive and user-friendly.
+
+### Customizable Fonts
+    Enhance readability and aesthetics by incorporating two carefully selected Google Fonts for the text areas of the website. These fonts introduce a touch of style and personality to the design, resulting in a cohesive visual experience for users.
+
+
+
+
+**Environmental Awareness**
+  The website advocates sustainable interior design practices, providing valuable tips and resources for upcycling and recycling furniture and decor.
+
+- **Inspiration Gallery** 
+  Carefully selected images feature creative ideas and examples of upcycled and recycled home decor, inspiring users to reimagine and transform their living spaces.
+
+- **Client Testimonials**  
+  Real testimonials from satisfied clients highlight the quality of service and attention to detail provided by Nur Home Interiors.
+
+**Contact Form** 
+  A user-friendly contact form allows visitors to easily reach out to Nur for inquiries, consultations, or collaborations through a user-friendly contact form. Upon submission of the contact form, the site owner receives an email with the user's details and message. The site also displays a message to the user based on whether or not the form submission was successful.
+
+ **Custom 404 Page** 
+ A custom-designed 404 error page ensures that users who encounter a broken link or mistyped URL are met with a helpful and aesthetically pleasing message, guiding them back to the main site. The 404 page is created using HTML, CSS, and Bootstrap for consistency with the rest of the site's design.
 
 
 ## Future Feature: Educational Resources
 
-Stay tuned for the upcoming addition of educational resources! Access tutorial videos and articles to empower yourself with knowledge and techniques for sustainable interior design, fostering a sense of community and learning.
-
-- **Tutorial Videos**: Dive into practical demonstrations and expert insights through tutorial videos covering various aspects of sustainable interior design.
-
-- **Articles**: Delve into in-depth articles and guides offering valuable tips, techniques, and case studies on sustainable interior design practices.
-
-By providing access to tutorial videos and articles, we aim to enhance your understanding and inspire you to embrace sustainable design principles in your projects.
+  Be on the lookout for our upcoming educational resources! Gain access to tutorial videos and articles, empowering yourself with knowledge and techniques for sustainable interior design. Join our community to foster a sense of learning and collaboration.
 
 
+
+- **Tutorial Videos**
+  Dive into practical demonstrations and expert insights through tutorial videos covering various aspects of sustainable interior design.
+
+- **Articles** 
+  To explore our collection of in-depth articles and guides, offering valuable insights, techniques, and case studies on sustainable interior design practices. With access to tutorial videos and articles, our goal is to enrich your understanding and inspire you to incorporate sustainable design principles into your projects.
 
 ## Information Architecture
 
@@ -190,27 +224,186 @@ By providing access to tutorial videos and articles, we aim to enhance your unde
 
 ## Technologies Used
 
-- Languages Used
+### Languages Used
+- **HTML**
+- **CSS**
+- **JavaScript** (very limited as still learning this language)
+
+### Frameworks and Libraries
+- **Bootstrap** 
+  - Version 5.3.2 ([Bootstrap CDN](https://www.bootstrapcdn.com/)) 
+  Bootstrap is utilized in this project to enhance responsiveness and styling, ensuring that the website adapts seamlessly across different devices and screen sizes.
+
+- [Bootstrap](https://getbootstrap.com/) - 
+
+  A popular front-end framework for building responsive and mobile-first websites is utilized in this project.
+
 - Site Design
+
+ **Icons**:
+  - [Font Awesome](https://www.bootstrapcdn.com/fontawesome/): Used for adding icons to enhance user experience (UX).
+ 
+**Hover**:
+  - [Hover.css](https://github.com/IanLunn/Hover): Employed for various CSS3 hover effects.
+
+- **JavaScript Libraries**:
+  - [Popper.js](https://popper.js.org/): Library for positioning poppers in web development.
+  - [Lightbox](https://github.com/lokesh/lightbox2): JavaScript library for interactive image and gallery display.
+  - [Lightbox Plus jQuery](https://github.com/lokesh/lightbox2): jQuery plugin for interactive image and gallery display.
+
+
+**Fonts**:
+### Fonts
+- [Google Fonts](https://fonts.google.com/) was used to import the fonts that 
+   were used throughout the project.
+
+**Fonts Used by Owner for Logo**
+   - **Font Source:** [DIN.ttf](../fonts/din.ttf)
+   
+**Font Family: myFont2**
+   - **Font Source:** [Amazone.otf](../fonts/amazone.otf)
+   
+**Font Family: myFont3**
+   - **Font Source:** [Geogtq.otf](../fonts/geogtq.otf)
+
+
+
+### Development Tools
+- **Integrated Development Environment (IDE)**:
+- [Gitpod](https://gitpod.io/workspaces/) was used as the IDE to develop this website.
+
+- **Version Control**:
+- [Git](https://git-scm.com/) was used for version control and to Push code to GitHub.
+
+- **Repository Hosting**:
+- [GitHub](https://github.com/) is used to store this project's code after being pushed 
+  from Git.
+
+
+### Email Functionality
+[SMTP.js](https://smtpjs.com/) is used for sending emails directly from JavaScript.
+
+Resources
+- [w3schools](https://www.w3schools.com/default.asp) was used as a general source of knowledge.
+- [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used throughout the completion of this project to debug, test sizes and layout, and to check responsiveness.
+
+
+
+
+
+
 - Hosting
-- Databases Platform and Cloud Storage
-- Frameworks and Libraries
+
+
 - Other Technologies
 - Testing
+* [W3C Markup Validation Service](https://validator.w3.org/) was used to test that the HTML is valid.
+* [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/) was used to test that the CSS is valid.
 
 ## Deployment
 
 - Requirements for Deployment
+ An IDE (such as GitPod or VSCode)
+* Git, for version control
+* GitHub account
+
+
+* Email account
+
+
+
 - Initial Deployment
 - How to Fork it
+
+### How to Fork it
+
+1. Login or Sign Up to [GitHub](www.github.com).
+2. On GitHub, go to [luiginaa.github.oi/Nur-Home](https://github.com/LuiginaA/Nur-Home.git).
+3. In the top right, click "Fork".
+
+### Making a Local Clone
+
+1. Log in to [GitHub](https://www.github.com) and locate the [Repository](https://github.com/) for this site.
+2. Under the repository name, above the list of files, click "Code".
+3. Here you can either Clone or Download the repository.
+4. You should clone the repository using HTTPS, clicking on the icon to copy the link.
+5. Open Git Bash.
+6. Change the current working directory to the new location, where you want the cloned directory to be.
+7. Type `git clone`, and then paste the URL that was copied in Step 4.
+    * `git clone https://github.com/luiginaa/Nur-Home.git`
+8. Press Enter, and your local clone will be created.
+
 - Making a Local Clone
 
 ## _Testing and Project Barrier Solutions_
 
-### Credits
+
+## Credits
+
+### Youtube Tutorials
+
+- **Love Running 10: Hero Image Animation**
+  - [Unlisted (Code Institute - example project)]
+
+- **How To Make Responsive Navbar with Bootstrap 5 | Step by Step Tutorial**
+  - [Web Dev Creative](https://www.youtube.com/watch?v=zOtxP7ahi4M&t=157s)
+
+- **Create a 3D flipping animation with HTML and CSS**
+  - [Kevin Powell](https://www.youtube.com/watch?v=FeJEEE3zc4U&t=1292s)
+
+- **How To Make Responsive Image Gallery With HTML CSS JS | Lightbox Image Gallery GreatStack**
+  - [Complete Responsive Architecture & Interior Design Website Tutorial With HTML / CSS / JS / BOOTSTRAP](https://www.youtube.com/watch?v=cuNyE3SxFlk&t=2s)
+
+- **Testimonials Slider Using Html, Css & Bootstrap 5 | Responsive | Ready To Use**
+  - [The WebShala](https://www.youtube.com/watch?v=fRRib2mArXU)
+
+ - **How To Make Responsive Image Gallery With HTML CSS JS | Lightbox Image Gallery Design**
+  - [GreatStack](https://www.youtube.com/watch?v=4gcy-qT9kGw&t=264s)
+
+  **404 Page Design Using HTML, CSS & Bootstrap**
+  - [Coding Fire](https://www.youtube.com/watch?v=pABOf9FU6Uk&t=42s)
+
+These tutorials provided valuable insights and guidance for various aspects of the project's development. I extend my gratitude to the creators for sharing their knowledge and expertise.
+
+### Further Acknowledgments
+
+I also extend my gratitude to the following individuals and resources for their invaluable tutorials and guidance in my journey to frontend development with HTML and CSS:
+
+- **Dani Krossing**: For their comprehensive tutorials that provided me with foundational knowledge and insights into web design and coding.
+- **Kevin Powell**: For their informative tutorials and practical tips that helped me understand the nuances of frontend development.
+- **Bytegrad**: For their engaging tutorials that guided me through the basics and advanced concepts of HTML and CSS.
+- **Online Tutorials**: For their diverse range of tutorials that catered to various skill levels and topics in web development.
+- **Net Ninja**: For their clear and concise tutorials that facilitated my learning process and deepened my understanding of frontend technologies.
+- **Web Coding Pro**: For their valuable tutorials that expanded my knowledge and skills in frontend development.
+- **Brian Design**: For their insightful tutorials that inspired and guided me in my journey to mastering HTML and CSS.
+**Web Dev Simplified**: For their valuable tutorials that simplified complex concepts and accelerated my learning in frontend development.
+- **SuperSimpleDev**: For their insightful tutorials and practical advice that contributed to my growth and proficiency in HTML and CSS.
+**Coding Fire**
+These tutorials provided valuable insights and guidance for various aspects of the project's development. 
+
+The tutorials provided by these individuals have been instrumental in shaping my understanding and skills in frontend development. I extend my heartfelt appreciation for their invaluable contributions. Their guidance has significantly contributed to my growth and proficiency in frontend development. I am deeply grateful for their dedication to educating and empowering developers.
+
+
 
 - Code
-- Content
-- Media
-- Acknowledgements
 
+### Content
+- The content and information on this site were created by Nur Yilmas Ruppi.
+- Quotes were selected by Nur Yilmas Ruppi and attributed to their respective authors.
+- Unreferenced quotes on the site were written by Nur Yilmas Ruppi.
+- The testimonials were given and written by the respective authors themselves.
+
+
+### Media
+
+- The site logo was designed by Nur Yilmas Ruppi, the owner of this site.
+- All photos were taken by Nur Yilmas Ruppi.
+- All photos for the testimonials were provided by the respective clients.
+
+
+## Acknowledgments
+
+- **Nur Yilmas Ruppi:** 
+I am deeply grateful to Nur Yilmas Ruppi for giving me the opportunity to design and create the initial website for Nur Home Interiors.
+- **Carla Buongiorno-Vermaak:** 
+My heartfelt thanks to my niece and inspiration, Carla Buongiorno-Vermaak, for her immense support and dedication. Her time, effort, and love have been instrumental in helping me navigate and progress on this journey. Carla's assistance in overcoming challenges and her invaluable feedback were crucial in the creation of this site. I am especially thankful for her willingness to support me, even when it meant sacrificing time with her family and work.

@@ -1665,6 +1665,56 @@ span.lb-caption{
 
 } 
 
+/* --------- Page Not Found 404 Section ---------- */
+
+.page_404 {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 0;
+    background-color: #AA0A90; 
+    font-family: 'Courgette', cursive; 
+}
+
+.four_zero_four_bg {
+    height: 80vh;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+.page_404 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.page_404 h3{
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+} 
+
+.page_404 p {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+} 
+
+.page_404 a {
+    color: #fff;
+    padding:10px 20px ;
+    background: #c04fb1;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.page_404 a:hover {
+    color: #fff;
+    padding:10px 20px ;
+    background: #c04fb1;
+    display: inline-block;
+}
+
 /* --------- Footer Section ---------- */
 
 footer {
