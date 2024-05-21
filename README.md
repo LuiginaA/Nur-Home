@@ -18,13 +18,14 @@
   - [User Stories: Website Visitors](#user-stories-website-visitors)
 - [Design Choices](#design-choices)
   - [Colours](#colours)
-    - [List of Colors Used Throughout the Site:](#list-of-colors-used-throughout-the-site)
+    - [List of Colours Used Throughout the Site:](#list-of-colours-used-throughout-the-site)
 - [Typography](#typography)
   - [Font Styles](#font-styles)
     - [Custom Fonts:](#custom-fonts)
     - [Google Fonts:](#google-fonts)
   - [Images](#images)
   - [Features](#features)
+    - [Responsive Design](#responsive-design)
     - [User-Friendly Navigation](#user-friendly-navigation)
     - [Customizable Fonts](#customizable-fonts)
   - [Future Feature: Educational Resources](#future-feature-educational-resources)
@@ -97,7 +98,7 @@ In addition to meeting users' needs, the website promotes environmental consciou
 
 # Project Goals
 
-  *Nur Home Interiors* offers an ideal platform to achieve its objectives. The website ensures seamless navigation across devices—mobile, tablet, and desktop—with a user-friendly and readily accessible navigation bar. This design fosters a comfortable and engaging browsing experience, encouraging users to explore further.
+  **Nur Home Interiors** offers an ideal platform to achieve its objectives. The website ensures seamless navigation across devices—mobile, tablet, and desktop—with a user-friendly and readily accessible navigation bar. This design fosters a comfortable and engaging browsing experience, encouraging users to explore further.
 
   Upon entering the website, users are greeted with a warm and welcoming atmosphere, complemented by clear and concise guidance on fulfilling their needs.
 
@@ -105,9 +106,12 @@ In addition to meeting users' needs, the website promotes environmental consciou
 
 ## User Stories: Website Visitors
 
-  - **End Users:** Individuals seeking to upgrade their living or office spaces at a minimal cost while also considering environmental factors.
-  - **Diverse Audience:** The project caters to people from various backgrounds and walks of life.
-  - **Owner's Objective:** The primary goal is to raise awareness about environmental sustainability while ensuring client satisfaction.
+  - **End Users:** 
+  - Individuals seeking to upgrade their living or office spaces at a minimal cost while also considering environmental factors.
+  - **Diverse Audience:** 
+  - The project caters to people from various backgrounds and walks of life.
+  - **Owner's Objective:** 
+  - The primary goal is to raise awareness about environmental sustainability while ensuring client satisfaction.
 
 # Design Choices
 
@@ -115,31 +119,32 @@ In addition to meeting users' needs, the website promotes environmental consciou
 
   The owner of the website chose to use colors from her logo, which was previously designed for her business card.
 
-  - **Background Color:** The developer selected a background color that effectively complements the logo color while evoking a sense of calmness and excitement for the user experience.
+  - **Background Colour:** 
+  - The developer selected a background color that effectively complements the logo color while evoking a sense of calmness and excitement for the user experience.
 
-### List of Colors Used Throughout the Site:
+### List of Colours Used Throughout the Site:
 
 - **White:** #ffffff
 - **Black:** #000000
-- **Logo Accent Color:** #AA0A90
-- **Service Box Color:** #c04fb1
-- **Service Box Background Color:** #fefefe
+- **Logo Accent Colour:** #AA0A90
+- **Service Box Colour:** #c04fb1
+- **Service Box Background Colour:** #fefefe
 - **Box Shadow:** rgba(0, 0, 0, 0.7)
 - **Gallery Image Shadow:** rgba(0,0,0,0.8)
-- **Form Background Color:** #b7babd
+- **Form Background Colour:** #b7babd
 - **Text on Form (h4):** #1c2126
-- **Input Form Color:** #f5f5f5
-- **Copyright Text Color:** #adabab
-- **Background Color:** #5c5b5b
+- **Input Form Colour:** #f5f5f5
+- **Copyright Text Colour:** #adabab
+- **Background Colour:** #5c5b5b
 - **Sidebar Blur:** rgba(98, 57, 91, 0.7)
 - **Inset on Hero Section:** rgba(255, 174, 239, 0.7)
 - **Font Color for Testimonials:** #efc4f7
-- **Stars Rating Color:** #f9d71c
+- **Stars Rating Colour:** #f9d71c
 
 # Typography
 
-    The owner of the website opted to use fonts previously used in her logo for her business card. These fonts were carefully selected to maintain brand consistency and enhance the overall visual identity of the website.
-    The website utilizes two Google Fonts for the text areas to enhance readability and aesthetics. These are listed below.
+- The owner of the website opted to use fonts previously used in her logo for her business card. These fonts were carefully selected to maintain brand consistency and enhance the overall visual identity of the website.
+- The website utilizes two Google Fonts for the text areas to enhance readability and aesthetics. These are listed below.
 
 ## Font Styles
 
@@ -160,44 +165,43 @@ For other text elements, the following Google Fonts were imported:
 
 1. **[Courgette](https://fonts.google.com/specimen/Courgette)**
    ```css
-   @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+   - @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
    font-family: 'Courgette', cursive;
 
 2.  
   ```css
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  - @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
   font-family: 'Roboto', sans-serif;
-
 
 - Imagery
 
 ## Images
 
-    The imagery on this site plays a crucial role in conveying its message and aesthetic. Here's a breakdown of the images used:
+  The imagery on this site plays a crucial role in conveying its message and aesthetic. Here's a breakdown of the images used:
 
-    - **Logo:** The logo was designed and created by Nur, Interior Designer, and Architect.
+  - **Logo:** The logo was designed and created by Nur, Interior Designer, and Architect.
 
-    - **Site Images:** All other images on the site were taken and chosen by Nur, the owner of the site. These images were carefully selected to reflect the values of recycling and upcycling design while prioritizing environmental considerations and showcasing the unique beauty of the end product.
+  - **Site Images:** All other images on the site were taken and chosen by Nur, the owner of the site. These images were carefully selected to reflect the values of recycling and upcycling design while prioritizing environmental considerations and showcasing the unique beauty of the end product.
 
-    - **Testimonial Images:** The images featured in the testimonial section of the website were provided by clients as part of their testimonials, highlighting the great workmanship and care provided by Nur.
+  - **Testimonial Images:** The images featured in the testimonial section of the website were provided by clients as part of their testimonials, highlighting the great workmanship and care provided by Nur.
 
-    - **Icons:** Icons used throughout the site were sourced from Font Awesome  and Ion Icons and chosen for their clear and obvious meanings, enhancing user understanding and navigation.
+  - **Icons:** Icons used throughout the site were sourced from Font Awesome  and Ion Icons and chosen for their clear and obvious meanings, enhancing user understanding and navigation.
 
 - Wireframes
 
 ## Features
 
-  *Responsive Design*
-   Nur Home Interiors is optimized for seamless viewing and interaction across various devices, ensuring a consistent and user-friendly experience.
+### Responsive Design
+
+  Nur Home Interiors is optimized for seamless viewing and interaction across various devices, ensuring a consistent and user-friendly experience.
 
 ### User-Friendly Navigation
-    Navigate the site effortlessly with intuitive navigation menus and clear labeling. Whether you're exploring different sections of the website or seeking specific information, you'll find the navigation intuitive and user-friendly.
+
+  Navigate the site effortlessly with intuitive navigation menus and clear labeling. Whether you're exploring different sections of the website or seeking specific information, you'll find the navigation intuitive and user-friendly.
 
 ### Customizable Fonts
-    Enhance readability and aesthetics by incorporating two carefully selected Google Fonts for the text areas of the website. These fonts introduce a touch of style and personality to the design, resulting in a cohesive visual experience for users.
 
-
-
+  Enhance readability and aesthetics by incorporating two carefully selected Google Fonts for the text areas of the website. These fonts introduce a touch of style and personality to the design, resulting in a cohesive visual experience for users.
 
 **Environmental Awareness**
   The website advocates sustainable interior design practices, providing valuable tips and resources for upcycling and recycling furniture and decor.
