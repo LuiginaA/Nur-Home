@@ -6,13 +6,14 @@
 - [Nur Home Interiors](#nur-home-interiors)
 - [Table of Contents](#table-of-contents)
   - [Definition](#definition)
-  - [User Experience (UX)](#user-experience-ux)
+- [User Experience (UX)](#user-experience-ux)
   - [Table of Contents](#table-of-contents-1)
   - [User Experience (UX)](#user-experience-ux-1)
     - [User-Centric Design](#user-centric-design)
     - [Minimal Clicks, Maximum Value](#minimal-clicks-maximum-value)
     - [Environmental Consciousness](#environmental-consciousness)
   - [User Stories](#user-stories)
+    - [As a User](#as-a-user)
 - [Project Goals](#project-goals)
   - [User Stories: Website Visitors](#user-stories-website-visitors)
 - [Design Choices](#design-choices)
@@ -50,11 +51,10 @@
 
 Nur Home Interiors is an interactive website incorporating various technological elements, offering users a tool to discover and explore the possibility of recreating their personal environments. Whether it's an office or workspace, a home, or just one room in the home, the possibilities are endless. The website aims to create awareness of how to create or decorate a space without exorbitant costs. This is achieved by upcycling old and new pieces of furniture, adding different textures, or elevating the look of a particular item or area, ultimately aiming for a restful, peaceful, and happy outcome.
 
-
-
-## User Experience (UX)
+# User Experience (UX)
 
 ## Table of Contents
+
 1. [User Experience (UX)](#user-experience-ux)
    - [User-Centric Design](#user-centric-design)
    - [Minimal Clicks, Maximum Value](#minimal-clicks-maximum-value)
@@ -65,48 +65,57 @@ Nur Home Interiors is an interactive website incorporating various technological
 This fully responsive website was developed with a strong emphasis on UX design principles, ensuring that users have an intuitive and enjoyable experience. By leveraging HTML, CSS, Bootstrap, and some JavaScript, along with tutorial videos on YouTube, the website aims to provide a seamless and visually appealing interface across various devices.
 
 ### User-Centric Design
-  The site is designed to meet users' needs by prioritizing ease of use and accessibility. Every element of the interface is carefully crafted to minimize cognitive load and streamline the user journey.
+
+The site is designed to meet users' needs by prioritizing ease of use and accessibility. Every element of the interface is carefully crafted to minimize cognitive load and streamline the user journey.
 
 ### Minimal Clicks, Maximum Value
-    The website is structured to require as few clicks as possible for users to access the most valuable information for their comfort and lifestyle needs. This approach ensures that users can quickly find what they're looking for without unnecessary navigation hurdles.
+
+The website is structured to require as few clicks as possible for users to access the most valuable information for their comfort and lifestyle needs. This approach ensures that users can quickly find what they're looking for without unnecessary navigation hurdles.
 
 ### Environmental Consciousness
-    In addition to meeting users' needs, the website promotes environmental consciousness by incorporating upcycling and recycling methods. By encouraging users to adopt sustainable practices in their interior design endeavors, the site aligns with broader societal goals of environmental responsibility.
 
-
-- User Stories
+In addition to meeting users' needs, the website promotes environmental consciousness by incorporating upcycling and recycling methods. By encouraging users to adopt sustainable practices in their interior design endeavors, the site aligns with broader societal goals of environmental responsibility.
 
 ## User Stories
 
-    1. As a user, I want to explore different interior design options for my home or workspace.
-    2. As a user, I want to discover ways to recreate my personal environment using upcycling and recycling methods.
-    3. As a user, I want to find inspiration and ideas for enhancing the look and feel of a specific room in my home.
-    4. As a user, I want to learn how to create a restful, peaceful, and happy environment within my budget.
-    5. As a user, I want to access tutorial videos and resources that guide me through the process of transforming my living space.
+### As a User
 
+1. **Explore Interior Design Options**
+   - I want to explore different interior design options for my home or workspace.
+
+2. **Upcycling and Recycling Methods**
+   - I want to discover ways to recreate my personal environment using upcycling and recycling methods.
+
+3. **Room-Specific Inspiration and Ideas**
+   - I want to find inspiration and ideas for enhancing the look and feel of a specific room in my home.
+
+4. **Create a Restful and Happy Environment**
+   - I want to learn how to create a restful, peaceful, and happy environment within my budget.
+
+5. **Access to Tutorials and Resources**
+   - I want to access tutorial videos and resources that guide me through the process of transforming my living space.
 
 # Project Goals
 
-    Nur Home Interiors offers an ideal platform to achieve its objectives. The website ensures seamless navigation across devices—mobile, tablet, and desktop—with a user-friendly and readily accessible navigation bar. This design fosters a comfortable and engaging browsing experience, encouraging users to explore further.
+  *Nur Home Interiors* offers an ideal platform to achieve its objectives. The website ensures seamless navigation across devices—mobile, tablet, and desktop—with a user-friendly and readily accessible navigation bar. This design fosters a comfortable and engaging browsing experience, encouraging users to explore further.
 
-    Upon entering the website, users are greeted with a warm and welcoming atmosphere, complemented by clear and concise guidance on fulfilling their needs.
+  Upon entering the website, users are greeted with a warm and welcoming atmosphere, complemented by clear and concise guidance on fulfilling their needs.
 
-    In return for visiting the site, users contribute to the owner's goals by taking the initial step towards website development. Leveraging HTML, CSS, and some JavaScript, the owner can craft a functional website, enhancing her portfolio.
+  In return for visiting the site, users contribute to the owner's goals by taking the initial step towards website development. Leveraging HTML, CSS, and some JavaScript, the owner can craft a functional website, enhancing her portfolio.
 
 ## User Stories: Website Visitors
 
-    - **End Users:** Individuals seeking to upgrade their living or office spaces at a minimal cost while also considering environmental factors.
-    - **Diverse Audience:** The project caters to people from various backgrounds and walks of life.
-    - **Owner's Objective:** The primary goal is to raise awareness about environmental sustainability while ensuring client satisfaction.
-
+  - **End Users:** Individuals seeking to upgrade their living or office spaces at a minimal cost while also considering environmental factors.
+  - **Diverse Audience:** The project caters to people from various backgrounds and walks of life.
+  - **Owner's Objective:** The primary goal is to raise awareness about environmental sustainability while ensuring client satisfaction.
 
 # Design Choices
 
 ## Colours
 
-    The owner of the website chose to use colors from her logo, which was previously designed for her business card.
+  The owner of the website chose to use colors from her logo, which was previously designed for her business card.
 
-    - **Background Color:** The developer selected a background color that effectively complements the logo color while evoking a sense of calmness and excitement for the user experience.
+  - **Background Color:** The developer selected a background color that effectively complements the logo color while evoking a sense of calmness and excitement for the user experience.
 
 ### List of Colors Used Throughout the Site:
 
