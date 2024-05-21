@@ -33,9 +33,11 @@
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
     - [Frameworks and Libraries](#frameworks-and-libraries)
-    - [Fonts](#fonts)
+    - [Site Design](#site-design)
     - [Development Tools](#development-tools)
     - [Email Functionality](#email-functionality)
+  - [Resources](#resources)
+  - [Hosting](#hosting)
   - [Deployment](#deployment)
     - [How to Fork it](#how-to-fork-it)
     - [Making a Local Clone](#making-a-local-clone)
@@ -43,6 +45,7 @@
   - [Credits](#credits)
     - [Youtube Tutorials](#youtube-tutorials)
     - [Further Acknowledgments](#further-acknowledgments)
+  - [Code](#code)
     - [Content](#content)
     - [Media](#media)
   - [Acknowledgments](#acknowledgments)
@@ -67,7 +70,7 @@ This fully responsive website was developed with a strong emphasis on UX design 
 
 ### User-Centric Design
 
-The site is designed to meet users' needs by prioritizing ease of use and accessibility. Every element of the interface is carefully crafted to minimize cognitive load and streamline the user journey.
+The site is designed to meet users' needs by prioritising ease of use and accessibility. Every element of the interface is carefully crafted to minimise cognitive load and streamline the user journey.
 
 ### Minimal Clicks, Maximum Value
 
@@ -75,7 +78,7 @@ The website is structured to require as few clicks as possible for users to acce
 
 ### Environmental Consciousness
 
-In addition to meeting users' needs, the website promotes environmental consciousness by incorporating upcycling and recycling methods. By encouraging users to adopt sustainable practices in their interior design endeavors, the site aligns with broader societal goals of environmental responsibility.
+In addition to meeting users' needs, the website promotes environmental consciousness by incorporating upcycling and recycling methods. By encouraging users to adopt sustainable practices in their interior design endeavours, the site aligns with broader societal goals of environmental responsibility.
 
 ## User Stories
 
@@ -107,85 +110,91 @@ In addition to meeting users' needs, the website promotes environmental consciou
 ## User Stories: Website Visitors
 
   - **End Users:** 
-  - Individuals seeking to upgrade their living or office spaces at a minimal cost while also considering environmental factors.
+    - Individuals seeking to upgrade their living or office spaces at a minimal cost while also considering environmental factors.
+  
   - **Diverse Audience:** 
-  - The project caters to people from various backgrounds and walks of life.
+    - The project caters to people from various backgrounds and walks of life.
+  
   - **Owner's Objective:** 
-  - The primary goal is to raise awareness about environmental sustainability while ensuring client satisfaction.
+    - The primary goal is to raise awareness about environmental sustainability while ensuring client satisfaction.
 
 # Design Choices
 
 ## Colours
 
-  The owner of the website chose to use colors from her logo, which was previously designed for her business card.
+  The owner of the website chose to use colours from her logo, which was previously designed for her business card.
 
   - **Background Colour:** 
-  - The developer selected a background color that effectively complements the logo color while evoking a sense of calmness and excitement for the user experience.
+  
+    - The developer selected a background colour that effectively complements the logo colour while evoking a sense of calmness and excitement for the user experience.
 
 ### List of Colours Used Throughout the Site:
 
-- **White:** #ffffff
-- **Black:** #000000
-- **Logo Accent Colour:** #AA0A90
-- **Service Box Colour:** #c04fb1
-- **Service Box Background Colour:** #fefefe
-- **Box Shadow:** rgba(0, 0, 0, 0.7)
-- **Gallery Image Shadow:** rgba(0,0,0,0.8)
-- **Form Background Colour:** #b7babd
-- **Text on Form (h4):** #1c2126
-- **Input Form Colour:** #f5f5f5
-- **Copyright Text Colour:** #adabab
-- **Background Colour:** #5c5b5b
-- **Sidebar Blur:** rgba(98, 57, 91, 0.7)
-- **Inset on Hero Section:** rgba(255, 174, 239, 0.7)
-- **Font Color for Testimonials:** #efc4f7
-- **Stars Rating Colour:** #f9d71c
+   - **White:** #ffffff
+   - **Black:** #000000
+   - **Logo Accent Colour:** #AA0A90
+   - **Service Box Colour:** #c04fb1
+   - **Service Box Background Colour:** #fefefe
+   - **Box Shadow:** rgba(0, 0, 0, 0.7)
+   - **Gallery Image Shadow:** rgba(0,0,0,0.8)
+   - **Form Background Colour:** #b7babd
+   - **Text on Form (h4):** #1c2126
+   - **Input Form Colour:** #f5f5f5
+   - **Copyright Text Colour:** #adabab
+   - **Background Colour:** #5c5b5b
+   - **Sidebar Blur:** rgba(98, 57, 91, 0.7)
+   - **Inset on Hero Section:** rgba(255, 174, 239, 0.7)
+   - **Font Colour for Testimonials:** #efc4f7
+   - **Stars Rating Colour:** #f9d71c
 
 # Typography
 
-- The owner of the website opted to use fonts previously used in her logo for her business card. These fonts were carefully selected to maintain brand consistency and enhance the overall visual identity of the website.
-- The website utilizes two Google Fonts for the text areas to enhance readability and aesthetics. These are listed below.
+  The owner of the website opted to use fonts previously used in her logo for her business card. These fonts were carefully selected to maintain brand consistency and enhance the overall visual identity of the website.
+
+  The website utilises two Google Fonts for the text areas to enhance readability and aesthetics. These are listed below.
 
 ## Font Styles
 
 ### Custom Fonts:
 
-1. **Font Family: myFont1**
-   - **Font Source:** [DIN.ttf](../fonts/din.ttf)
-   
-2. **Font Family: myFont2**
-   - **Font Source:** [Amazone.otf](../fonts/amazone.otf)
-   
-3. **Font Family: myFont3**
-   - **Font Source:** [Geogtq.otf](../fonts/geogtq.otf)
+   1. **Font Family: myFont1**
+      - **Font Source:** [DIN.ttf](../fonts/din.ttf)
+      
+   2. **Font Family: myFont2**
+      - **Font Source:** [Amazone.otf](../fonts/amazone.otf)
+      
+   3. **Font Family: myFont3**
+      - **Font Source:** [Geogtq.otf](../fonts/geogtq.otf)
 
 ### Google Fonts:
 
 For other text elements, the following Google Fonts were imported:
 
-1. **[Courgette](https://fonts.google.com/specimen/Courgette)**
-   ```css
-   - @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-   font-family: 'Courgette', cursive;
+   1. **[Courgette](https://fonts.google.com/specimen/Courgette)**
+      ```css
+      - @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+      font-family: 'Courgette', cursive;
 
-2.  
-  ```css
-  - @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-  font-family: 'Roboto', sans-serif;
-
-- Imagery
+    2.  **Roboto**
+     ```css
+         - @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+         font-family: 'Roboto', sans-serif;
 
 ## Images
 
-  The imagery on this site plays a crucial role in conveying its message and aesthetic. Here's a breakdown of the images used:
+The imagery on this site plays a crucial role in conveying its message and aesthetic. Here's a breakdown of the images used:
 
-  - **Logo:** The logo was designed and created by Nur, Interior Designer, and Architect.
+  - **Logo** 
+    - The logo was designed and created by Nur, Interior Designer, and Architect.
 
-  - **Site Images:** All other images on the site were taken and chosen by Nur, the owner of the site. These images were carefully selected to reflect the values of recycling and upcycling design while prioritizing environmental considerations and showcasing the unique beauty of the end product.
+  - **Site Images** 
+    - All other images on the site were taken and chosen by Nur, the owner of the site.  These images were carefully selected to reflect the values of recycling and upcycling design while prioritising environmental considerations and showcasing the unique beauty of the end product.  
 
-  - **Testimonial Images:** The images featured in the testimonial section of the website were provided by clients as part of their testimonials, highlighting the great workmanship and care provided by Nur.
+  - **Testimonial Images** 
+    - The images featured in the testimonial section of the website were provided by clients as part of their testimonials, highlighting the great workmanship and care provided by Nur.
 
-  - **Icons:** Icons used throughout the site were sourced from Font Awesome  and Ion Icons and chosen for their clear and obvious meanings, enhancing user understanding and navigation.
+  - **Icons** 
+    - Icons used throughout the site were sourced from Font Awesome  and Ion Icons and chosen for their clear and obvious meanings, enhancing user understanding and navigation.
 
 - Wireframes
 
@@ -193,42 +202,46 @@ For other text elements, the following Google Fonts were imported:
 
 ### Responsive Design
 
-  Nur Home Interiors is optimized for seamless viewing and interaction across various devices, ensuring a consistent and user-friendly experience.
+  **Nur Home Interiors** is optimised for seamless viewing and interaction across various devices, ensuring a consistent and user-friendly experience.
 
 ### User-Friendly Navigation
 
-  Navigate the site effortlessly with intuitive navigation menus and clear labeling. Whether you're exploring different sections of the website or seeking specific information, you'll find the navigation intuitive and user-friendly.
+  Navigate the site effortlessly with intuitive navigation menus and clear labelling. Whether you're exploring different sections of the website or seeking specific information, you'll find the navigation intuitive and user-friendly.
 
 ### Customizable Fonts
 
   Enhance readability and aesthetics by incorporating two carefully selected Google Fonts for the text areas of the website. These fonts introduce a touch of style and personality to the design, resulting in a cohesive visual experience for users.
 
-**Environmental Awareness**
+- **Environmental Awareness**
+  
   The website advocates sustainable interior design practices, providing valuable tips and resources for upcycling and recycling furniture and decor.
 
 - **Inspiration Gallery** 
+  
   Carefully selected images feature creative ideas and examples of upcycled and recycled home decor, inspiring users to reimagine and transform their living spaces.
 
-- **Client Testimonials**  
+- **Client Testimonials** 
+   
   Real testimonials from satisfied clients highlight the quality of service and attention to detail provided by Nur Home Interiors.
 
 **Contact Form** 
+
   A user-friendly contact form allows visitors to easily reach out to Nur for inquiries, consultations, or collaborations through a user-friendly contact form. Upon submission of the contact form, the site owner receives an email with the user's details and message. The site also displays a message to the user based on whether or not the form submission was successful.
 
  **Custom 404 Page** 
- A custom-designed 404 error page ensures that users who encounter a broken link or mistyped URL are met with a helpful and aesthetically pleasing message, guiding them back to the main site. The 404 page is created using HTML, CSS, and Bootstrap for consistency with the rest of the site's design.
-
+ 
+  A custom-designed 404 error page ensures that users who encounter a broken link or mistyped URL are met with a helpful and aesthetically pleasing message, guiding them back to the main site. The 404 page is created using HTML, CSS, and Bootstrap for consistency with the rest of the site's design.
 
 ## Future Feature: Educational Resources
 
   Be on the lookout for our upcoming educational resources! Gain access to tutorial videos and articles, empowering yourself with knowledge and techniques for sustainable interior design. Join our community to foster a sense of learning and collaboration.
 
-
-
 - **Tutorial Videos**
+  
   Dive into practical demonstrations and expert insights through tutorial videos covering various aspects of sustainable interior design.
 
 - **Articles** 
+  
   To explore our collection of in-depth articles and guides, offering valuable insights, techniques, and case studies on sustainable interior design practices. With access to tutorial videos and articles, our goal is to enrich your understanding and inspire you to incorporate sustainable design principles into your projects.
 
 ## Information Architecture
@@ -238,65 +251,68 @@ For other text elements, the following Google Fonts were imported:
 ## Technologies Used
 
 ### Languages Used
+
 - **HTML**
 - **CSS**
 - **JavaScript** (very limited as still learning this language)
 
 ### Frameworks and Libraries
+
 - **Bootstrap** 
   - Version 5.3.2 ([Bootstrap CDN](https://www.bootstrapcdn.com/)) 
-  Bootstrap is utilized in this project to enhance responsiveness and styling, ensuring that the website adapts seamlessly across different devices and screen sizes.
+  Bootstrap is utilised in this project to enhance responsiveness and styling, ensuring that the website adapts seamlessly across different devices and screen sizes.
 
-- [Bootstrap](https://getbootstrap.com/) - 
+- [Bootstrap](https://getbootstrap.com/) 
 
-  A popular front-end framework for building responsive and mobile-first websites is utilized in this project.
+  A popular front-end framework for building responsive and mobile-first websites is utilised in this project.
 
-- Site Design
+### Site Design
 
- **Icons**:
+ **Icons**
+
   - [Font Awesome](https://www.bootstrapcdn.com/fontawesome/): Used for adding icons to enhance user experience (UX).
  
-**Hover**:
+**Hover**
+
   - [Hover.css](https://github.com/IanLunn/Hover): Employed for various CSS3 hover effects.
 
-- **JavaScript Libraries**:
+- **JavaScript Libraries**
+  
   - [Popper.js](https://popper.js.org/): Library for positioning poppers in web development.
   - [Lightbox](https://github.com/lokesh/lightbox2): JavaScript library for interactive image and gallery display.
   - [Lightbox Plus jQuery](https://github.com/lokesh/lightbox2): jQuery plugin for interactive image and gallery display.
 
+**Fonts**
 
-**Fonts**:
-### Fonts
 - [Google Fonts](https://fonts.google.com/) was used to import the fonts that 
    were used throughout the project.
 
-**Fonts Used by Owner for Logo**
+-**Fonts Used by Owner for Logo**
+
    - **Font Source:** [DIN.ttf](../fonts/din.ttf)
-   
-**Font Family: myFont2**
+
    - **Font Source:** [Amazone.otf](../fonts/amazone.otf)
    
-**Font Family: myFont3**
    - **Font Source:** [Geogtq.otf](../fonts/geogtq.otf)
 
-
-
 ### Development Tools
-- **Integrated Development Environment (IDE)**:
-- [Gitpod](https://gitpod.io/workspaces/) was used as the IDE to develop this website.
 
-- **Version Control**:
-- [Git](https://git-scm.com/) was used for version control and to Push code to GitHub.
+- **Integrated Development Environment (IDE)**
+  - [Gitpod](https://gitpod.io/workspaces/) was used as the IDE to develop this website.
 
-- **Repository Hosting**:
-- [GitHub](https://github.com/) is used to store this project's code after being pushed 
-  from Git.
+- **Version Control**
+  - [Git](https://git-scm.com/) was used for version control and to Push code to GitHub.
+
+- **Repository Hosting**
+  - [GitHub](https://github.com/) is used to store this project's code after being pushed from Git.
 
 
 ### Email Functionality
+
 [SMTP.js](https://smtpjs.com/) is used for sending emails directly from JavaScript.
 
-Resources
+## Resources
+
 - [w3schools](https://www.w3schools.com/default.asp) was used as a general source of knowledge.
 - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used throughout the completion of this project to debug, test sizes and layout, and to check responsiveness.
 
@@ -305,7 +321,7 @@ Resources
 
 
 
-- Hosting
+## Hosting
 
 
 - Other Technologies
@@ -316,9 +332,9 @@ Resources
 ## Deployment
 
 - Requirements for Deployment
- An IDE (such as GitPod or VSCode)
-* Git, for version control
-* GitHub account
+  - An IDE (such as GitPod or VSCode)
+  - Git, for version control
+  - GitHub account
 
 
 * Email account
@@ -331,20 +347,29 @@ Resources
 ### How to Fork it
 
 1. Login or Sign Up to [GitHub](www.github.com).
+    
 2. On GitHub, go to [luiginaa.github.oi/Nur-Home](https://github.com/LuiginaA/Nur-Home.git).
+   
 3. In the top right, click "Fork".
 
 ### Making a Local Clone
 
 1. Log in to [GitHub](https://www.github.com) and locate the [Repository](https://github.com/) for this site.
+ 
 2. Under the repository name, above the list of files, click "Code".
+ 
 3. Here you can either Clone or Download the repository.
+  
 4. You should clone the repository using HTTPS, clicking on the icon to copy the link.
+ 
 5. Open Git Bash.
-6. Change the current working directory to the new location, where you want the cloned directory to be.
-7. Type `git clone`, and then paste the URL that was copied in Step 4.
+    
+6.  Change the current working directory to the new location, where you want the cloned directory to be.
+      
+7.  Type `git clone`, and then paste the URL that was copied in Step 4.
     * `git clone https://github.com/luiginaa/Nur-Home.git`
-8. Press Enter, and your local clone will be created.
+  
+8.  Press Enter, and your local clone will be created.
 
 - Making a Local Clone
 
@@ -382,25 +407,54 @@ These tutorials provided valuable insights and guidance for various aspects of t
 
 I also extend my gratitude to the following individuals and resources for their invaluable tutorials and guidance in my journey to frontend development with HTML and CSS:
 
-- **Dani Krossing**: For their comprehensive tutorials that provided me with foundational knowledge and insights into web design and coding.
-- **Kevin Powell**: For their informative tutorials and practical tips that helped me understand the nuances of frontend development.
-- **Bytegrad**: For their engaging tutorials that guided me through the basics and advanced concepts of HTML and CSS.
-- **Online Tutorials**: For their diverse range of tutorials that catered to various skill levels and topics in web development.
-- **Net Ninja**: For their clear and concise tutorials that facilitated my learning process and deepened my understanding of frontend technologies.
-- **Web Coding Pro**: For their valuable tutorials that expanded my knowledge and skills in frontend development.
-- **Brian Design**: For their insightful tutorials that inspired and guided me in my journey to mastering HTML and CSS.
-**Web Dev Simplified**: For their valuable tutorials that simplified complex concepts and accelerated my learning in frontend development.
-- **SuperSimpleDev**: For their insightful tutorials and practical advice that contributed to my growth and proficiency in HTML and CSS.
-**Coding Fire**
-These tutorials provided valuable insights and guidance for various aspects of the project's development. 
+  - **Dani Krossing**
+    
+    For their comprehensive tutorials that provided me with foundational knowledge and insights into web design and coding.
+
+  - **Kevin Powell**
+    
+    For their informative tutorials and practical tips that helped me understand the nuances of frontend development.
+
+  - **Bytegrad** 
+    
+    For their engaging tutorials that guided me through the basics and advanced concepts of HTML and CSS.
+
+  - **Online Tutorials**
+     
+    For their diverse range of tutorials that catered to various skill levels and topics in web development.
+
+  - **Net Ninja**
+
+    For their clear and concise tutorials that facilitated my learning process and deepened my understanding of frontend technologies.
+
+  - **Web Coding Pro**
+     
+    For their valuable tutorials that expanded my knowledge and skills in frontend development.
+
+  - **Brian Design**
+    
+    For their insightful tutorials that inspired and guided me in my journey to mastering HTML and CSS.
+
+  **Web Dev Simplified**
+
+    For their valuable tutorials that simplified complex concepts and accelerated my learning in frontend development.
+
+   **SuperSimpleDev**
+
+    For their insightful tutorials and practical advice that contributed to my growth and proficiency in HTML and CSS.
+
+  **Coding Fire**
+
+    These tutorials provided valuable insights and guidance for various aspects of the project's development. 
 
 The tutorials provided by these individuals have been instrumental in shaping my understanding and skills in frontend development. I extend my heartfelt appreciation for their invaluable contributions. Their guidance has significantly contributed to my growth and proficiency in frontend development. I am deeply grateful for their dedication to educating and empowering developers.
 
 
 
-- Code
+## Code
 
 ### Content
+
 - The content and information on this site were created by Nur Yilmas Ruppi.
 - Quotes were selected by Nur Yilmas Ruppi and attributed to their respective authors.
 - Unreferenced quotes on the site were written by Nur Yilmas Ruppi.
@@ -418,5 +472,6 @@ The tutorials provided by these individuals have been instrumental in shaping my
 
 - **Nur Yilmas Ruppi:** 
   I am deeply grateful to Nur Yilmas Ruppi for giving me the opportunity to design and create the initial website for Nur Home Interiors.
+  
 - **Carla Buongiorno-Vermaak:** 
-My heartfelt thanks to my niece and inspiration, Carla Buongiorno-Vermaak, for her immense support and dedication. Her time, effort, and love have been instrumental in helping me navigate and progress on this journey. Carla's assistance in overcoming challenges and her invaluable feedback were crucial in the creation of this site. I am especially thankful for her willingness to support me, even when it meant sacrificing time with her family and work.
+  My heartfelt thanks to my niece and inspiration, Carla Buongiorno-Vermaak, for her immense support and dedication. Her time, effort, and love have been instrumental in helping me navigate and progress on this journey. Carla's assistance in overcoming challenges and her invaluable feedback were crucial in the creation of this site. I am especially thankful for her willingness to support me, even when it meant sacrificing time with her family and work.
