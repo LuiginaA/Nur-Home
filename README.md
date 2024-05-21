@@ -471,7 +471,9 @@ The tutorials provided by these individuals have been instrumental in shaping my
 ## Acknowledgments
 
 - **Nur Yilmas Ruppi:** 
+  
   I am deeply grateful to Nur Yilmas Ruppi for giving me the opportunity to design and create the initial website for Nur Home Interiors.
   
 - **Carla Buongiorno-Vermaak:** 
+  
   My heartfelt thanks to my niece and inspiration, Carla Buongiorno-Vermaak, for her immense support and dedication. Her time, effort, and love have been instrumental in helping me navigate and progress on this journey. Carla's assistance in overcoming challenges and her invaluable feedback were crucial in the creation of this site. I am especially thankful for her willingness to support me, even when it meant sacrificing time with her family and work.
