@@ -48,7 +48,7 @@
 
 ## Definition
 
-  **Nur Home Interiors is an interactive website incorporating various technological elements, offering users a tool to discover and explore the possibility of recreating their personal environments. Whether it's an office or workspace, a home, or just one room in the home, the possibilities are endless. The website aims to create awareness of how to create or decorate a space without exorbitant costs. This is achieved by upcycling old and new pieces of furniture, adding different textures, or elevating the look of a particular item or area, ultimately aiming for a restful, peaceful, and happy outcome.**
+Nur Home Interiors is an interactive website incorporating various technological elements, offering users a tool to discover and explore the possibility of recreating their personal environments. Whether it's an office or workspace, a home, or just one room in the home, the possibilities are endless. The website aims to create awareness of how to create or decorate a space without exorbitant costs. This is achieved by upcycling old and new pieces of furniture, adding different textures, or elevating the look of a particular item or area, ultimately aiming for a restful, peaceful, and happy outcome.
 
 
 
@@ -62,10 +62,10 @@
 
 ## User Experience (UX)
 
--  This fully responsive website was developed with a strong emphasis on UX design principles, ensuring that users have an intuitive and enjoyable experience. By leveraging HTML, CSS, Bootstrap, and some JavaScript, along with tutorial videos on YouTube, the website aims to provide a seamless and visually appealing interface across various devices.
+This fully responsive website was developed with a strong emphasis on UX design principles, ensuring that users have an intuitive and enjoyable experience. By leveraging HTML, CSS, Bootstrap, and some JavaScript, along with tutorial videos on YouTube, the website aims to provide a seamless and visually appealing interface across various devices.
 
 ### User-Centric Design
-    *The site is designed to meet users' needs by prioritizing ease of use and accessibility. Every element of the interface is carefully crafted to minimize cognitive load and streamline the user journey.
+  The site is designed to meet users' needs by prioritizing ease of use and accessibility. Every element of the interface is carefully crafted to minimize cognitive load and streamline the user journey.
 
 ### Minimal Clicks, Maximum Value
     The website is structured to require as few clicks as possible for users to access the most valuable information for their comfort and lifestyle needs. This approach ensures that users can quickly find what they're looking for without unnecessary navigation hurdles.
