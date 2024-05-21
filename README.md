@@ -48,7 +48,7 @@
 
 ## Definition
 
-    **Nur Home Interiors** is an interactive website incorporating various technological elements, offering users a tool to discover and explore the possibility of recreating their personal environments. Whether it's an office or workspace, a home, or just one room in the home, the possibilities are endless. The website aims to create awareness of how to create or decorate a space without exorbitant costs. This is achieved by upcycling old and new pieces of furniture, adding different textures, or elevating the look of a particular item or area, ultimately aiming for a restful, peaceful, and happy outcome.
+  **Nur Home Interiors is an interactive website incorporating various technological elements, offering users a tool to discover and explore the possibility of recreating their personal environments. Whether it's an office or workspace, a home, or just one room in the home, the possibilities are endless. The website aims to create awareness of how to create or decorate a space without exorbitant costs. This is achieved by upcycling old and new pieces of furniture, adding different textures, or elevating the look of a particular item or area, ultimately aiming for a restful, peaceful, and happy outcome.**
 
 
 
@@ -62,10 +62,10 @@
 
 ## User Experience (UX)
 
-    This fully responsive website was developed with a strong emphasis on UX design principles, ensuring that users have an intuitive and enjoyable experience. By leveraging HTML, CSS, Bootstrap, and some JavaScript, along with tutorial videos on YouTube, the website aims to provide a seamless and visually appealing interface across various devices.
+-  This fully responsive website was developed with a strong emphasis on UX design principles, ensuring that users have an intuitive and enjoyable experience. By leveraging HTML, CSS, Bootstrap, and some JavaScript, along with tutorial videos on YouTube, the website aims to provide a seamless and visually appealing interface across various devices.
 
 ### User-Centric Design
-    The site is designed to meet users' needs by prioritizing ease of use and accessibility. Every element of the interface is carefully crafted to minimize cognitive load and streamline the user journey.
+    *The site is designed to meet users' needs by prioritizing ease of use and accessibility. Every element of the interface is carefully crafted to minimize cognitive load and streamline the user journey.
 
 ### Minimal Clicks, Maximum Value
     The website is structured to require as few clicks as possible for users to access the most valuable information for their comfort and lifestyle needs. This approach ensures that users can quickly find what they're looking for without unnecessary navigation hurdles.
@@ -178,7 +178,7 @@ For other text elements, the following Google Fonts were imported:
 
 ## Features
 
-  **Responsive Design**
+  *Responsive Design*
    Nur Home Interiors is optimized for seamless viewing and interaction across various devices, ensuring a consistent and user-friendly experience.
 
 ### User-Friendly Navigation
@@ -404,6 +404,6 @@ The tutorials provided by these individuals have been instrumental in shaping my
 ## Acknowledgments
 
 - **Nur Yilmas Ruppi:** 
-I am deeply grateful to Nur Yilmas Ruppi for giving me the opportunity to design and create the initial website for Nur Home Interiors.
+  I am deeply grateful to Nur Yilmas Ruppi for giving me the opportunity to design and create the initial website for Nur Home Interiors.
 - **Carla Buongiorno-Vermaak:** 
 My heartfelt thanks to my niece and inspiration, Carla Buongiorno-Vermaak, for her immense support and dedication. Her time, effort, and love have been instrumental in helping me navigate and progress on this journey. Carla's assistance in overcoming challenges and her invaluable feedback were crucial in the creation of this site. I am especially thankful for her willingness to support me, even when it meant sacrificing time with her family and work.
