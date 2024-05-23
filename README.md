@@ -5,80 +5,83 @@
 # Table of Contents
 - [Nur Home Interiors](#nur-home-interiors)
 - [Table of Contents](#table-of-contents)
-  - [Definition](#definition)
-- [User Experience (UX)](#user-experience-ux)
-  - [Table of Contents](#table-of-contents-1)
-  - [User Experience (UX)](#user-experience-ux-1)
-    - [User-Centric Design](#user-centric-design)
-    - [Minimal Clicks, Maximum Value](#minimal-clicks-maximum-value)
-    - [Environmental Consciousness](#environmental-consciousness)
+- [Definition](#definition)
+- [User Experience (UXD)](#user-experience-uxd)
+  - [User Experience (UXD)](#user-experience-uxd-1)
+  - [User-Centric Design](#user-centric-design)
+  - [Minimal Clicks, Maximum Value](#minimal-clicks-maximum-value)
+  - [Environmental Consciousness](#environmental-consciousness)
   - [User Stories](#user-stories)
     - [As a User](#as-a-user)
 - [Project Goals](#project-goals)
   - [User Stories: Website Visitors](#user-stories-website-visitors)
 - [Design Choices](#design-choices)
   - [Colours](#colours)
-    - [List of Colours Used Throughout the Site:](#list-of-colours-used-throughout-the-site)
+    - [Colour Palette Used Throughout the Site:](#colour-palette-used-throughout-the-site)
 - [Typography](#typography)
   - [Font Styles](#font-styles)
-    - [Custom Fonts:](#custom-fonts)
-    - [Google Fonts:](#google-fonts)
-  - [Images](#images)
-  - [Features](#features)
+    - [Custom Fonts](#custom-fonts)
+    - [Google Fonts](#google-fonts)
+- [Images](#images)
+- [Features](#features)
     - [Responsive Design](#responsive-design)
     - [User-Friendly Navigation](#user-friendly-navigation)
     - [Customizable Fonts](#customizable-fonts)
-  - [Future Feature: Educational Resources](#future-feature-educational-resources)
-  - [Information Architecture](#information-architecture)
-  - [Technologies Used](#technologies-used)
-    - [Languages Used](#languages-used)
-    - [Frameworks and Libraries](#frameworks-and-libraries)
-    - [Site Design](#site-design)
-    - [Development Tools](#development-tools)
-    - [Email Functionality](#email-functionality)
-  - [Resources](#resources)
-  - [Hosting](#hosting)
-  - [Deployment](#deployment)
+    - [Environmental Awareness](#environmental-awareness)
+    - [Inspiration Gallery](#inspiration-gallery)
+    - [Client Testimonials](#client-testimonials)
+    - [Contact Form](#contact-form)
+    - [Custom 404 Page](#custom-404-page)
+    - [Future Feature: Educational Resources](#future-feature-educational-resources)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks and Libraries](#frameworks-and-libraries)
+  - [Site Design](#site-design)
+  - [Development Tools](#development-tools)
+  - [Email Functionality](#email-functionality)
+- [Resources](#resources)
+- [Hosting](#hosting)
+- [Other Technologies](#other-technologies)
+  - [Testing](#testing)
+- [Deployment](#deployment)
+  - [Requirements for Deployment](#requirements-for-deployment)
     - [How to Fork it](#how-to-fork-it)
     - [Making a Local Clone](#making-a-local-clone)
-  - [_Testing and Project Barrier Solutions_](#testing-and-project-barrier-solutions)
-  - [Credits](#credits)
+- [Credits](#credits)
     - [Youtube Tutorials](#youtube-tutorials)
-    - [Further Acknowledgments](#further-acknowledgments)
+- [Acknowledgments](#acknowledgments)
   - [Code](#code)
     - [Content](#content)
     - [Media](#media)
-  - [Acknowledgments](#acknowledgments)
+- [Further Acknowledgments](#further-acknowledgments)
 
 
-## Definition
+# Definition
 
 Nur Home Interiors is an interactive website incorporating various technological elements, offering users a tool to discover and explore the possibility of recreating their personal environments. Whether it's an office or workspace, a home, or just one room in the home, the possibilities are endless. The website aims to create awareness of how to create or decorate a space without exorbitant costs. This is achieved by upcycling old and new pieces of furniture, adding different textures, or elevating the look of a particular item or area, ultimately aiming for a restful, peaceful, and happy outcome.
 
-# User Experience (UX)
+# User Experience (UXD)
 
-## Table of Contents
+- [User Experience (UXD)](#user-experience-uxd)
+- [User-Centric Design](#user-centric-design)
+- [Minimal Clicks, Maximum Value](#minimal-clicks-maximum-value)
+- [Environmental Consciousness](#environmental-consciousness)
 
-1. [User Experience (UX)](#user-experience-ux)
-   - [User-Centric Design](#user-centric-design)
-   - [Minimal Clicks, Maximum Value](#minimal-clicks-maximum-value)
-   - [Environmental Consciousness](#environmental-consciousness)
+## User Experience (UXD)
 
-## User Experience (UX)
+This fully responsive website was developed with a strong emphasis on targeting users who wish to create a welcoming and comfortable space in their home or office. 
 
-This fully responsive website was developed with a strong emphasis on UX design principles, ensuring that users have an intuitive and enjoyable experience. By leveraging HTML, CSS, Bootstrap, and some JavaScript, along with tutorial videos on YouTube, the website aims to provide a seamless and visually appealing interface across various devices.
+## User-Centric Design 
 
-### User-Centric Design
+By leveraging HTML, CSS, Bootstrap, and some JavaScript, the website aims to provide a seamless and visually appealing interface across various devices. The site prioritises ease of use and accessibility, ensuring that users have an intuitive and enjoyable experience whether they are navigating on a mobile, tablet, or desktop.
 
-The site is designed to meet users' needs by prioritising ease of use and accessibility. Every element of the interface is carefully crafted to minimise cognitive load and streamline the user journey.
-
-### Minimal Clicks, Maximum Value
+## Minimal Clicks, Maximum Value
 
 The website is structured to require as few clicks as possible for users to access the most valuable information for their comfort and lifestyle needs. This approach ensures that users can quickly find what they're looking for without unnecessary navigation hurdles.
 
-### Environmental Consciousness
+## Environmental Consciousness
 
-In addition to meeting users' needs, the website promotes environmental consciousness by incorporating upcycling and recycling methods. By encouraging users to adopt sustainable practices in their interior design endeavours, the site aligns with broader societal goals of environmental responsibility.
+In addition to meeting users' needs, the website promotes environmental consciousness by incorporating upcycling and recycling methods. By encourages users to adopt sustainable practices in their interior design endeavours, aligning with  environmental responsibility.
 
 ## User Stories
 
@@ -122,30 +125,14 @@ In addition to meeting users' needs, the website promotes environmental consciou
 
 ## Colours
 
-  The owner of the website chose to use colours from her logo, which was previously designed for her business card.
+The owner of the website chose to use colours from her logo, which was previously designed for her business card.
 
-  - **Background Colour:** 
-  
-    - The developer selected a background colour that effectively complements the logo colour while evoking a sense of calmness and excitement for the user experience.
+The developer selected a background colour that effectively complements the logo colour while evoking a sense of calmness and excitement for the user experience.
 
-### List of Colours Used Throughout the Site:
+### Colour Palette Used Throughout the Site:
+[Colour Palette - Coolers.co](https://coolors.co/a71313-3c3cdf-0f0f0f-ffffff-198754-ffca02)
 
-   - **White:** #ffffff
-   - **Black:** #000000
-   - **Logo Accent Colour:** #AA0A90
-   - **Service Box Colour:** #c04fb1
-   - **Service Box Background Colour:** #fefefe
-   - **Box Shadow:** rgba(0, 0, 0, 0.7)
-   - **Gallery Image Shadow:** rgba(0,0,0,0.8)
-   - **Form Background Colour:** #b7babd
-   - **Text on Form (h4):** #1c2126
-   - **Input Form Colour:** #f5f5f5
-   - **Copyright Text Colour:** #adabab
-   - **Background Colour:** #5c5b5b
-   - **Sidebar Blur:** rgba(98, 57, 91, 0.7)
-   - **Inset on Hero Section:** rgba(255, 174, 239, 0.7)
-   - **Font Colour for Testimonials:** #efc4f7
-   - **Stars Rating Colour:** #f9d71c
+![Color Palette](assets/images/palette.png)
 
 # Typography
 
@@ -155,7 +142,7 @@ In addition to meeting users' needs, the website promotes environmental consciou
 
 ## Font Styles
 
-### Custom Fonts:
+### Custom Fonts
 
    1. **Font Family: myFont1**
       - **Font Source:** [DIN.ttf](../fonts/din.ttf)
@@ -166,21 +153,20 @@ In addition to meeting users' needs, the website promotes environmental consciou
    3. **Font Family: myFont3**
       - **Font Source:** [Geogtq.otf](../fonts/geogtq.otf)
 
-### Google Fonts:
+### Google Fonts
 
 For other text elements, the following Google Fonts were imported:
 
    1. **[Courgette](https://fonts.google.com/specimen/Courgette)**
-      ```css
+      
       - @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
       font-family: 'Courgette', cursive;
 
-    2.  **Roboto**
-     ```css
-         - @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-         font-family: 'Roboto', sans-serif;
-
-## Images
+  2. **[Roboto](https://fonts.google.com)**
+    
+     - @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+# Images
 
 The imagery on this site plays a crucial role in conveying its message and aesthetic. Here's a breakdown of the images used:
 
@@ -194,11 +180,11 @@ The imagery on this site plays a crucial role in conveying its message and aesth
     - The images featured in the testimonial section of the website were provided by clients as part of their testimonials, highlighting the great workmanship and care provided by Nur.
 
   - **Icons** 
-    - Icons used throughout the site were sourced from Font Awesome  and Ion Icons and chosen for their clear and obvious meanings, enhancing user understanding and navigation.
+    - Icons used throughout the site were sourced from Font Awesome and chosen for their clear and obvious meanings, enhancing user understanding and navigation.
 
 - Wireframes
 
-## Features
+# Features
 
 ### Responsive Design
 
@@ -212,51 +198,50 @@ The imagery on this site plays a crucial role in conveying its message and aesth
 
   Enhance readability and aesthetics by incorporating two carefully selected Google Fonts for the text areas of the website. These fonts introduce a touch of style and personality to the design, resulting in a cohesive visual experience for users.
 
-- **Environmental Awareness**
+### Environmental Awareness
   
   The website advocates sustainable interior design practices, providing valuable tips and resources for upcycling and recycling furniture and decor.
 
-- **Inspiration Gallery** 
+### Inspiration Gallery
   
   Carefully selected images feature creative ideas and examples of upcycled and recycled home decor, inspiring users to reimagine and transform their living spaces.
 
-- **Client Testimonials** 
+### Client Testimonials 
    
   Real testimonials from satisfied clients highlight the quality of service and attention to detail provided by Nur Home Interiors.
 
-**Contact Form** 
+### Contact Form 
 
   A user-friendly contact form allows visitors to easily reach out to Nur for inquiries, consultations, or collaborations through a user-friendly contact form. Upon submission of the contact form, the site owner receives an email with the user's details and message. The site also displays a message to the user based on whether or not the form submission was successful.
 
- **Custom 404 Page** 
+ ### Custom 404 Page 
  
   A custom-designed 404 error page ensures that users who encounter a broken link or mistyped URL are met with a helpful and aesthetically pleasing message, guiding them back to the main site. The 404 page is created using HTML, CSS, and Bootstrap for consistency with the rest of the site's design.
 
-## Future Feature: Educational Resources
+### Future Feature: Educational Resources
 
-  Be on the lookout for our upcoming educational resources! Gain access to tutorial videos and articles, empowering yourself with knowledge and techniques for sustainable interior design. Join our community to foster a sense of learning and collaboration.
+  Be on the lookout for our upcoming Youtube videos, empowering the user with knowledge and techniques for sustainable interior design. 
 
-- **Tutorial Videos**
-  
-  Dive into practical demonstrations and expert insights through tutorial videos covering various aspects of sustainable interior design.
+  - Tutorial Videos
+    
+    Dive into practical demonstrations and expert insights through tutorial videos covering various aspects of sustainable interior design.
 
-- **Articles** 
-  
-  To explore our collection of in-depth articles and guides, offering valuable insights, techniques, and case studies on sustainable interior design practices. With access to tutorial videos and articles, our goal is to enrich your understanding and inspire you to incorporate sustainable design principles into your projects.
+  - Articles
+    
+    To explore our collection of in-depth articles and guides, offering valuable insights, techniques, and case studies on sustainable interior design practices. With access to tutorial videos and articles, our goal is to enrich your understanding and inspire you to incorporate sustainable design principles into your projects.
 
-## Information Architecture
 
 - Database Design
 
-## Technologies Used
+# Technologies Used
 
-### Languages Used
+## Languages Used
 
 - **HTML**
 - **CSS**
 - **JavaScript** (very limited as still learning this language)
 
-### Frameworks and Libraries
+## Frameworks and Libraries
 
 - **Bootstrap** 
   - Version 5.3.2 ([Bootstrap CDN](https://www.bootstrapcdn.com/)) 
@@ -266,7 +251,7 @@ The imagery on this site plays a crucial role in conveying its message and aesth
 
   A popular front-end framework for building responsive and mobile-first websites is utilised in this project.
 
-### Site Design
+## Site Design
 
  **Icons**
 
@@ -287,7 +272,7 @@ The imagery on this site plays a crucial role in conveying its message and aesth
 - [Google Fonts](https://fonts.google.com/) was used to import the fonts that 
    were used throughout the project.
 
--**Fonts Used by Owner for Logo**
+- **Fonts Used by Owner for Logo**
 
    - **Font Source:** [DIN.ttf](../fonts/din.ttf)
 
@@ -295,7 +280,7 @@ The imagery on this site plays a crucial role in conveying its message and aesth
    
    - **Font Source:** [Geogtq.otf](../fonts/geogtq.otf)
 
-### Development Tools
+## Development Tools
 
 - **Integrated Development Environment (IDE)**
   - [Gitpod](https://gitpod.io/workspaces/) was used as the IDE to develop this website.
@@ -307,42 +292,38 @@ The imagery on this site plays a crucial role in conveying its message and aesth
   - [GitHub](https://github.com/) is used to store this project's code after being pushed from Git.
 
 
-### Email Functionality
+## Email Functionality
 
 [SMTP.js](https://smtpjs.com/) is used for sending emails directly from JavaScript.
 
-## Resources
+# Resources
 
-- [w3schools](https://www.w3schools.com/default.asp) was used as a general source of knowledge.
-- [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used throughout the completion of this project to debug, test sizes and layout, and to check responsiveness.
+  - [w3schools](https://www.w3schools.com/default.asp) was used as a general source of knowledge.
+    
+  - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used throughout the completion of this project to debug, test sizes and layout, and to check responsiveness.
 
-
-
-
-
-
-## Hosting
+  - [Youtube Tutorials]( https://www.youtube.com/) was used as a general source of knowledge.
 
 
-- Other Technologies
-- Testing
-* [W3C Markup Validation Service](https://validator.w3.org/) was used to test that the HTML is valid.
-* [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/) was used to test that the CSS is valid.
 
-## Deployment
+# Hosting
 
-- Requirements for Deployment
+
+# Other Technologies
+
+## Testing
+ - [W3C Markup Validation Service](https://validator.w3.org/) was used to test that the HTML is valid.
+ - [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/) was used to test that the CSS is valid.
+
+# Deployment
+
+## Requirements for Deployment
   - An IDE (such as GitPod or VSCode)
   - Git, for version control
   - GitHub account
-
-
-* Email account
-
-
-
-- Initial Deployment
-- How to Fork it
+  - Initial Deployment
+  - How to Fork it
+  - Making a Local Clone
 
 ### How to Fork it
 
@@ -350,7 +331,34 @@ The imagery on this site plays a crucial role in conveying its message and aesth
     
 2. On GitHub, go to [luiginaa.github.oi/Nur-Home](https://github.com/LuiginaA/Nur-Home.git).
    
-3. In the top right, click "Fork".
+3. In the top right, click "Fork". This will create a copy of the repository under your GitHub account.
+
+4. Navigate to your GitHub profile and find the forked repository under your repositories.
+      - Click on the "Code" button and copy the repository URL.
+      - Open a terminal on your local machine and run.
+      - Replace your-username with your GitHub username and forked-repo with the name of the repository you forked.
+
+5. Change to the directory of your cloned repository
+     - Add the original repository as an upstream remote to keep your fork up-to-date.
+     - Replace original-owner and original-repo with the appropriate repository details.
+     - 
+6. Create a New Branch to work on your changes.
+     - Replace my-new-branch with a descriptive name for your branch.
+
+7. Make the necessary changes to the code on your new branch.
+   
+8. Commit Your changes with a meaningful message.
+
+9. Push the changes to your forked repository on GitHub.
+
+10. Create a Pull Request
+    - Navigate to your forked repository on GitHub.
+    - You will see a message suggesting to create a pull request for your recently pushed branch. Click on "Compare & pull request".
+    - Fill in the details of your pull request, explaining what changes you made and why.
+    - Click "Create pull request".
+  
+11. Keep Your Fork Updated (Optional but recommended)
+To keep your fork updated with the original repository, periodically fetch and merge changes from the upstream repository:
 
 ### Making a Local Clone
 
@@ -371,12 +379,12 @@ The imagery on this site plays a crucial role in conveying its message and aesth
   
 8.  Press Enter, and your local clone will be created.
 
-- Making a Local Clone
-
-## _Testing and Project Barrier Solutions_
 
 
-## Credits
+
+
+
+# Credits
 
 ### Youtube Tutorials
 
@@ -390,22 +398,23 @@ The imagery on this site plays a crucial role in conveying its message and aesth
   - [Kevin Powell](https://www.youtube.com/watch?v=FeJEEE3zc4U&t=1292s)
 
 - **How To Make Responsive Image Gallery With HTML CSS JS | Lightbox Image Gallery GreatStack**
-  - [Complete Responsive Architecture & Interior Design Website Tutorial With HTML / CSS / JS / BOOTSTRAP](https://www.youtube.com/watch?v=cuNyE3SxFlk&t=2s)
+  - [GreatStack](https://www.youtube.com/watch?v=cuNyE3SxFlk&t=2s)
+  - Complete Responsive Architecture & Interior Design Website Tutorial With HTML / CSS / JS / BOOTSTRAP
 
 - **Testimonials Slider Using Html, Css & Bootstrap 5 | Responsive | Ready To Use**
-  - [The WebShala](https://www.youtube.com/watch?v=fRRib2mArXU)
+    - [The WebShala](https://www.youtube.com/watch?v=fRRib2mArXU)
 
- - **How To Make Responsive Image Gallery With HTML CSS JS | Lightbox Image Gallery Design**
-  - [GreatStack](https://www.youtube.com/watch?v=4gcy-qT9kGw&t=264s)
+- **How To Make Responsive Image Gallery With HTML CSS JS | Lightbox Image Gallery Design**
+    - [GreatStack](https://www.youtube.com/watch?v=4gcy-qT9kGw&t=264s)
 
-  **404 Page Design Using HTML, CSS & Bootstrap**
-  - [Coding Fire](https://www.youtube.com/watch?v=pABOf9FU6Uk&t=42s)
+- **404 Page Design Using HTML, CSS & Bootstrap**
+    - [Coding Fire](https://www.youtube.com/watch?v=pABOf9FU6Uk&t=42s)
 
 These tutorials provided valuable insights and guidance for various aspects of the project's development. I extend my gratitude to the creators for sharing their knowledge and expertise.
 
-### Further Acknowledgments
+# Acknowledgments
 
-I also extend my gratitude to the following individuals and resources for their invaluable tutorials and guidance in my journey to frontend development with HTML and CSS:
+I also extend my gratitude to the following individuals and resources for their invaluable tutorials and guidance in my journey to frontend development with HTML and CSS as wll as some Javascript:
 
   - **Dani Krossing**
     
@@ -435,15 +444,15 @@ I also extend my gratitude to the following individuals and resources for their 
     
     For their insightful tutorials that inspired and guided me in my journey to mastering HTML and CSS.
 
-  **Web Dev Simplified**
+  - **Web Dev Simplified**
 
     For their valuable tutorials that simplified complex concepts and accelerated my learning in frontend development.
 
-   **SuperSimpleDev**
+  - **SuperSimpleDev**
 
     For their insightful tutorials and practical advice that contributed to my growth and proficiency in HTML and CSS.
 
-  **Coding Fire**
+  - **Coding Fire**
 
     These tutorials provided valuable insights and guidance for various aspects of the project's development. 
 
@@ -468,7 +477,7 @@ The tutorials provided by these individuals have been instrumental in shaping my
 - All photos for the testimonials were provided by the respective clients.
 
 
-## Acknowledgments
+# Further Acknowledgments
 
 - **Nur Yilmas Ruppi:** 
   
