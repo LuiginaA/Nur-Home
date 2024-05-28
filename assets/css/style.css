@@ -1578,12 +1578,15 @@ form input, form textarea {
 
     .contact {
         width: 80%;
-        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
     }
 
     .contact img {
         height: 350px;
         width: 350px;
+        align-items: center;
+        justify-content: center;
     }
 
     .contact-box { 
