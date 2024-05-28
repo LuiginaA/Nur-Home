@@ -39,7 +39,6 @@
                     <h1 id="title">Nur</h1>
                     <h2 id="text2">home interiors</h2>
                     <h3 id="text3">Istanbul</h3>
-                    <h4 id="text4">Europe &sim; U.S.A.</h4> 
                 </a>
 
 <!------- Toggle Btn Section ------->
@@ -64,7 +63,6 @@
                         id="offcanvasNavbar" id="title">N U R</h1>    
                         <h2 id="text2">home interiors</h2>
                         <h3 id="text3">Istanbul</h3> 
-                        <h4 id="text4">Europe &sim; USA</h4>  
                         <button type="button" 
                             class="button-close-nav" data-bs-dismiss="offcanvas" 
                             aria-label="Close">
@@ -105,7 +103,7 @@
         </nav>
     </header>
 
-    <main>
+<main>
 
 <!-- Hero Section  -->
 
@@ -281,7 +279,7 @@
                         </div> 
                  
                         <div class="concept_image align-items-center">
-                            <img src="assets/images/nurFam.jpg" alt="">       
+                            <img src="assets/images/family.jpg" alt="">       
                         </div> 
                     </div>        
                 </div>     
@@ -698,110 +696,117 @@
                     </div>    
                 </div>
             </div> 
+    
+            <div class="contact-Container"> 
+                <div class="row"> 
+                    <div class="contact">
+                        <img src="assets/images/cushions.jpg" alt="">     
+                    </div>
+                </div> 
 
-                <div class="contact-Container">
-                    <div class="row">
-                        <div class="col-md-6 contact">
-                            <img src="assets/images/cushions.jpg" alt="">     
-                        </div>
-                    </div> 
+                <div class="contact-box contact-left "> 
+    
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">        
 
-                        <div class="col-md-6 contact-box"> 
+                        <h4>Send an E-mail</h4> 
+                        
+                        <input type="hidden" name="access_key" value="7bd37e44-ac57-470b-87cd-eb60aefea953">
+                        
+                        <input type="text" id="name" placeholder="First and Last Name" required>
+            
+                        <input type="email" id="email" placeholder="Your Email" required>
+            
+                        <input type="text" id="phone"  placeholder="Contact Number" required>
+            
+                        <textarea id="message" rows="4" placeholder="How can Nur help you?"></textarea>
         
-                            <form onsubmit="sendEmail(); reset(); return false;">
-                                <h4>Send an E-mail</h4> 
-                                <input type="text" id="name" placeholder="First and Last Name" required>
-                    
-                                <input type="email" id="email" placeholder="Your Email" required>
-                    
-                                <input type="text" id="phone"  placeholder="Contact Number" required>
-                    
-                                <textarea id="message" rows="4" placeholder="How can Nur help you?"></textarea>
-                
-                                <button type="submit" name="submit">Send Mail</button>
-                
-                            </form>
-                        </div>
-                </div>
+                        <button type="submit">Send Mail
+                            <span>
+                                <i class="fas fa-light fa-envelope-circle-check"></i>
+                            </span>  
+                        </button>
+                    </form>
+                </div> 
+            </div>
         </section>
     </main>
 
 <!----------------- Footer Section-----------------> 
 
-    <footer class="container-fluid text-center">
-        <div id="footer-details" class="row">
-            <div class="col-sm">
-                <ul class="list-inline social-links">
+<footer class="container-fluid text-center">
+    <div id="footer-details" class="row">
+        <div class="col-sm">
+            <ul class="list-inline social-links">
 
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://wa.me/393928555402">
-                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                            <span class="sr-only">WhatsApp</span>
-                        </a>
-                    </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://wa.me/393928555402">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        <span class="sr-only">WhatsApp</span>
+                    </a>
+                </li>
 
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/nurhomeinteriors">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.facebook.com/nurhomeinteriors">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
 
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/nurhomeinteriors">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.instagram.com/nurhomeinteriors">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
 
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://t.me/393928555402">
-                            <i class="fa-brands fa-telegram" aria-hidden="true"></i>
-                            <span class="sr-only">Telegram</span>
-                        </a>
-                    </li>
+                <!-- <li class="list-inline-item">
+                    <a target="_blank" href="https://t.me/393928555402">
+                        <i class="fa-brands fa-telegram" aria-hidden="true"></i>
+                        <span class="sr-only">Telegram</span>
+                    </a>
+                </li> -->
 
-                    <!-- <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>   -->
-                </ul>
-            </div>
-        </div>
-
-        <div class="contactFooter">
-            <div class="contFoot comName">
-                <h5>NUR Home Interiors &sim; Istanbul</h5>
-            </div>
-            <div class="contFoot call">
-                <h5>Call or WhatsApp: +39 392 855 5402
-                </h5>
-            </div>
-            <div class="contFoot area">
-                <h5>Europe &sim; U.S.A.</h5> 
-            </div>
-        </div>
-
-        <div class="quick-links">
-            <ul class="quick-links">
-                <li class="quick-items"><a href="index.html">Home</a></li>
-                <li class="quick-items"><a href="#about-page">About</a></li>
-                <li class="quick-items"><a href="#services-page">Services</a></li>
-                <li class="quick-items"><a href="gallery.html">Gallery</a></li>
-                <li class="quick-items"><a href="#contact-page">Contact</a></li>
-                <li class="quick-items"><a href="terms.html">Terms</a></li>
+                <!-- <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                </li>   -->
             </ul>
-        </div> 
+        </div>
+    </div>
 
-  
-        <div class="copyright"> 
-            <h6>All Rights Reserved &copy; 2024 - Designed & Developed By Luigina Argentin    
-            </h6>
-        </div> 
-    </footer>
-   
+    <div class="contactFooter">
+        <div class="contFoot comName">
+            <h5>NUR Home Interiors &sim; Istanbul</h5>
+        </div>
+        <div class="contFoot call">
+            <h5>Call or WhatsApp: +39 392 855 5402
+            </h5>
+        </div>
+        <div class="contFoot area">
+            <h5>Europe &sim; U.S.A.</h5> 
+        </div>
+    </div>
+
+    <div class="quick-links">
+        <ul class="quick-links">
+            <li class="quick-items"><a href="index.html">Home</a></li>
+            <li class="quick-items"><a href="#about-page">About</a></li>
+            <li class="quick-items"><a href="#services-page">Services</a></li>
+            <li class="quick-items"><a href="gallery.html">Gallery</a></li>
+            <li class="quick-items"><a href="#contact-page">Contact</a></li>
+            <li class="quick-items"><a href="terms.html">Terms</a></li>
+        </ul>
+    </div> 
+
+    <div class="copyright"> 
+        <h6>All Rights Reserved &copy; 2024 - Designed & Developed By Luigina Argentin    
+        </h6>
+    </div> 
+</footer>
+
+
 <!----------------- Script Section-----------------> 
 
 <!----------------- JavaScript Bundle with Popper ----------------->     
@@ -858,29 +863,6 @@
 
 <script src="assets/lightbox-plus-jquery.js"></script>
 
-
-<!----------------- Contact Section -----------------> 
-
-<script src=" https://smtpjs.com/v3/smtp.js"></script>
-
-<script>
-    function sendEmail(){
-        Email.send({
-            Host : "smtp.gmail.com",
-            Username : "",
-            Password : "",
-            To : '',
-            From : document.getElementById("email").value,
-            Subject : "New Contact Form Enquiry",
-            Body : "Name: " + document.getElementById("name").value
-                + "<br> Email: " + document.getElementById("email").value
-                + "<br> Phone no: " + document.getElementById("phone").value
-                + "<br> Message: " + document.getElementById("message").value
-        }).then(
-        message => alert("Message Sent Successfully")
-        );
-    }
-</script>
 
 </body>
 </html>

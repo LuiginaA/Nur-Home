@@ -39,7 +39,6 @@
             <h1 id="title">Nur</h1>
             <h2 id="text2">home interiors</h2>
             <h3 id="text3">Istanbul</h3>
-            <h4 id="text4">Europe &sim; U.S.A.</h4> 
         </a>
 
 <!------- Toggle Btn Section ------->
@@ -64,7 +63,6 @@
                   id="offcanvasNavbarLabel" id="title">N U R</h1>   
                   <h2 id="text2">home interiors</h2>
                   <h3 id="text3">Istanbul</h3>
-                  <h4 id="text4">Europe &sim; USA</h4> 
                   <button type="button" 
                       class="button-close-nav" data-bs-dismiss="offcanvas" 
                       aria-label="Close">
@@ -81,16 +79,16 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item mx-auto">
-                        <a class="nav-link" href="#about-page">About</a>
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
                     <li class="nav-item mx-auto">
-                        <a class="nav-link" href="#services-page">Services</a>
+                        <a class="nav-link" href="index.html">Services</a>
                     </li> 
                     <li class="nav-item mx-auto">
-                        <a class="nav-link" href="#before-aft-page">Before & After</a>
+                        <a class="nav-link" href="index.html">Before & After</a>
                     </li>
                     <li class="nav-item mx-auto">
-                        <a class="nav-link" href="#testimonial-page">Testimonials</a>
+                        <a class="nav-link" href="index.html">Testimonials</a>
                     </li>
                     <li class="nav-item mx-auto">
                         <a class="nav-link" aria-current="page" href="gallery.html">Gallery</a>
@@ -150,30 +148,39 @@
 
     <section class="container-gallery" id="bg-color" >
       <div class="imageGallery about">
+        
         <a href="assets/images/couchandcushions.jpg" data-lightbox="galleryPic" data-title="Collection of Cushions">
           <img src="assets/images/couchandcushions.jpg" alt=""> 
         </a>
+        
         <a href="assets/images/teenbed.jpg" data-lightbox="galleryPic" data-title="Teenager's Bedroom">
           <img src="assets/images/teenbed.jpg" alt="">
         </a>
+        
         <a href="assets/images/footrest.jpg" data-lightbox="galleryPic" data-title="Ottoman's">
           <img src="assets/images/footrest.jpg" alt="">
         </a>
+        
         <a href="assets/images/runner.jpg" data-lightbox="galleryPic" data-title="Table Runner">
           <img src="assets/images/runner.jpg" alt="">
         </a>
-        <a href="assets/images/gardenChair.jpg" data-lightbox="galleryPic" data-title="Refurbished Garden Chair">
-          <img src="assets/images/gardenChair.jpg" alt="">
-        </a>
+
         <a href="assets/images/familylounge.jpg" data-lightbox="galleryPic" data-title="Lounge Area">
           <img src="assets/images/familylounge.jpg" alt="">
         </a>
-        <a href="assets/images/Dinning.jpg" data-lightbox="galleryPic" data-title="Dinning Area">
-          <img src="assets/images/Dinning.jpg" alt="">
+
+        <a href="assets/images/gardenChair.jpg" data-lightbox="galleryPic" data-title="Refurbished Garden Chair">
+          <img src="assets/images/gardenChair.jpg" alt="">
         </a>
-        <a href="assets/images/fabric.jpg" data-lightbox="galleryPic" data-title="Collectins of Pillow Covers">
-          <img src="assets/images/fabric.jpg" alt="">
+        
+        <a href="assets/images/dinning.png" data-lightbox="galleryPic" data-title="Dining Area">
+          <img src="assets/images/dinning.png" alt="">
         </a>
+
+        <a href="assets/images/turkey.jpg" data-lightbox="galleryPic" data-title="Collection of Artisanal Fabrics">
+          <img src="assets/images/turkey.jpg" alt="">
+        </a>
+
       </div> 
     </section>
 
@@ -181,41 +188,48 @@
 
     <section class="container-fluid" id="contact-page">
       <div class="divContainer">
-          <div class="divContain-title col-sm-12">
-              <div class="divContainer-title">
-                  <div class="divContainer-subtitle">
-                    <h3>Get in Touch or Send an Email!</h3> 
-                    <h4>Inviting you to take the plunge and allow Nur to make your home your sanctuary a place of comfort and refuge!
-                    </h4>
-                  </div>
-                </div>    
+        <div class="divContain-title col-sm-12">
+          <div class="divContainer-title">
+            <div class="divContainer-subtitle">
+              <h3>Get in Touch or Send an Email!</h3> 
+              <h4>Inviting you to take the plunge and allow Nur to make your home your sanctuary, a place of comfort and refuge!
+              </h4>
+            </div>
+          </div>    
+        </div>
+      </div> 
+
+      <div class="contact-Container"> 
+        <div class="row"> 
+            <div class="contact">
+                <img src="assets/images/cushions.jpg" alt="">     
             </div>
         </div> 
 
-        <div class="contact-Container">
-          <div class="row">
-            <div class="col-md-6 contact">
-                <img src="assets/images/cushions.jpg" alt="">      
-            </div>
-          </div> 
+          <div class="contact-box contact-left "> 
 
-            <div class="col-md-6 contact-box"> 
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">        
 
-              <form onsubmit="sendEmail(); reset(); return false;">
-                <h4>Send E-mail</h4> 
-                <input type="text" id="name" placeholder="First and Last Name" required>
+              <h4>Send an E-mail</h4> 
+              
+              <input type="hidden" name="access_key" value="7bd37e44-ac57-470b-87cd-eb60aefea953">
+              
+              <input type="text" id="name" placeholder="First and Last Name" required>
+  
+              <input type="email" id="email" placeholder="Your Email" required>
+  
+              <input type="text" id="phone"  placeholder="Contact Number" required>
+  
+              <textarea id="message" rows="4" placeholder="How can Nur help you?"></textarea>
 
-                <input type="email" id="email" placeholder="Your Email" required>
-
-                <input type="text" id="phone"  placeholder="Contact Number" required>
-
-                <textarea id="message" rows="4" placeholder="How can Nur help you?"></textarea>
-
-                <button type="submit" name="submit">Send Mail</button>
-
-              </form>
-            </div>
-        </div>
+              <button type="submit">Send Mail
+                  <span>
+                      <i class="fas fa-light fa-envelope-circle-check"></i>
+                  </span>  
+              </button>
+          </form>
+        </div> 
+      </div>
     </section>
   </main>
 
@@ -247,13 +261,13 @@
               <span class="sr-only">Instagram</span>
             </a>
           </li>
-
+<!-- 
           <li class="list-inline-item">
             <a target="_blank" href="https://t.me/393928555402">
               <i class="fa-brands fa-telegram" aria-hidden="true"></i>
               <span class="sr-only">Telegram</span>
             </a>
-          </li>
+          </li> -->
 
           <!-- <li class="list-inline-item">
               <a target="_blank" href="#">

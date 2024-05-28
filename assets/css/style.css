@@ -165,17 +165,6 @@ flex-direction: row;
     padding-left: 15px;
 }
 
-#text4 {
-    font-family: myFont3;
-    letter-spacing: 2px;
-    font-size: 18px;
-    word-spacing: 3px;
-    text-align: center;
-    color: #000;
-    padding-top: 15px;
-    padding-bottom: 12px;
-}
-
 ul.navbar-nav {
     width: 90%;
     min-height: auto;
@@ -818,7 +807,7 @@ z-index: 1000;
 .conceptCont  { 
     display: flex;
     flex-direction: row;
-    width:100%;
+    width:80%;
     justify-content: center;
     align-content: center;
     text-align: center; 
@@ -878,11 +867,11 @@ h4.concept-title  {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    width: 40%;
+    width: 60%;
 }
 
 .concept_image img {
-    max-width: 350px;
+    max-width: 400px;
     height: 400px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -954,8 +943,8 @@ h4.concept-title  {
     }
 
     .concept_image img {
-        width: 280px;
-        height: 300px;
+        width: 380px;
+        height: 380px;
     }
 }
 
@@ -1193,7 +1182,7 @@ h4.concept-title  {
 }
 
 .testimonial-section {
-    padding: 80px 0;
+    padding: 40px 0;
     min-height: 100vh;
 }
 
@@ -1227,9 +1216,7 @@ h4.concept-title  {
 
 .testimonial-section .carousel-inner {
     margin-bottom: 20px;
-    /* margin: 20px;
-    padding-right: 40px;
-    padding-left: 15px; */
+    padding-left: 20px;
 }
 
 .testimonial-section .carousel-control-prev {
@@ -1244,7 +1231,6 @@ h4.concept-title  {
     background-color: #c04fb1;
     display: inline-flex;
     border-radius: 50%;
-    /* margin-left: 35px; */
 }
 
 .testimonial-section .carousel-control-prev img, 
@@ -1269,7 +1255,7 @@ h4.concept-title  {
     font-size: 16px;
     color: #efc4f7;
     font-family: 'Roboto', sans-serif;
-    /* padding-right: 200px; */
+    padding-right: 90px; 
 }
 
 .testi-item i {
@@ -1404,7 +1390,6 @@ h4.concept-title  {
     }
 }  
 
-
 /* ----- Gallery Section ----- */
 
 .container-gallery {
@@ -1440,11 +1425,11 @@ h4.concept-title  {
 }  
 
 .lightbox  {
-display: flex;
-justify-content: center;
-align-items: center; 
-background-color: rgba(0, 0, 0, .8);
-display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
 }
 
 .lightbox img {
@@ -1469,28 +1454,29 @@ span.lb-caption{
 #contact-page {
     background-color: #5c5b5b;
     width: 100%;
-    height: 100%;
     justify-items: center;
     align-items: center;  
 }
 
 .contact-Container {
     display: flex;
-    justify-items: center; 
+    justify-items: center;   
     align-items: center;  
     width: 95%; 
     margin: auto; 
-    padding: 2vw 4vw;  
+    padding: 2vw 4vw;
+    flex-direction: row;
 } 
 
 .contact {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 70vh;
+    /* height: 70vh;  */
     background: #AA0A90;
-    padding: 20px;
-    margin: auto;
+    padding: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
     border-radius: 10px;
 }
 
@@ -1500,6 +1486,7 @@ span.lb-caption{
     align-items: center;
     justify-content: center;
     height: 400px; 
+    width: 450px;
     margin: auto;
     border-radius: 50px;
 }
@@ -1510,50 +1497,62 @@ span.lb-caption{
     display: flex; 
     justify-items: center;
     align-items: center; 
-    width: 60%;
     margin: auto; 
     padding: 2vw 4vw; 
+    width: 100%;
+    flex-direction: column;
 }  
 
- form {
+form {
     background-color: #b7babd; 
     display: flex;
     flex-direction: column;
     width: 100%;
-
-    max-width: 800px; 
+    border-radius: 10px; 
+    max-width: 800px;
     padding: 2vw 4vw; 
-    border-radius: 10px;
- }
+ } 
  
- form h4 {
+ form .contact-left-title h4 {
     font-weight: 600;
     margin-bottom: 20px;
     color: #1c2126;
     text-align: left;
- }
+    font-size: 35px;
+ } 
  
- form input, form textarea {
+form input, form textarea {
     border: 0;
     margin: 10px 0;
     padding: 20px;
     outline: none;
     background: #f5f5f5;
     font-size: 16px;
+    border-radius: 10px;
  }
- 
- form button {
-    padding: 5px;
-    background: #c04fb1;
-    color: #000;
-    font-size: 18px;
-    border: 0;
-    outline: none;
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 15px;
+    border: none;
+    border-radius: 50px;
+    background: #AA0A90;
     cursor: pointer;
-    width: 150px;
-    margin: 20px auto 0px;
-    border-radius: 30px;
- }
+    width: 180px;
+    margin: 10px auto 0px;
+}
+
+.contact-left span i {
+    height: 15px;
+    width: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
 
 /*----- Media Queries Contact Section ----- */ 
 
@@ -1566,48 +1565,45 @@ span.lb-caption{
         display: flex;
         flex-direction: row;
         padding-left: 0;
-        width: 100%; 
+        width: 100%;  
     } 
 
     .contact {
-        width: 100%;
+        width: 80%;
+        margin-left: 20px;
     }
 
     .contact img {
-        margin-right: 30px;
+        height: 350px;
+        width: 350px;
     }
 
     .contact-box { 
-        width: 50%;
+        width: 80%;
     } 
     
     form {
         padding: 1vw 1vw; 
-     }
+    }
 
 }
 
-@media(max-width:767px) {
-    .divContainer-subtitle h4 {
-        margin-right: 0;
-    }
+@media(max-width:768px) {
 
     .contact-Container {
         display: flex;
         flex-direction: column;
-        justify-items: center; 
-        align-items: center;  
-        width: 90%; 
+        /* justify-items: center; 
+        align-items: center;   */
+        width: 80%; 
         margin: auto; 
-        padding: 2vw 4vw;  
+        padding: 2vw 4vw;
     } 
 
     .contact {
-        width: 100%;
+        width: 100%; 
         align-items: center;
         justify-content: center;
-        margin-right: -40px;
-        margin-right: 0;
     } 
 
     .contact img {
@@ -1615,55 +1611,39 @@ span.lb-caption{
         object-fit: cover;
         align-items: center;
         justify-content: center;
-        width: 400px; 
+        width: 350px; 
         height: 400px; 
-        margin: auto;
-    }
+        width: 80%;
+    } 
 
     .contact-box { 
         display: flex; 
         flex-direction: row;
-        justify-items: center;
-        align-items: center; 
+        margin: auto;  
+        padding: 1vw 1vw; 
         width: 100%;
-        margin: auto; 
-        padding: 2vw 4vw; 
     }  
 
-}
+} 
 
 @media (max-width: 480px) {
+
     .contact-Container {
         display: flex;
         flex-direction: column;
-        padding-left: 0px;
-        width: 100%;
+        width: 80%;
     } 
 
     .contact {
         display: flex;
         flex-direction: column;
-        height: 70vh;
-        padding-left: 0px;
-        padding-right: 0px;
         justify-content: center;
-        
+        width: 80%;
     }
     
-    .contact img {
-        width: 330px; 
-        height: 330px;
-        padding-left: 20px;
-        padding-right: 20px; 
-        margin-left: 5px;
-    }
-
     .contact-box { 
-        width: 100%;
         padding: 3vw 4vw; 
     }  
-
-} 
 
 /* --------- Page Not Found 404 Section ---------- */
 
@@ -1713,23 +1693,35 @@ span.lb-caption{
     padding:10px 20px ;
     background: #c04fb1;
     display: inline-block;
+    }
+
 }
 
 /* --------- Footer Section ---------- */
 
 footer {
     background-color: #5c5b5b;
-    min-height: 120px;
     margin-top: 0;
     padding-top: 40px;
     width: 100%;
 }
 
+#footer-details {
+    background-color: #5c5b5b;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    align-items: center;  
+    text-align: center;
+}
+
+
 .list-inline .social-links ul {
     width: 50%;
-    justify-content: center; 
+    justify-content: space-evenly;
     align-items: center;
     padding-bottom: 25px;
+    flex-direction: row;
 }
 
 .social-links li a {
@@ -1755,10 +1747,6 @@ footer {
 
 .social-links li a:hover {
     opacity: 0.5;
-}
-
-#footer-details {
-    text-align: center;
 }
 
 .contactFooter {
@@ -1839,7 +1827,7 @@ footer {
     letter-spacing: 1px;
 }
 
-/* -------------- Media Queries----- */
+/* --------------Footer Copyright Media Queries----- */
 
 @media (max-width: 991px) {
     .contactFooter {

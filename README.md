@@ -294,7 +294,6 @@ The imagery on this site plays a crucial role in conveying its message and aesth
 
 ## Email Functionality
 
-[SMTP.js](https://smtpjs.com/) is used for sending emails directly from JavaScript.
 
 # Resources
 
@@ -400,6 +399,9 @@ To keep your fork updated with the original repository, periodically fetch and m
 - **How To Make Responsive Image Gallery With HTML CSS JS | Lightbox Image Gallery GreatStack**
   - [GreatStack](https://www.youtube.com/watch?v=cuNyE3SxFlk&t=2s)
   - Complete Responsive Architecture & Interior Design Website Tutorial With HTML / CSS / JS / BOOTSTRAP
+  
+- **How to Create an XML Sitemap | Register a Sitemap with Google | Learn HTML and CSS**
+[Dani Krossing](https://www.youtube.com/watch?v=xtoAfUB6Ubw)
 
 - **Testimonials Slider Using Html, Css & Bootstrap 5 | Responsive | Ready To Use**
     - [The WebShala](https://www.youtube.com/watch?v=fRRib2mArXU)
@@ -414,7 +416,7 @@ These tutorials provided valuable insights and guidance for various aspects of t
 
 # Acknowledgments
 
-I also extend my gratitude to the following individuals and resources for their invaluable tutorials and guidance in my journey to frontend development with HTML and CSS as wll as some Javascript:
+I also extend my gratitude to the following individuals and resources for their invaluable tutorials and guidance in my journey to frontend development with HTML and CSS as well as some Javascript:
 
   - **Dani Krossing**
     
