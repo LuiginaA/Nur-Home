@@ -943,8 +943,8 @@ h4.concept-title  {
     }
 
     .concept_image img {
-        width: 380px;
-        height: 380px;
+        width: 350px;
+        height: 350px;
     }
 }
 
@@ -1297,6 +1297,14 @@ h4.concept-title  {
         margin-left: 35px;
     } 
 
+    
+.testi-item p {
+    font-size: 16px;
+    color: #efc4f7;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 50px; 
+}
+
 }
 
 @media (max-width: 991px) {
@@ -1579,7 +1587,7 @@ form input, form textarea {
     }
 
     .contact-box { 
-        width: 80%;
+        width: 100%;
     } 
     
     form {
@@ -1593,9 +1601,7 @@ form input, form textarea {
     .contact-Container {
         display: flex;
         flex-direction: column;
-        /* justify-items: center; 
-        align-items: center;   */
-        width: 80%; 
+        width: 100%; 
         margin: auto; 
         padding: 2vw 4vw;
     } 
@@ -1611,16 +1617,15 @@ form input, form textarea {
         object-fit: cover;
         align-items: center;
         justify-content: center;
-        width: 350px; 
+        width: 300px; 
         height: 400px; 
-        width: 80%;
+        width: 100%;
     } 
 
     .contact-box { 
         display: flex; 
         flex-direction: row;
-        margin: auto;  
-        padding: 1vw 1vw; 
+        padding: 2vw 2vw; 
         width: 100%;
     }  
 
@@ -1631,18 +1636,20 @@ form input, form textarea {
     .contact-Container {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
     } 
 
     .contact {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 80%;
+        width: 100%;
     }
     
     .contact-box { 
-        padding: 3vw 4vw; 
+        padding: 4vw 4vw; 
+        width: 100%;
+        padding: 0;
     }  
 
 /* --------- Page Not Found 404 Section ---------- */
