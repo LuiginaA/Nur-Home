@@ -294,6 +294,7 @@ The imagery on this site plays a crucial role in conveying its message and aesth
 
 ## Email Functionality
 
+  - [Youtube Tutorials - Connecting to email accounts](https://web3forms.com/) was used to connect Contact Forms for Modern Websites
 
 # Resources
 
@@ -301,9 +302,7 @@ The imagery on this site plays a crucial role in conveying its message and aesth
     
   - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used throughout the completion of this project to debug, test sizes and layout, and to check responsiveness.
 
-  - [Youtube Tutorials]( https://www.youtube.com/) was used as a general source of knowledge.
-
-
+  - [Youtube Tutorials](https://www.youtube.com/) was used as a general source of knowledge.
 
 # Hosting
 
@@ -401,7 +400,7 @@ To keep your fork updated with the original repository, periodically fetch and m
   - Complete Responsive Architecture & Interior Design Website Tutorial With HTML / CSS / JS / BOOTSTRAP
   
 - **How to Create an XML Sitemap | Register a Sitemap with Google | Learn HTML and CSS**
-[Dani Krossing](https://www.youtube.com/watch?v=xtoAfUB6Ubw)
+  - [Dani Krossing](https://www.youtube.com/watch?v=xtoAfUB6Ubw)
 
 - **Testimonials Slider Using Html, Css & Bootstrap 5 | Responsive | Ready To Use**
     - [The WebShala](https://www.youtube.com/watch?v=fRRib2mArXU)
@@ -411,6 +410,8 @@ To keep your fork updated with the original repository, periodically fetch and m
 
 - **404 Page Design Using HTML, CSS & Bootstrap**
     - [Coding Fire](https://www.youtube.com/watch?v=pABOf9FU6Uk&t=42s)
+  
+
 
 These tutorials provided valuable insights and guidance for various aspects of the project's development. I extend my gratitude to the creators for sharing their knowledge and expertise.
 
